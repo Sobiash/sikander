@@ -1,0 +1,197 @@
+<div class="row">
+  <div class="col-12">
+    <nb-card accent="basic" [nbSpinner]="loading"
+    nbSpinnerStatus="basic"
+    nbSpinnerSize="large"
+    nbSpinnerMessage="{{loadingString}}">
+      <nb-card-body>
+        <div class="row">
+          <div class="col"><h2 i18n="header|page title@@accountsettings">Account Settings</h2></div>
+          <div class="col text-right">
+            <button nbButton outline (click)="saveProfile()">
+              <nb-icon icon="save-outline"></nb-icon>
+              <span i18n="button|Confirmation@@save">Save</span>
+            </button>
+          </div>
+        </div>
+      </nb-card-body>
+    </nb-card>
+  </div>
+
+
+
+  <div class="col-6" *ngIf="!loading">
+    <nb-card>
+      <nb-card-header>
+        <div class="row">
+          <div class="col" i18n="header|page title@@location">Location</div>
+          <div class="col text-right">
+            <button nbButton ghost (click)="toggleLocation()">
+              <nb-icon *ngIf="!smallLocation" icon="chevron-up-outline"></nb-icon>
+              <nb-icon *ngIf="smallLocation" icon="chevron-down-outline"></nb-icon>
+            </button>
+          </div>
+        </div>
+      </nb-card-header>
+      <nb-card-body>
+        <div class="form-group">
+          <div class="row">
+            <div class="col">
+              <label for="site" class="label" i18n="@@site">Site</label>
+              <nb-select fullWidth id="site" [(selected)]="me.site">
+                <nb-option (click)="newSite()" i18n="@@new">New</nb-option>
+                <nb-option *ngFor="let sitename of form.site" [value]="sitename">{{sitename}}</nb-option>
+              </nb-select>
+            </div>
+            <div class="col">
+              <label for="subsite" class="label" i18n="@@subsite">Sub Site</label>
+              <nb-select fullWidth id="subsite" [(selected)]="me.subSite">
+                <nb-option (click)="newSubSite()" i18n="@@new">New</nb-option>
+                <nb-option *ngFor="let subsite of form.subSite" [value]="subsite">{{subsite}}</nb-option>
+              </nb-select>
+            </div>
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="row">
+            <div class="col">
+              <label for="building" class="label" i18n="@@building">Building</label>
+              <nb-select fullWidth id="building" [(selected)]="me.building">
+                <nb-option i18n="@@new" (click)="newBuilding()">New</nb-option>
+                <nb-option *ngFor="let building of form.building" [value]="building">{{building}}</nb-option>
+              </nb-select>
+            </div>
+            <div class="col">
+              <label for="floor" class="label" i18n="@@floor">Floor</label>
+              <nb-select fullWidth id="floor" [(selected)]="me.floor">
+                <nb-option i18n="@@new" (click)="newFloor()">New</nb-option>
+                <nb-option *ngFor="let floor of form.floor" [value]="floor">{{floor}}</nb-option>
+              </nb-select>
+            </div>
+          </div>
+        </div>
+        <div class="form-group" *ngIf="smallLocation">
+          <div class="row">
+            <div class="col">
+              <label for="department" class="label" i18n="@@department">Department</label>
+              <nb-select fullWidth id="department" [(selected)]="me.department">
+                <nb-option i18n="@@new" (click)="newDepartment()">New</nb-option>
+                <nb-option *ngFor="let dept of form.department" [value]="dept">{{dept}}</nb-option>
+              </nb-select>
+            </div>
+            <div class="col">
+              <label for="costcenter" class="label" i18n="@@costcenter">Cost Center</label>
+              <nb-select fullWidth id="costcenter" [(selected)]="me.costCenter">
+                <nb-option i18n="@@new" (click)="newCostCenter()">New</nb-option>
+                <nb-option *ngFor="let cc of form.costCenter" [value]="cc">{{cc}}</nb-option>
+              </nb-select>
+            </div>
+          </div>
+        </div>
+        <div class="form-group" *ngIf="smallLocation">
+          <div class="row">
+            <div class="col">
+              <label for="maildrop" class="label" i18n="@@maildrop">Mail Drop</label>
+              <nb-select fullWidth id="maildrop" [(selected)]="me.mailDrop">
+                <nb-option i18n="@@new" (click)="newMailDrop()">New</nb-option>
+                <nb-option *ngFor="let md of form.mailDrop" [value]="md">{{md}}</nb-option>
+              </nb-select>
+            </div>
+            <div class="col">
+              <label for="mailstop" class="label" i18n="@@mailstop">Mail Stop</label>
+              <nb-select fullWidth id="mailstop" [(selected)]="me.mailStop">
+                <nb-option i18n="@@new" (click)="newMailStop()">New</nb-option>
+                <nb-option *ngFor="let ms of form.mailStop" [value]="ms">{{ms}}</nb-option>
+              </nb-select>
+            </div>
+          </div>
+        </div>
+      </nb-card-body>
+    </nb-card>
+  </div>
+
+
+<div class="col-6" *ngIf="!loading">
+  <nb-card>
+    <nb-card-header>
+      <div class="row">
+        <div class="col" i18n="@@profile">Profile</div>
+        <div class="col text-right">
+          <button class="padless" nbButton ghost (click)="toggleProfile()">
+            <nb-icon *ngIf="!smallProfile" icon="chevron-up-outline"></nb-icon>
+            <nb-icon *ngIf="smallProfile" icon="chevron-down-outline"></nb-icon>
+          </button>
+        </div>
+      </div>
+    </nb-card-header>
+    <nb-card-body>
+      <div class="form-group">
+        <div class="row">
+          <div class="col">
+            <label for="firstname" class="label" i18n="@@firstname">First Name</label>
+            <input nbInput fullWidth id="firstname" [(ngModel)]="me.firstName">
+          </div>
+          <div class="col">
+            <label for="surname" class="label" i18n="@@lastname">Last Name</label>
+            <input nbInput fullWidth id="surname" [(ngModel)]="me.lastName">
+          </div>
+        </div>
+      </div>
+      <div class="form-group" *ngIf="smallProfile">
+        <div class="row">
+          <div class="col">
+            <label for="email" class="label" i18n="@@email">Email</label>
+            <input nbInput fullWidth id="email" type="email" [(ngModel)]="me.emailAddress">
+          </div>
+          <div class="col">
+            <label for="phone" class="label" i18n="@@phonenumber">Phone Number</label>
+            <input nbInput fullWidth id="phone" [(ngModel)]="me.phoneNumber">
+          </div>
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="row">
+          <div class="col">
+            <label for="password" class="label" i18n="@@password">Password</label>
+            <input nbInput fullWidth id="password" [(ngModel)]="me.password">
+          </div>
+          <div class="col">
+            <label for="repeat" class="label" i18n="@@repeatpassword">Repeat Password</label>
+            <input nbInput fullWidth id="repeat" [(ngModel)]="repeat">
+          </div>
+        </div>
+      </div>
+    </nb-card-body>
+  </nb-card>
+</div>
+
+  <div class="col-6" *ngIf="!loading">
+    <nb-card>
+      <nb-card-header i18n="@@uisettings">UI Settings</nb-card-header>
+      <nb-card-body>
+        <div class="form-group">
+          <div class="row">
+            <div class="col">
+              <label for="language" class="label form-control-label" i18n="@@language">Language</label>
+              <nb-select id="language" fullWidth [(selected)]="me.language">
+                <nb-option *ngFor="let lang of languages" [value]="lang.code">{{lang.label}}</nb-option>
+              </nb-select>
+            </div>
+            <div class="col">
+              <label class="label form-control-label" i18n="@@theme">Theme</label>
+              <nb-select [selected]="currentTheme" (selectedChange)="changeTheme($event)" status="basic" fullWidth>
+                <nb-option *ngFor="let theme of themes" [value]="theme.value">
+                  {{ theme.name }}</nb-option>
+              </nb-select>
+            </div>
+            <div class="col">
+              <label class="label form-control-label" i18n="@@direction">Direction</label>
+              <ngx-layout-direction-switcher class="direction-switcher"></ngx-layout-direction-switcher>
+            </div>
+          </div>
+        </div>
+      </nb-card-body>
+    </nb-card>
+  </div>
+
+</div>

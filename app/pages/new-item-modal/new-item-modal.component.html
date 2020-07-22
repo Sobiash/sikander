@@ -1,0 +1,23 @@
+<nb-card>
+  <nb-card-header i18n>{{title}}</nb-card-header>
+  <nb-card-body>
+    <div class="row">
+      <div class="col">
+        <input #name i18n-placeholder="item name| new item to create@@name" nbInput placeholder="Name" autofocus>
+      </div>
+    </div>
+
+  </nb-card-body>
+  <nb-card-footer>
+<div class="row">
+  <div class="col">
+    <button nbButton fullWidth outline status="basic" (click)="cancel()" i18n="button|cancel button@@cancel">Cancel</button>
+  </div>
+  <div class="col">
+    <button nbButton outline fullWidth (click)="submit(name.value)" i18n="button|form submit button@@submit">Submit</button>
+  </div>
+</div>
+
+
+  </nb-card-footer>
+</nb-card>

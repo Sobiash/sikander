@@ -1,0 +1,42 @@
+<nb-layout>
+<nb-layout-header></nb-layout-header>
+  <nb-layout-column>
+    <nb-card [nbSpinner]="loading" [accent]="success ? 'primary' : 'danger'">
+      <nb-card-header *ngIf="success" i18n="@@orderconfirmation">Ordrebekreftelse</nb-card-header>
+      <nb-card-header *ngIf="!success" i18n="@@orderconotfound">Ordre ikke funnet</nb-card-header>
+      <nb-card-header *ngIf="loading" i18n="@@pleasewait">Vennligst vent</nb-card-header>
+      <nb-card-body *ngIf="!loading">
+        <div class="form-group">
+          <span *ngIf="success && !confirmed" i18n="@@wouldyouliketoproceed">Vil du bekrefte og fortsette med din bestilling?</span>
+          <span *ngIf="!success " class="text-justify">
+            <p i18n="@@ordernotinsystem">Bestillingen du leter etter er ikke i systemet vårt. Dette kan være mange ting. Det er
+          allerede fullført / avvist av eier, forfalt, kansellert eller vi har tekniske vanskeligheter.</p>
+            <p i18n="@@contactclinic">For ytterligere hjelp, vennligst kontakt din klinikk. Vi beklager ubeleiligheten.</p>
+            <div class="text-center text-danger large-status">
+              <nb-icon icon="alert-triangle-outline"></nb-icon>
+            </div>
+          </span>
+        </div>
+        <div class="form-group" *ngIf="success && !confirmed">
+          <div class="row">
+            <div class="col" *ngFor="let ext of ExternalStatuses">
+              <button outline nbButton fullWidth (click)="confirm(ext.name)">{{ext.name}}</button>
+            </div>
+          </div>
+        </div>
+        <div class="form-group" *ngIf="success && !confirmed">
+          <label class="label" for="comment">Kommentar</label>
+          <textarea fullWidth nbInput name="comment" id="comment" [(ngModel)]="status.note"></textarea>
+        </div>
+        <div class="form-group" *ngIf="success && confirmed">
+          <p>Takk skal du ha!</p>
+          <p>Kremo vil nå gå videre med håndteringen.</p>
+          <div class="text-center text-primary large-status">
+            <nb-icon icon="checkmark-circle-outline"></nb-icon>
+          </div>
+        </div>
+      </nb-card-body>
+    </nb-card>
+
+  </nb-layout-column>
+</nb-layout>

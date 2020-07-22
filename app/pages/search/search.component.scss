@@ -1,0 +1,25 @@
+table tbody tr {
+  cursor: pointer;
+}
+
+thead tr th {
+  border: none;
+}
+
+nb-action {
+  float: right;
+}
+
+div.form-group {
+  margin-top: 1rem;
+}
+
+input, nb-select {
+  margin-right: 1rem;
+}
+button {
+  margin-right: 1rem;
+}
+div.no-top-margin {
+  margin-top: 0;
+}

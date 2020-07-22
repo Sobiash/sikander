@@ -1,0 +1,2283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en" datatype="plaintext" original="ng2.template" target-language="nn-NO">
+    <body>
+      <trans-unit id="045ed332fbb2645493d6955677247db0d1134c2d" datatype="html">
+        <source><x id="INTERPOLATION" equiv-text="{{title}}"/></source>
+        <target xml:lang="nn-NO"><x id="INTERPOLATION" equiv-text="{{title}}"/></target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/new-item-modal/new-item-modal.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="d7b35c384aecd25a516200d6921836374613dfe7" datatype="html">
+        <source>Cancel</source>
+        <target xml:lang="nn-NO">Avbryt</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/new-item-modal/new-item-modal.component.html</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="71c77bb8cecdf11ec3eead24dd1ba506573fa9cd" datatype="html">
+        <source>Submit</source>
+        <target xml:lang="nn-NO">Send inn</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/new-item-modal/new-item-modal.component.html</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="bba8debb212ab8c7fe54176c419e9b4099ddce39" datatype="html">
+        <source>Account Settings</source>
+        <target xml:lang="nn-NO">Kontoinnstillinger</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/profile/profile.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="d8b30f96fe2be9d39be179e6d9774a7efea0d786" datatype="html">
+        <source><x id="START_TAG_NB-ICON" ctype="x-nb-icon" equiv-text="&lt;nb-icon&gt;"/><x id="CLOSE_TAG_NB-ICON" ctype="x-nb-icon" equiv-text="&lt;/nb-icon&gt;"/> Save</source>
+        <target xml:lang="nn-NO"><x id="START_TAG_NB-ICON" ctype="x-nb-icon" equiv-text="&lt;nb-icon&gt;"/><x id="CLOSE_TAG_NB-ICON" ctype="x-nb-icon" equiv-text="&lt;/nb-icon&gt;"/> Lagre</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/profile/profile.component.html</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/parcel.component.html</context>
+          <context context-type="linenumber">72</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ed31c09fd77c36238c13d83635f3fe5294c733d2" datatype="html">
+        <source>Location</source>
+        <target xml:lang="nn-NO">Område</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/profile/profile.component.html</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/new-user/new-user.component.html</context>
+          <context context-type="linenumber">99</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/edit-user/edit-user.component.html</context>
+          <context context-type="linenumber">35</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">380</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">454</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">72</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/barcode/barcode.component.html</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/barcode/barcode.component.html</context>
+          <context context-type="linenumber">47</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c90a45545297c70457dee18e0a95a236330827e6" datatype="html">
+        <source>Site</source>
+        <target xml:lang="nn-NO">Site</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/profile/profile.component.html</context>
+          <context context-type="linenumber">40</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/new-user/new-user.component.html</context>
+          <context context-type="linenumber">111</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/edit-user/edit-user.component.html</context>
+          <context context-type="linenumber">47</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">373</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">115</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="d81f00c85d3b507f3e3d78bfc617a2c66e028391" datatype="html">
+        <source>New</source>
+        <target xml:lang="nn-NO">Nye</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/profile/profile.component.html</context>
+          <context context-type="linenumber">42</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/profile/profile.component.html</context>
+          <context context-type="linenumber">49</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/profile/profile.component.html</context>
+          <context context-type="linenumber">60</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/profile/profile.component.html</context>
+          <context context-type="linenumber">67</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/profile/profile.component.html</context>
+          <context context-type="linenumber">78</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/profile/profile.component.html</context>
+          <context context-type="linenumber">85</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/profile/profile.component.html</context>
+          <context context-type="linenumber">96</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/profile/profile.component.html</context>
+          <context context-type="linenumber">103</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/profile/profile.component.html</context>
+          <context context-type="linenumber">177</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/new-user/new-user.component.html</context>
+          <context context-type="linenumber">113</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/new-user/new-user.component.html</context>
+          <context context-type="linenumber">120</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/new-user/new-user.component.html</context>
+          <context context-type="linenumber">131</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/new-user/new-user.component.html</context>
+          <context context-type="linenumber">138</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/new-user/new-user.component.html</context>
+          <context context-type="linenumber">149</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/new-user/new-user.component.html</context>
+          <context context-type="linenumber">156</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/new-user/new-user.component.html</context>
+          <context context-type="linenumber">167</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/new-user/new-user.component.html</context>
+          <context context-type="linenumber">174</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/new-user/new-user.component.html</context>
+          <context context-type="linenumber">185</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/new-user/new-user.component.html</context>
+          <context context-type="linenumber">192</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/edit-user/edit-user.component.html</context>
+          <context context-type="linenumber">49</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/edit-user/edit-user.component.html</context>
+          <context context-type="linenumber">56</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/edit-user/edit-user.component.html</context>
+          <context context-type="linenumber">67</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/edit-user/edit-user.component.html</context>
+          <context context-type="linenumber">74</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/edit-user/edit-user.component.html</context>
+          <context context-type="linenumber">85</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/edit-user/edit-user.component.html</context>
+          <context context-type="linenumber">92</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/edit-user/edit-user.component.html</context>
+          <context context-type="linenumber">103</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/edit-user/edit-user.component.html</context>
+          <context context-type="linenumber">110</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/edit-user/edit-user.component.html</context>
+          <context context-type="linenumber">121</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/edit-user/edit-user.component.html</context>
+          <context context-type="linenumber">128</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">417</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="b060de4822ca9b73eee8ba5772edf88c721ba39e" datatype="html">
+        <source>Sub Site</source>
+        <target xml:lang="nn-NO">sekundært webområde</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/profile/profile.component.html</context>
+          <context context-type="linenumber">47</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/new-user/new-user.component.html</context>
+          <context context-type="linenumber">118</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/edit-user/edit-user.component.html</context>
+          <context context-type="linenumber">54</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6e8be3c170a661414dbcf0e4be5ce2ba65f62615" datatype="html">
+        <source>Building</source>
+        <target xml:lang="nn-NO">Hus</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/profile/profile.component.html</context>
+          <context context-type="linenumber">58</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/new-user/new-user.component.html</context>
+          <context context-type="linenumber">129</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/edit-user/edit-user.component.html</context>
+          <context context-type="linenumber">65</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="eefffb8789f7c69f0877a2cefc84bf829fc583bf" datatype="html">
+        <source>Floor</source>
+        <target xml:lang="nn-NO">Gulv</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/profile/profile.component.html</context>
+          <context context-type="linenumber">65</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/new-user/new-user.component.html</context>
+          <context context-type="linenumber">136</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/edit-user/edit-user.component.html</context>
+          <context context-type="linenumber">72</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8a6405c2af5225e2f302b76fa98ed13f3eba2b1c" datatype="html">
+        <source>Department</source>
+        <target xml:lang="nn-NO">Avdeling</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/profile/profile.component.html</context>
+          <context context-type="linenumber">76</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/new-user/new-user.component.html</context>
+          <context context-type="linenumber">147</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/edit-user/edit-user.component.html</context>
+          <context context-type="linenumber">83</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/barcode/barcode.component.html</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/barcode/barcode.component.html</context>
+          <context context-type="linenumber">43</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ceead1d3a6e996524b96222295d6c68abca45783" datatype="html">
+        <source>Cost Center</source>
+        <target xml:lang="nn-NO">Kostnadssted</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/profile/profile.component.html</context>
+          <context context-type="linenumber">83</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/new-user/new-user.component.html</context>
+          <context context-type="linenumber">154</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/edit-user/edit-user.component.html</context>
+          <context context-type="linenumber">90</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="cca18fed4fbd6fdfe931e21eb131a739b416742e" datatype="html">
+        <source>Mail Drop</source>
+        <target xml:lang="nn-NO">Mail Drop</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/profile/profile.component.html</context>
+          <context context-type="linenumber">94</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/new-user/new-user.component.html</context>
+          <context context-type="linenumber">165</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/edit-user/edit-user.component.html</context>
+          <context context-type="linenumber">101</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="cbe0d46c2fefe38fdca66fab39f3e833cb70a8bc" datatype="html">
+        <source>Mail Stop</source>
+        <target xml:lang="nn-NO">Mail Stop</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/profile/profile.component.html</context>
+          <context context-type="linenumber">101</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/new-user/new-user.component.html</context>
+          <context context-type="linenumber">172</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/edit-user/edit-user.component.html</context>
+          <context context-type="linenumber">108</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="994363f08f9fbfa3b3994ff7b35c6904fdff18d8" datatype="html">
+        <source>Profile</source>
+        <target xml:lang="nn-NO">Profil</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/profile/profile.component.html</context>
+          <context context-type="linenumber">118</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/new-user/new-user.component.html</context>
+          <context context-type="linenumber">33</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/edit-user/edit-user.component.html</context>
+          <context context-type="linenumber">141</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c83b838d845690bcb897f775f53b5316535306dc" datatype="html">
+        <source>First Name</source>
+        <target xml:lang="nn-NO">Fornavn</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/profile/profile.component.html</context>
+          <context context-type="linenumber">131</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/new-user/new-user.component.html</context>
+          <context context-type="linenumber">75</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/edit-user/edit-user.component.html</context>
+          <context context-type="linenumber">153</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="166b2cc65003221ff5f3ec05d5baca41e6821396" datatype="html">
+        <source>Last Name</source>
+        <target xml:lang="nn-NO">Etternavn</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/profile/profile.component.html</context>
+          <context context-type="linenumber">135</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/new-user/new-user.component.html</context>
+          <context context-type="linenumber">79</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/edit-user/edit-user.component.html</context>
+          <context context-type="linenumber">157</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="244aae9346da82b0922506c2d2581373a15641cc" datatype="html">
+        <source>Email</source>
+        <target xml:lang="nn-NO">E-post</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/profile/profile.component.html</context>
+          <context context-type="linenumber">143</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/new-user/new-user.component.html</context>
+          <context context-type="linenumber">46</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/edit-user/edit-user.component.html</context>
+          <context context-type="linenumber">165</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="db654f91d847f34e71ffb99268ff3a1807913421" datatype="html">
+        <source>Phone Number</source>
+        <target xml:lang="nn-NO">Telefonnummer</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/profile/profile.component.html</context>
+          <context context-type="linenumber">147</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/new-user/new-user.component.html</context>
+          <context context-type="linenumber">51</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/edit-user/edit-user.component.html</context>
+          <context context-type="linenumber">169</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c32ef07f8803a223a83ed17024b38e8d82292407" datatype="html">
+        <source>Password</source>
+        <target xml:lang="nn-NO">Passord</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/profile/profile.component.html</context>
+          <context context-type="linenumber">155</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/new-user/new-user.component.html</context>
+          <context context-type="linenumber">63</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/edit-user/edit-user.component.html</context>
+          <context context-type="linenumber">181</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="f1adeb464690291902a4274d6b90f25e335c2ae6" datatype="html">
+        <source>Repeat Password</source>
+        <target xml:lang="nn-NO">Gjenta passord</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/profile/profile.component.html</context>
+          <context context-type="linenumber">159</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="cbf188e0fbfd15f2260bfa13fdbf103771e29ce7" datatype="html">
+        <source>UI Settings</source>
+        <target xml:lang="nn-NO">ID-innstillinger</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/profile/profile.component.html</context>
+          <context context-type="linenumber">170</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="fe46ccaae902ce974e2441abe752399288298619" datatype="html">
+        <source>Language</source>
+        <target xml:lang="nn-NO">Språk</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/profile/profile.component.html</context>
+          <context context-type="linenumber">175</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="27a56aad79d8b61269ed303f11664cc78bcc2522" datatype="html">
+        <source>Theme</source>
+        <target xml:lang="nn-NO">Tema</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/profile/profile.component.html</context>
+          <context context-type="linenumber">182</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9200e09686136a1d42adfb89c12fbfef2deea125" datatype="html">
+        <source>Direction</source>
+        <target xml:lang="nn-NO">Retning</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/profile/profile.component.html</context>
+          <context context-type="linenumber">189</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7fc2e162e68291a9403b9319540ffd6f8370bac4" datatype="html">
+        <source>Adding User</source>
+        <target xml:lang="nn-NO">Legger til bruker …</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/new-user/new-user.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="830a848d213ad30aff8b7629394a4dfbe29ba98b" datatype="html">
+        <source><x id="START_TAG_NB-ICON" ctype="x-nb-icon" equiv-text="&lt;nb-icon&gt;"/><x id="CLOSE_TAG_NB-ICON" ctype="x-nb-icon" equiv-text="&lt;/nb-icon&gt;"/> cancel</source>
+        <target xml:lang="nn-NO"><x id="START_TAG_NB-ICON" ctype="x-nb-icon" equiv-text="&lt;nb-icon&gt;"/><x id="CLOSE_TAG_NB-ICON" ctype="x-nb-icon" equiv-text="&lt;/nb-icon&gt;"/> avbryt</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/new-user/new-user.component.html</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/edit-user/edit-user.component.html</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="cde38cdf23711821adcd263602e021bdb19b080a" datatype="html">
+        <source><x id="START_TAG_NB-ICON" ctype="x-nb-icon" equiv-text="&lt;nb-icon&gt;"/><x id="CLOSE_TAG_NB-ICON" ctype="x-nb-icon" equiv-text="&lt;/nb-icon&gt;"/> Save</source>
+        <target xml:lang="nn-NO"><x id="START_TAG_NB-ICON" ctype="x-nb-icon" equiv-text="&lt;nb-icon&gt;"/><x id="CLOSE_TAG_NB-ICON" ctype="x-nb-icon" equiv-text="&lt;/nb-icon&gt;"/> Lagre</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/new-user/new-user.component.html</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/edit-user/edit-user.component.html</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="08c74dc9762957593b91f6eb5d65efdfc975bf48" datatype="html">
+        <source>Username</source>
+        <target xml:lang="nn-NO">Brukernavn</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/new-user/new-user.component.html</context>
+          <context context-type="linenumber">59</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/edit-user/edit-user.component.html</context>
+          <context context-type="linenumber">177</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c15c55c9429c14ba209c4ca945c8356cea9ead7d" datatype="html">
+        <source>External Reference Id</source>
+        <target xml:lang="nn-NO">Ekstern referanse-id</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/new-user/new-user.component.html</context>
+          <context context-type="linenumber">87</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/edit-user/edit-user.component.html</context>
+          <context context-type="linenumber">194</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="81b97b8ea996ad1e4f9fca8415021850214884b1" datatype="html">
+        <source>Status</source>
+        <target xml:lang="nn-NO">Status</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/new-user/new-user.component.html</context>
+          <context context-type="linenumber">91</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/edit-user/edit-user.component.html</context>
+          <context context-type="linenumber">198</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">216</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/log-new/log-new.component.html</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">39</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">154</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/search/search.component.html</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="37b4fea958de2ae582e20d64df09354172db37b7" datatype="html">
+        <source><x id="INTERPOLATION" equiv-text="{{user.active ? 'Active' : 'Inactive'}}"/></source>
+        <target xml:lang="nn-NO"><x id="INTERPOLATION" equiv-text="{{user.active ? 'Active' : 'Inactive'}}"/></target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/new-user/new-user.component.html</context>
+          <context context-type="linenumber">92</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ef8da2fd07c560d9659a1599a97c17794cb4ed38" datatype="html">
+        <source>Access Role</source>
+        <target xml:lang="nn-NO">Tilgangsrolle</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/new-user/new-user.component.html</context>
+          <context context-type="linenumber">183</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/edit-user/edit-user.component.html</context>
+          <context context-type="linenumber">119</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9e91249615462afb613056a78a03383d3eaeff25" datatype="html">
+        <source>Route</source>
+        <target xml:lang="nn-NO">Rute</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/new-user/new-user.component.html</context>
+          <context context-type="linenumber">190</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/edit-user/edit-user.component.html</context>
+          <context context-type="linenumber">126</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c245793259bc9ebafef3151a6915b1b67ca56ff6" datatype="html">
+        <source>Editing User</source>
+        <target xml:lang="nn-NO">Redigerer bruker</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/edit-user/edit-user.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4f3293898eacb65a2cfdb00f8fc2903d20250072" datatype="html">
+        <source><x id="INTERPOLATION" equiv-text="{{data.active ? 'Active' : 'Inactive'}}"/></source>
+        <target xml:lang="nn-NO"><x id="INTERPOLATION" equiv-text="{{data.active ? 'Active' : 'Inactive'}}"/></target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/edit-user/edit-user.component.html</context>
+          <context context-type="linenumber">199</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4d13a9cd5ed3dcee0eab22cb25198d43886942be" datatype="html">
+        <source>Users</source>
+        <target xml:lang="nn-NO">Brukere</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/user-list.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="300b032fd0e54cf7ea33d2a575c133fc96331474" datatype="html">
+        <source><x id="START_TAG_NB-ICON" ctype="x-nb-icon" equiv-text="&lt;nb-icon&gt;"/><x id="CLOSE_TAG_NB-ICON" ctype="x-nb-icon" equiv-text="&lt;/nb-icon&gt;"/> New</source>
+        <target xml:lang="nn-NO"><x id="START_TAG_NB-ICON" ctype="x-nb-icon" equiv-text="&lt;nb-icon&gt;"/><x id="CLOSE_TAG_NB-ICON" ctype="x-nb-icon" equiv-text="&lt;/nb-icon&gt;"/> Nye</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/user-list.component.html</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9265c72e592f192411aee0195937b310c79e2684" datatype="html">
+        <source>Create Role</source>
+        <target xml:lang="nn-NO">"Opprett rolle"</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/roles/new/new-role.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="13fd6563d5d4353cd2d59d6ce95f52d49ad48f35" datatype="html">
+        <source>Role Name</source>
+        <target xml:lang="nn-NO">Rollenavn</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/roles/new/new-role.component.html</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/roles/edit/edit.component.html</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="01aedb952122d4322c3186dccba2626f4d791a0d" datatype="html">
+        <source>Resource Control</source>
+        <target xml:lang="nn-NO">Ressurskontroll</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/roles/new/new-role.component.html</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/roles/edit/edit.component.html</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8a61689e9211750d40a234dc7a47744e62162046" datatype="html">
+        <source><x id="START_TAG_NB-ICON" ctype="x-nb-icon" equiv-text="&lt;nb-icon&gt;"/><x id="CLOSE_TAG_NB-ICON" ctype="x-nb-icon" equiv-text="&lt;/nb-icon&gt;"/>Add</source>
+        <target xml:lang="nn-NO"><x id="START_TAG_NB-ICON" ctype="x-nb-icon" equiv-text="&lt;nb-icon&gt;"/><x id="CLOSE_TAG_NB-ICON" ctype="x-nb-icon" equiv-text="&lt;/nb-icon&gt;"/>BuddyPress Legg til venn-knappen</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/roles/new/new-role.component.html</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/roles/edit/edit.component.html</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="43725e34846e7829997200fc458306d9e7406332" datatype="html">
+        <source><x id="START_TAG_NB-ICON" ctype="x-nb-icon" equiv-text="&lt;nb-icon&gt;"/><x id="CLOSE_TAG_NB-ICON" ctype="x-nb-icon" equiv-text="&lt;/nb-icon&gt;"/>Remove</source>
+        <target xml:lang="nn-NO"><x id="START_TAG_NB-ICON" ctype="x-nb-icon" equiv-text="&lt;nb-icon&gt;"/><x id="CLOSE_TAG_NB-ICON" ctype="x-nb-icon" equiv-text="&lt;/nb-icon&gt;"/>Fjern</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/roles/new/new-role.component.html</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/roles/edit/edit.component.html</context>
+          <context context-type="linenumber">28</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="eec715de352a6b114713b30b640d319fa78207a0" datatype="html">
+        <source>Description</source>
+        <target xml:lang="nn-NO">Description</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/roles/new/new-role.component.html</context>
+          <context context-type="linenumber">31</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/roles/roles.component.html</context>
+          <context context-type="linenumber">66</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">271</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/roles/edit/edit.component.html</context>
+          <context context-type="linenumber">36</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="452ef1b96854fe05618303ee601f8fed3b866c9f" datatype="html">
+        <source>Resources</source>
+        <target xml:lang="nn-NO">Ressurser</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/roles/new/new-role.component.html</context>
+          <context context-type="linenumber">44</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/roles/edit/edit.component.html</context>
+          <context context-type="linenumber">49</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ab760a3267352bfe3d724864935f4de06d352bbc" datatype="html">
+        <source>Parcel</source>
+        <target xml:lang="nn-NO">PakkeHome Address</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/roles/new/new-role.component.html</context>
+          <context context-type="linenumber">46</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">73</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">130</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/roles/edit/edit.component.html</context>
+          <context context-type="linenumber">51</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="e08a77594f3d89311cdf6da5090044270909c194" datatype="html">
+        <source>User</source>
+        <target xml:lang="nn-NO">Bruker</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/roles/new/new-role.component.html</context>
+          <context context-type="linenumber">47</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/roles/edit/edit.component.html</context>
+          <context context-type="linenumber">52</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c36a66f2107e8da5371ebc9d15c2008dff567f46" datatype="html">
+        <source>Role</source>
+        <target xml:lang="nn-NO">Rolle</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/roles/new/new-role.component.html</context>
+          <context context-type="linenumber">48</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/roles/edit/edit.component.html</context>
+          <context context-type="linenumber">53</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2cc3ecb16e348fcf2f2fbfd2f997d4d22f37475b" datatype="html">
+        <source>Inventory</source>
+        <target xml:lang="nn-NO">Vareopptelling</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/roles/new/new-role.component.html</context>
+          <context context-type="linenumber">49</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">76</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">133</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/roles/edit/edit.component.html</context>
+          <context context-type="linenumber">54</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ee86a14d21b55af139c88ce3e03bab68cd3dab47" datatype="html">
+        <source>Routes</source>
+        <target xml:lang="nn-NO">Ruter</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/roles/new/new-role.component.html</context>
+          <context context-type="linenumber">50</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/roles/edit/edit.component.html</context>
+          <context context-type="linenumber">55</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="0333de11ce64a23e1d4014b5f930f8fa00831ddf" datatype="html">
+        <source>Resource Name</source>
+        <target xml:lang="nn-NO">Ressursnavn</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/roles/new/new-role.component.html</context>
+          <context context-type="linenumber">54</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/roles/edit/edit.component.html</context>
+          <context context-type="linenumber">59</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="70a67e04629f6d412db0a12d51820b480788d795" datatype="html">
+        <source>Create</source>
+        <target xml:lang="nn-NO">Opprett</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/roles/new/new-role.component.html</context>
+          <context context-type="linenumber">56</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/roles/edit/edit.component.html</context>
+          <context context-type="linenumber">61</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9b1d5e95f6bdcfb4b737413f5fa157e0dcb103d5" datatype="html">
+        <source>Read</source>
+        <target xml:lang="nn-NO">Les</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/roles/new/new-role.component.html</context>
+          <context context-type="linenumber">57</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/roles/edit/edit.component.html</context>
+          <context context-type="linenumber">62</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="047f50bc5b5d17b5bec0196355953e1a5c590ddb" datatype="html">
+        <source>Update</source>
+        <target xml:lang="nn-NO">Oppdater</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/roles/new/new-role.component.html</context>
+          <context context-type="linenumber">58</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/roles/edit/edit.component.html</context>
+          <context context-type="linenumber">63</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="826b25211922a1b46436589233cb6f1a163d89b7" datatype="html">
+        <source>Delete</source>
+        <target xml:lang="nn-NO">Slett</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/roles/new/new-role.component.html</context>
+          <context context-type="linenumber">59</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/roles/edit/edit.component.html</context>
+          <context context-type="linenumber">64</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9610487cbeb5796d34d8601b5ac0c0a65f9e1d19" datatype="html">
+        <source>Roles</source>
+        <target xml:lang="nn-NO">Roller</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/roles/roles.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="94093059549abaaf3a9f1a21af4bbc9eec5fc868" datatype="html">
+        <source><x id="START_TAG_NB-ICON" ctype="x-nb-icon" equiv-text="&lt;nb-icon&gt;"/><x id="CLOSE_TAG_NB-ICON" ctype="x-nb-icon" equiv-text="&lt;/nb-icon&gt;"/> New</source>
+        <target xml:lang="nn-NO"><x id="START_TAG_NB-ICON" ctype="x-nb-icon" equiv-text="&lt;nb-icon&gt;"/><x id="CLOSE_TAG_NB-ICON" ctype="x-nb-icon" equiv-text="&lt;/nb-icon&gt;"/> Nye</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/roles/roles.component.html</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="880e1e6270e3c0632f88a2e3a926f0574f1aeab1" datatype="html">
+        <source>Receive</source>
+        <target xml:lang="nn-NO">Motta</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ec8455b42f9fff09eb44b218f40ae5353690298d" datatype="html">
+        <source><x id="START_TAG_NB-ICON" ctype="x-nb-icon" equiv-text="&lt;nb-icon&gt;"/><x id="CLOSE_TAG_NB-ICON" ctype="x-nb-icon" equiv-text="&lt;/nb-icon&gt;"/> Create</source>
+        <target xml:lang="nn-NO"><x id="START_TAG_NB-ICON" ctype="x-nb-icon" equiv-text="&lt;nb-icon&gt;"/><x id="CLOSE_TAG_NB-ICON" ctype="x-nb-icon" equiv-text="&lt;/nb-icon&gt;"/> Opprett</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">28</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7ac91ad6c583eca794a222342463a9ed6dfa2f22" datatype="html">
+        <source>Package Info</source>
+        <target xml:lang="nn-NO">Pakke Info</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">43</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">102</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1c5bc5b5808803698593ced2c67fef2b090e5d05" datatype="html">
+        <source>Tracking number</source>
+        <target xml:lang="nn-NO">Sporingsnummer</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">54</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">115</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="af3deea816ce3627d009942dd7ac4e24086fbeff" datatype="html">
+        <source>Courier Name</source>
+        <target xml:lang="nn-NO">Courier Name</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">67</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">275</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">169</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="f61c6867295f3b53d23557021f2f4e0aa1d0b8fc" datatype="html">
+        <source>Type</source>
+        <target xml:lang="nn-NO">Type</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">71</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">128</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/search/search.component.html</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="f33f14958f5494de575c492db2a381ba71656e6c" datatype="html">
+        <source>Mail</source>
+        <target xml:lang="nn-NO">E-post</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">74</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">131</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6409ffc5024592798a9d65610ef6c1a561557ef4" datatype="html">
+        <source>Asset</source>
+        <target xml:lang="nn-NO">Ressurs</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">75</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">132</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9d5c55944447155a0fa3050c77aefa9ff66bba38" datatype="html">
+        <source>Sub-type</source>
+        <target xml:lang="nn-NO">Subtype</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">80</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">137</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="df0f06a9e9d35253d85406f16728b7ed5a60002e" datatype="html">
+        <source>Regular</source>
+        <target xml:lang="nn-NO">Vanlig</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">82</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">139</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="b40f9dc3f9969b3b9cc1f658b3aa5a3771cd930d" datatype="html">
+        <source>Fragile</source>
+        <target xml:lang="nn-NO">Behandles forsiktig</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">83</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">140</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">28</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2b3e2e8f43d29a5eaa4deddfc6b6a37e1cf4c0c1" datatype="html">
+        <source>hazardous</source>
+        <target xml:lang="nn-NO">Farlige</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">84</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">141</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">29</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7d11d8299219568991b4980b13c53a96402a086f" datatype="html">
+        <source>liquids</source>
+        <target xml:lang="nn-NO">Væske</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">85</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">142</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">30</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="20ad9968877a2cb60d15a00c5db2d93fe8d45e55" datatype="html">
+        <source>animal</source>
+        <target xml:lang="nn-NO">dyr</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">86</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">143</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">31</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="bdd36fe42740e7c6ca46567eb165f88e877686fb" datatype="html">
+        <source>secure</source>
+        <target xml:lang="nn-NO">Sikre</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">87</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">144</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">32</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8791158c3a402ffc6c87026139c1083df237b70f" datatype="html">
+        <source>frozen</source>
+        <target xml:lang="nn-NO">Fryst</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">88</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">145</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">33</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="702680139b7d6235a9c2374021c6dd3919d723aa" datatype="html">
+        <source>heated</source>
+        <target xml:lang="nn-NO">oppvarmet</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">89</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">146</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">34</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="16169ba03a2793813ed18dc19f65d33113ad3e03" datatype="html">
+        <source>chilled</source>
+        <target xml:lang="nn-NO">rolig</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">90</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">147</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">35</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7fd8ff809ed08644c993c457ed8bc73f3564adcd" datatype="html">
+        <source>Purchase Order number</source>
+        <target xml:lang="nn-NO">Innkjøpsordrenummer</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">156</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">163</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/barcode/barcode.component.html</context>
+          <context context-type="linenumber">81</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="b74af38005e8a8914e45af2ec412e11ceafef8b6" datatype="html">
+        <source>Priority</source>
+        <target xml:lang="nn-NO">Prioritet</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">160</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">59</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9556266f0a2b1762a44b686f2bb21dbfefb01c12" datatype="html">
+        <source>Low</source>
+        <target xml:lang="nn-NO">Lav</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">162</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">61</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="f23f507f73d0ab47f52c3685e4f8d7cc8d1e87e3" datatype="html">
+        <source>Pouch</source>
+        <target xml:lang="nn-NO">POSE</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">174</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">42</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1b051734b0ee9021991c91b3ed4e81c244322462" datatype="html">
+        <source>Created</source>
+        <target xml:lang="nn-NO">Opprettet</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">177</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">53</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/search/search.component.html</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="86a222de4a12047bfad6c3e0c0b146502a30f7d5" datatype="html">
+        <source>Dimensions</source>
+        <target xml:lang="nn-NO">Dimensjoner</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">191</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">501</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5ae41dd211bc3f3d3fb1dab960452eba61363068" datatype="html">
+        <source>height</source>
+        <target xml:lang="nn-NO">Høyde</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">194</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">503</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">185</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="08e8c9223e22bbffe987668819fec1e2c4cdc5fe" datatype="html">
+        <source>width</source>
+        <target xml:lang="nn-NO">bredde</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">196</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">504</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">192</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="a93db5f67ce2d6d99baef8cb999af18dfce60b0b" datatype="html">
+        <source>depth</source>
+        <target xml:lang="nn-NO">dybde</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">198</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">505</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">199</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4cf0728fcf2b0af16de94c2f57dafddcc0ff1a59" datatype="html">
+        <source>Unit</source>
+        <target xml:lang="nn-NO">Enhet</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">205</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">232</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">249</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">487</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">204</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">224</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">241</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="f013ce95fa50388bdc1c9e01ab167ca3283782a0" datatype="html">
+        <source>Millimeters</source>
+        <target xml:lang="nn-NO">Millimeter</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">208</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">508</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">206</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="18baa4b7d3ad7ccdb5de3025ae93b4fb7368a54f" datatype="html">
+        <source>Centimeters</source>
+        <target xml:lang="nn-NO">Centimetere</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">209</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">509</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">207</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="048a6a9904e85222c25d702aa7a575b4e86df0b4" datatype="html">
+        <source>Meters</source>
+        <target xml:lang="nn-NO">Meter</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">210</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">510</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">208</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9eaf14179078abd9411d78611ffd284fd73760ff" datatype="html">
+        <source>Inches</source>
+        <target xml:lang="nn-NO">Tommer</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">211</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">511</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">209</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="83baad77c6a00638f5ecee2ddd442ac702f82268" datatype="html">
+        <source>Feet</source>
+        <target xml:lang="nn-NO">Fot</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">212</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">512</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">210</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="0b64c35dae0adf1c6f9000ca17f58cb0a81e1d7c" datatype="html">
+        <source><x id="INTERPOLATION" equiv-text="{{s}}"/></source>
+        <target xml:lang="nn-NO"><x id="INTERPOLATION" equiv-text="{{s}}"/></target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">219</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="919f2fd60a898850c24b1584362bbf18a4628bcb" datatype="html">
+        <source>Weight</source>
+        <target xml:lang="nn-NO">Vekt</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">228</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">483</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">218</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6e03672f1999fa862a095c46b4bb28081403e9f7" datatype="html">
+        <source>Kilograms</source>
+        <target xml:lang="nn-NO">Kilo</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">234</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">489</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">226</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="165d4c69f077ba3bf9c9e99257bba81217356883" datatype="html">
+        <source>Grams</source>
+        <target xml:lang="nn-NO">Gram</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">235</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">490</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">227</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ab61c981528885b0742bfddccbc92b72416b1fc8" datatype="html">
+        <source>Tons</source>
+        <target xml:lang="nn-NO">USA- amerikanske tonnunit synonyms for matching user input</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">236</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">491</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">228</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="fa05ba03f5699403b3ce8be06b26a1f63cf664cf" datatype="html">
+        <source>Pound</source>
+        <target xml:lang="nn-NO">Pund</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">237</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">492</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">229</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6df2dfa48bef5510c82fb43f4e71a7f9557f3d71" datatype="html">
+        <source>Expire</source>
+        <target xml:lang="nn-NO">Utgått</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">245</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">235</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3bbce5fef7e1151da052a4e529453edb340e3912" datatype="html">
+        <source>Hours</source>
+        <target xml:lang="nn-NO">timer</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">251</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">243</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="a5c3d9d2296f7886e8289b9f623323803deacfc6" datatype="html">
+        <source>Days</source>
+        <target xml:lang="nn-NO">dager</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">252</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">244</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="12cc9773650706e6b16eec367da84f99a1e6399c" datatype="html">
+        <source>Months</source>
+        <target xml:lang="nn-NO">Maanden</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">253</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">245</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="003c94fc143882ac8af6251a1595fe62978fe3e6" datatype="html">
+        <source>Years</source>
+        <target xml:lang="nn-NO">År</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">254</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">246</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="e7dae85d32f81f19beb8d2eafee797db0b2833a5" datatype="html">
+        <source>Manifest</source>
+        <target xml:lang="nn-NO">Manifest</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">258</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2c7dc726e93bcf3ca2f316bbebe96fa1e5288ba0" datatype="html">
+        <source>Browse</source>
+        <target xml:lang="nn-NO">Bla gjennom</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">259</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6e3ccc0b87830bef50fbbf552a1a98e3b6499696" datatype="html">
+        <source>Package Name</source>
+        <target xml:lang="nn-NO">Pakkenavn</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">266</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="a9a1655e1a653e6cd210186079d5d8d76a36c918" datatype="html">
+        <source>e.g. box, bike, folder</source>
+        <target xml:lang="nn-NO">f.eks boks, sykkel, mappe</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">268</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="bf6fc7ee4b374dced7550eb0feb9196e7d606084" datatype="html">
+        <source>Delivery Details</source>
+        <target xml:lang="nn-NO">Leveringsopplysninger</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">289</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="06ac97c57691e065a4ce7119df811e89279319b4" datatype="html">
+        <source>Sender</source>
+        <target xml:lang="nn-NO">Avsender</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">303</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">82</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/search/search.component.html</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="94516fa213706c67ce5a5b5765681d7fb032033a" datatype="html">
+        <source>Loading...</source>
+        <target xml:lang="nn-NO">Laster …</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">306</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">323</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">344</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">358</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">85</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">102</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">126</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">142</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ea012cd4bc96d80a2c8046feedb8c8fdb3b6c4e3" datatype="html">
+        <source>New Sender</source>
+        <target xml:lang="nn-NO">Ny avsender</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">309</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7ca1e4969f0bf230fc44058ba3db02618ff80100" datatype="html">
+        <source>Recipient</source>
+        <target xml:lang="nn-NO">Mottaker(e)</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">320</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">98</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/search/search.component.html</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="26781ff9cd68c111b00081173af59cfc443535ac" datatype="html">
+        <source>New Recipient</source>
+        <target xml:lang="nn-NO">Ny mottaker</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">326</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4d1d4f8c3875d65fd8c775d6ee617c1b2f41f6df" datatype="html">
+        <source>Return</source>
+        <target xml:lang="nn-NO">Retur</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">341</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">123</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3f677d21b4d8dd5466e156cec9a9f2e6fa5513e6" datatype="html">
+        <source>Alternative Recipient</source>
+        <target xml:lang="nn-NO">Alternativ mottaker</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">355</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">139</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c5d7c7330f595ec3660efd82e98af627864db2bf" datatype="html">
+        <source>Delivery Method</source>
+        <target xml:lang="nn-NO">leveringsmetode</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">377</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">69</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="501ca3fe039c5c2949d40419b9a9193a95544345" datatype="html">
+        <source>Direct</source>
+        <target xml:lang="nn-NO">Direkte</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">379</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">71</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="16a804bc19d2cbab25a1b01097bb1af21a54096d" datatype="html">
+        <source>Warehouse</source>
+        <target xml:lang="nn-NO">Lager</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">381</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">73</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7c5ad7b28fdb206925ed2060e7bcd61c626ba6c2" datatype="html">
+        <source>Mail room</source>
+        <target xml:lang="nn-NO">Mail room</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">382</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">74</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3a3fe2ebe099a6f03db83fa965bdb74bee73ffa5" datatype="html">
+        <source>Inventory Id</source>
+        <target xml:lang="nn-NO">Vareopptelling</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">407</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dfc2fb58e2a04ed944a4bd80f0a2087775134068" datatype="html">
+        <source>Amount</source>
+        <target xml:lang="nn-NO">Beløp</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">409</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="008e726449706461b8c728dbe1d739e753bad07b" datatype="html">
+        <source>PLU</source>
+        <target xml:lang="nn-NO">PLU</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">435</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="789159e5195263077009a550f37b062e62d4e7a7" datatype="html">
+        <source>Inventory Name</source>
+        <target xml:lang="nn-NO">Vareopptelling</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">439</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="54b6b8edef9be9ad0070dc3f1d722455ce0120d7" datatype="html">
+        <source>Inventory Description</source>
+        <target xml:lang="nn-NO">Inventory Description</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">447</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="a75141f0f14f0424fe336bb385d9779332a6390d" datatype="html">
+        <source>Location Code or Name</source>
+        <target xml:lang="nn-NO">Stedskode eller navn</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">457</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="b74b08aedca6f13d7122a9a81ba8d0173d375cff" datatype="html">
+        <source>Isle</source>
+        <target xml:lang="nn-NO">Isle</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">460</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="0b94d25b41b082a74c327f8d98c8592aad98024a" datatype="html">
+        <source>Row</source>
+        <target xml:lang="nn-NO">Rad</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">469</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="e343664d3d9cc7b7f75f76140beb2e6b7d9ad472" datatype="html">
+        <source>Shelf</source>
+        <target xml:lang="nn-NO">Hylle</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">472</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7b30208fa6e4e18a68e18c3a33a5702807204828" datatype="html">
+        <source>Compartment</source>
+        <target xml:lang="nn-NO">Rom</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">475</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="bdff1beb7f7db1db43c101c921a6a126d2378a40" datatype="html">
+        <source>Seasonable</source>
+        <target xml:lang="nn-NO">årstider</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">496</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="87a84ed53a391ac0c9bf16b2f77c26aecd274cf1" datatype="html">
+        <source>Gross Value</source>
+        <target xml:lang="nn-NO">Brutto verdi</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">520</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="41c80a7864f596ab8c9a6f947feff47459caac31" datatype="html">
+        <source>Tax</source>
+        <target xml:lang="nn-NO">mva</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">524</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="99b3ae93abd8f02a049c3037d03d487e72b2f7d1" datatype="html">
+        <source>Net Value</source>
+        <target xml:lang="nn-NO">Nettoverdi</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">533</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="f67458371e57d4dace2ee56af8dfbab2bced5f07" datatype="html">
+        <source>Margin</source>
+        <target xml:lang="nn-NO">Marg</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">542</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1d77bd7f4d06783faaa6e7876c629f1039788ef5" datatype="html">
+        <source>Total Value</source>
+        <target xml:lang="nn-NO">Total verdi</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">546</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="32072c7fb0469aaf82d256a59b3e0d6ecce973b9" datatype="html">
+        <source>Currency</source>
+        <target xml:lang="nn-NO">Valuta</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">550</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="832cfbefd621d1e8407d13641d9e0c6567295456" datatype="html">
+        <source>Adding Log Trace</source>
+        <target xml:lang="nn-NO">Legge til loggspor</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/log-new/log-new.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5c54befce78d70e20c215f10a00e617245f53bc9" datatype="html">
+        <source>Note</source>
+        <target xml:lang="nn-NO">Merknad</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/log-new/log-new.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="df912ec04fc794ee7c1a45d81aa65fc42ce99d3c" datatype="html">
+        <source><x id="START_TAG_NB-ICON" ctype="x-nb-icon" equiv-text="&lt;nb-icon&gt;"/><x id="CLOSE_TAG_NB-ICON" ctype="x-nb-icon" equiv-text="&lt;/nb-icon&gt;"/> cancel</source>
+        <target xml:lang="nn-NO"><x id="START_TAG_NB-ICON" ctype="x-nb-icon" equiv-text="&lt;nb-icon&gt;"/><x id="CLOSE_TAG_NB-ICON" ctype="x-nb-icon" equiv-text="&lt;/nb-icon&gt;"/> avbryt</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/log-new/log-new.component.html</context>
+          <context context-type="linenumber">28</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="0c80a74ea11ea3e1a3597b8939a554362af42f05" datatype="html">
+        <source><x id="START_TAG_NB-ICON" ctype="x-nb-icon" equiv-text="&lt;nb-icon&gt;"/><x id="CLOSE_TAG_NB-ICON" ctype="x-nb-icon" equiv-text="&lt;/nb-icon&gt;"/> Add</source>
+        <target xml:lang="nn-NO"><x id="START_TAG_NB-ICON" ctype="x-nb-icon" equiv-text="&lt;nb-icon&gt;"/><x id="CLOSE_TAG_NB-ICON" ctype="x-nb-icon" equiv-text="&lt;/nb-icon&gt;"/> BuddyPress Legg til venn-knappen</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/log-new/log-new.component.html</context>
+          <context context-type="linenumber">34</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="cff1428d10d59d14e45edec3c735a27b5482db59" datatype="html">
+        <source>Name</source>
+        <target xml:lang="nn-NO">Navn</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/barcode/barcode.component.html</context>
+          <context context-type="linenumber">87</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/search/search.component.html</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ee41854e9d8ebd4488c5cdfb09f2fc989f401e50" datatype="html">
+        <source>Active</source>
+        <target xml:lang="nn-NO">Aktiv</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">45</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="0df62d28e20ae097a30ae8c640ceb24fa7fe526b" datatype="html">
+        <source><x id="INTERPOLATION" equiv-text="{{status}}"/></source>
+        <target xml:lang="nn-NO"><x id="INTERPOLATION" equiv-text="{{status}}"/></target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">156</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="0a0653cce4ddb3788d30d0b2bf35960ace7f7d11" datatype="html">
+        <source>External Reference</source>
+        <target xml:lang="nn-NO">Ekstern referanse-id</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">175</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="179eb5c4a21ad324f75f723218a621d120e39d30" datatype="html">
+        <source>Height</source>
+        <target xml:lang="nn-NO">Høyde</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">183</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="828bc0d28636c4fda125fbf32af8df99cf1fe83e" datatype="html">
+        <source>Width</source>
+        <target xml:lang="nn-NO">Bredde</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">190</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="49dfba177776c2ff7e647c7d0efe61a8c9513e27" datatype="html">
+        <source>Depth</source>
+        <target xml:lang="nn-NO">Dybde</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">197</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8bf4abd4677450d3963722b64c3113746db9685b" datatype="html">
+        <source><x id="START_TAG_NB-ICON" ctype="x-nb-icon" equiv-text="&lt;nb-icon&gt;"/><x id="CLOSE_TAG_NB-ICON" ctype="x-nb-icon" equiv-text="&lt;/nb-icon&gt;"/> Cancel</source>
+        <target xml:lang="nn-NO"><x id="START_TAG_NB-ICON" ctype="x-nb-icon" equiv-text="&lt;nb-icon&gt;"/><x id="CLOSE_TAG_NB-ICON" ctype="x-nb-icon" equiv-text="&lt;/nb-icon&gt;"/> Avbryt</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/barcode/barcode.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="83e78b30517a1234e9647c180b30cfec7f7d5630" datatype="html">
+        <source><x id="START_TAG_NB-ICON" ctype="x-nb-icon" equiv-text="&lt;nb-icon&gt;"/><x id="CLOSE_TAG_NB-ICON" ctype="x-nb-icon" equiv-text="&lt;/nb-icon&gt;"/> Print</source>
+        <target xml:lang="nn-NO"><x id="START_TAG_NB-ICON" ctype="x-nb-icon" equiv-text="&lt;nb-icon&gt;"/><x id="CLOSE_TAG_NB-ICON" ctype="x-nb-icon" equiv-text="&lt;/nb-icon&gt;"/> Skriv ut</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/barcode/barcode.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="63c9c3aa536dbd11120ae8feab62186c47838028" datatype="html">
+        <source>To</source>
+        <target xml:lang="nn-NO">Til</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/barcode/barcode.component.html</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="63e1d28508d11998ba489a6ea4d8349e837162f5" datatype="html">
+        <source>Phone number</source>
+        <target xml:lang="nn-NO">Telefonnummer</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/barcode/barcode.component.html</context>
+          <context context-type="linenumber">28</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/barcode/barcode.component.html</context>
+          <context context-type="linenumber">51</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="69b6ac577a19acc39fc0c22342092f327fff2529" datatype="html">
+        <source>Email address</source>
+        <target xml:lang="nn-NO">E-postadresse</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/barcode/barcode.component.html</context>
+          <context context-type="linenumber">32</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/barcode/barcode.component.html</context>
+          <context context-type="linenumber">55</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="d5e0dbc9fd4651759df915cdc6ba26fe3f17475f" datatype="html">
+        <source>From</source>
+        <target xml:lang="nn-NO">Fra</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/barcode/barcode.component.html</context>
+          <context context-type="linenumber">39</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="b4d5a5498840744671731ffa7ff77149c29343ee" datatype="html">
+        <source>Registered</source>
+        <target xml:lang="nn-NO">Registrert</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/barcode/barcode.component.html</context>
+          <context context-type="linenumber">63</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="62a65ed94158c4697c741d51ada900234bc7359c" datatype="html">
+        <source>Delivery type</source>
+        <target xml:lang="nn-NO">Henting eller levering</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/barcode/barcode.component.html</context>
+          <context context-type="linenumber">69</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3548051dcc9ddb175ef9e21a2335257cb9768719" datatype="html">
+        <source><x id="INTERPOLATION" equiv-text="{{parcel.delivery}}"/></source>
+        <target xml:lang="nn-NO"><x id="INTERPOLATION" equiv-text="{{parcel.delivery}}"/></target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/barcode/barcode.component.html</context>
+          <context context-type="linenumber">70</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="40f0f14efd9163121319cee12f22f0d597dbbef1" datatype="html">
+        <source>Courier name</source>
+        <target xml:lang="nn-NO">Courier Name</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/barcode/barcode.component.html</context>
+          <context context-type="linenumber">75</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c08ad7c89db46b0fc433db58d68ee336b16b132d" datatype="html">
+        <source>Signature</source>
+        <target xml:lang="nn-NO">Signatur</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/parcel.component.html</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="48be0f68c7843543070f5648f751476dfc028a5b" datatype="html">
+        <source><x id="START_TAG_NB-ICON" ctype="x-nb-icon" equiv-text="&lt;nb-icon&gt;"/><x id="CLOSE_TAG_NB-ICON" ctype="x-nb-icon" equiv-text="&lt;/nb-icon&gt;"/> Back</source>
+        <target xml:lang="nn-NO"><x id="START_TAG_NB-ICON" ctype="x-nb-icon" equiv-text="&lt;nb-icon&gt;"/><x id="CLOSE_TAG_NB-ICON" ctype="x-nb-icon" equiv-text="&lt;/nb-icon&gt;"/> TIlbake</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/parcel.component.html</context>
+          <context context-type="linenumber">39</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/parcel.component.html</context>
+          <context context-type="linenumber">60</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="66f2401d41126dcb12532cbe96beacc3354c91f7" datatype="html">
+        <source><x id="START_TAG_NB-ICON" ctype="x-nb-icon" equiv-text="&lt;nb-icon&gt;"/><x id="CLOSE_TAG_NB-ICON" ctype="x-nb-icon" equiv-text="&lt;/nb-icon&gt;"/> Barcode</source>
+        <target xml:lang="nn-NO"><x id="START_TAG_NB-ICON" ctype="x-nb-icon" equiv-text="&lt;nb-icon&gt;"/><x id="CLOSE_TAG_NB-ICON" ctype="x-nb-icon" equiv-text="&lt;/nb-icon&gt;"/> Strekkode</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/parcel.component.html</context>
+          <context context-type="linenumber">43</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ba413ee1624bccbc269169224dcd4b1bbe598c20" datatype="html">
+        <source><x id="START_TAG_NB-ICON" ctype="x-nb-icon" equiv-text="&lt;nb-icon&gt;"/><x id="CLOSE_TAG_NB-ICON" ctype="x-nb-icon" equiv-text="&lt;/nb-icon&gt;"/> Log</source>
+        <target xml:lang="nn-NO"><x id="START_TAG_NB-ICON" ctype="x-nb-icon" equiv-text="&lt;nb-icon&gt;"/><x id="CLOSE_TAG_NB-ICON" ctype="x-nb-icon" equiv-text="&lt;/nb-icon&gt;"/> Logg</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/parcel.component.html</context>
+          <context context-type="linenumber">47</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="13b3298ecec775668158119e3b6896d9b24aea8b" datatype="html">
+        <source><x id="START_TAG_NB-ICON" ctype="x-nb-icon" equiv-text="&lt;nb-icon&gt;"/><x id="CLOSE_TAG_NB-ICON" ctype="x-nb-icon" equiv-text="&lt;/nb-icon&gt;"/> Edit</source>
+        <target xml:lang="nn-NO"><x id="START_TAG_NB-ICON" ctype="x-nb-icon" equiv-text="&lt;nb-icon&gt;"/><x id="CLOSE_TAG_NB-ICON" ctype="x-nb-icon" equiv-text="&lt;/nb-icon&gt;"/> Rediger</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/parcel.component.html</context>
+          <context context-type="linenumber">64</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c5b6e47b6bcbfcb9483c54bd0dbd45eda873f3af" datatype="html">
+        <source><x id="START_TAG_NB-ICON" ctype="x-nb-icon" equiv-text="&lt;nb-icon&gt;"/><x id="CLOSE_TAG_NB-ICON" ctype="x-nb-icon" equiv-text="&lt;/nb-icon&gt;"/> Cancel</source>
+        <target xml:lang="nn-NO"><x id="START_TAG_NB-ICON" ctype="x-nb-icon" equiv-text="&lt;nb-icon&gt;"/><x id="CLOSE_TAG_NB-ICON" ctype="x-nb-icon" equiv-text="&lt;/nb-icon&gt;"/> Avbryt</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/parcel.component.html</context>
+          <context context-type="linenumber">68</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="cedb8873d2df38108202e5b14bc6f1c7dcffd94d" datatype="html">
+        <source>Searched for: <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/><x id="INTERPOLATION" equiv-text="{{value}}"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/><x id="START_TAG_BUTTON" ctype="x-button" equiv-text="&lt;button&gt;"/><x id="START_TAG_NB-ICON" ctype="x-nb-icon" equiv-text="&lt;nb-icon&gt;"/><x id="CLOSE_TAG_NB-ICON" ctype="x-nb-icon" equiv-text="&lt;/nb-icon&gt;"/><x id="CLOSE_TAG_BUTTON" ctype="x-button" equiv-text="&lt;/button&gt;"/></source>
+        <target xml:lang="nn-NO">Søkte etter: <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/><x id="INTERPOLATION" equiv-text="{{value}}"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/><x id="START_TAG_BUTTON" ctype="x-button" equiv-text="&lt;button&gt;"/><x id="START_TAG_NB-ICON" ctype="x-nb-icon" equiv-text="&lt;nb-icon&gt;"/><x id="CLOSE_TAG_NB-ICON" ctype="x-nb-icon" equiv-text="&lt;/nb-icon&gt;"/><x id="CLOSE_TAG_BUTTON" ctype="x-button" equiv-text="&lt;/button&gt;"/></target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/search/search.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="724c230191e707327fb859715f407da70d39b855" datatype="html">
+        <source>Latest parcels</source>
+        <target xml:lang="nn-NO">Siste pakker</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/search/search.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="e16377f1c53f7f44938d412478fa16b9f9589750" datatype="html">
+        <source>Tracking #</source>
+        <target xml:lang="nn-NO">Tracking</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/search/search.component.html</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="e95f8bae592e0cf2234f405c73e10eb89e37d93a" datatype="html">
+        <source>Last Update</source>
+        <target xml:lang="nn-NO">Siste oppdatering</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/search/search.component.html</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="77077b003e90b36b5be17609a8c4fb6fd3ef2b86" datatype="html">
+        <source>Page <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/><x id="INTERPOLATION" equiv-text="{{page+1}}"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></source>
+        <target xml:lang="nn-NO">Side <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/><x id="INTERPOLATION" equiv-text="{{page+1}}"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/search/search.component.html</context>
+          <context context-type="linenumber">47</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3bfeefd54b54ba3e846b7d2a6dc7fff859bad009" datatype="html">
+        <source><x id="START_TAG_NB-ICON" ctype="x-nb-icon" equiv-text="&lt;nb-icon&gt;"/><x id="CLOSE_TAG_NB-ICON" ctype="x-nb-icon" equiv-text="&lt;/nb-icon&gt;"/></source>
+        <target xml:lang="nn-NO"><x id="START_TAG_NB-ICON" ctype="x-nb-icon" equiv-text="&lt;nb-icon&gt;"/><x id="CLOSE_TAG_NB-ICON" ctype="x-nb-icon" equiv-text="&lt;/nb-icon&gt;"/></target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/search/search.component.html</context>
+          <context context-type="linenumber">49</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/search/search.component.html</context>
+          <context context-type="linenumber">50</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2e05842ff9c86e02b7b26519044fbd2a4917b741" datatype="html">
+        <source>Limit</source>
+        <target xml:lang="nn-NO">Begrensning</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/search/search.component.html</context>
+          <context context-type="linenumber">62</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8bcabdf6b16cad0313a86c7e940c5e3ad7f9f8ab" datatype="html">
+        <source>Notifications</source>
+        <target xml:lang="nn-NO">Varsler</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/notifications/notifications.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="67c6f2231744527a2b7eb13424856b54cd5b1010" datatype="html">
+        <source><x id="START_TAG_NB-ICON" ctype="x-nb-icon" equiv-text="&lt;nb-icon&gt;"/><x id="CLOSE_TAG_NB-ICON" ctype="x-nb-icon" equiv-text="&lt;/nb-icon&gt;"/> Delete</source>
+        <target xml:lang="nn-NO"><x id="START_TAG_NB-ICON" ctype="x-nb-icon" equiv-text="&lt;nb-icon&gt;"/><x id="CLOSE_TAG_NB-ICON" ctype="x-nb-icon" equiv-text="&lt;/nb-icon&gt;"/> Slett</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/notifications/notifications.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="75e1208cb45aeedbc89b30366db1f3da933099de" datatype="html">
+        <source><x id="START_TAG_NB-ICON" ctype="x-nb-icon" equiv-text="&lt;nb-icon&gt;"/><x id="CLOSE_TAG_NB-ICON" ctype="x-nb-icon" equiv-text="&lt;/nb-icon&gt;"/> New</source>
+        <target xml:lang="nn-NO"><x id="START_TAG_NB-ICON" ctype="x-nb-icon" equiv-text="&lt;nb-icon&gt;"/><x id="CLOSE_TAG_NB-ICON" ctype="x-nb-icon" equiv-text="&lt;/nb-icon&gt;"/> Nye</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/notifications/notifications.component.html</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1469854172bad23935f94a26674195804362a16f" datatype="html">
+        <source><x id="START_TAG_NB-ICON" ctype="x-nb-icon" equiv-text="&lt;nb-icon&gt;"/><x id="CLOSE_TAG_NB-ICON" ctype="x-nb-icon" equiv-text="&lt;/nb-icon&gt;"/> Save</source>
+        <target xml:lang="nn-NO"><x id="START_TAG_NB-ICON" ctype="x-nb-icon" equiv-text="&lt;nb-icon&gt;"/><x id="CLOSE_TAG_NB-ICON" ctype="x-nb-icon" equiv-text="&lt;/nb-icon&gt;"/> Lagre</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/notifications/notifications.component.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4b0ca852bafa5037c4e64c7b18f9cd1e14b799de" datatype="html">
+        <source>Subject</source>
+        <target xml:lang="nn-NO">Emne</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/notifications/notifications.component.html</context>
+          <context context-type="linenumber">37</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="a6d5c63c53f3ca94547324dc944b7be41096d893" datatype="html">
+        <source>Notify on</source>
+        <target xml:lang="nn-NO">Varsle på</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/notifications/notifications.component.html</context>
+          <context context-type="linenumber">55</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="bc266db24986c6ff9096adedfaca85e155333854" datatype="html">
+        <source>Available template tags</source>
+        <target xml:lang="nn-NO">Tilgjengelige mal-tagger:</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/notifications/notifications.component.html</context>
+          <context context-type="linenumber">76</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1699eed4cfe7dda97fb29103c460f8b0b17183d0" datatype="html">
+        <source>Tracking reference code</source>
+        <target xml:lang="nn-NO">Sporing av referansekode</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/notifications/notifications.component.html</context>
+          <context context-type="linenumber">80</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="150b9fc5e5cfadfb6e30d6239666f875850a708f" datatype="html">
+        <source>Parcel designated recipient</source>
+        <target xml:lang="nn-NO">Pakkeutpekt mottaker</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/notifications/notifications.component.html</context>
+          <context context-type="linenumber">83</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5606eaa010e23ea95f3c9a71e3ae66004e8a1460" datatype="html">
+        <source>Time and Date of last update</source>
+        <target xml:lang="nn-NO">Tid og dato for siste oppdatering</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/notifications/notifications.component.html</context>
+          <context context-type="linenumber">86</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="46e6691028b9d078a0096561ed043800ac322ea5" datatype="html">
+        <source>Current parcel status</source>
+        <target xml:lang="nn-NO">Gjeldende parsellstatus</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/notifications/notifications.component.html</context>
+          <context context-type="linenumber">89</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="fefa380d0e655b196dfb51b6d1c3d9544e7c1d0c" datatype="html">
+        <source>Edit Role <x id="INTERPOLATION" equiv-text="{{role.name}}"/></source>
+        <target xml:lang="nn-NO">Rediger rolle <x id="INTERPOLATION" equiv-text="{{role.name}}"/></target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/roles/edit/edit.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="a47e63eec7587a4a9dafdb4a1b726604554b3926" datatype="html">
+        <source><x id="INTERPOLATION" equiv-text="{{display}}"/></source>
+        <target xml:lang="nn-NO"><x id="INTERPOLATION" equiv-text="{{display}}"/></target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/display-user/display-user.component.html</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

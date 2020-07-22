@@ -1,0 +1,23 @@
+nb-card.user-list {
+  display: block;
+  position: absolute;
+  padding: 0;
+  z-index: 1;
+  nb-card-body {
+    padding: 0.3rem;
+  }
+  nb-list > nb-list-item:hover {
+    filter: invert(45%);
+  }
+  nb-list > nb-list-item {
+    padding: 0.5rem 0.8rem;
+    cursor: pointer;
+    nb-user > div.user-container > div.info-container > div.user-name {
+        font-size: 0.7rem;
+    }
+  }
+}
+label.full-width {
+  width: 100%;
+}
+

@@ -1,0 +1,46 @@
+<table role="grid" class="nb-tree-grid table-hover">
+<thead role="rowgroup">
+<tr role="row">
+  <th class="nb-tree-grid-header-cell" role="columnheader">
+    <span i18n="@@id">Track #</span>
+  </th>
+  <th class="nb-tree-grid-header-cell" role="columnheader">
+<span i18n="@@status">Status</span>
+  </th>
+  <th class="nb-tree-grid-header-cell" role="columnheader">
+    <span i18n="@@updated">Updated</span>
+  </th>
+  <th class="nb-tree-grid-header-cell" role="columnheader">
+    <span i18n="@@sender">Sender</span>
+  </th>
+  <th class="nb-tree-grid-header-cell" role="columnheader">
+    <span i18n="@@recipient">Recipient</span>
+  </th>
+  <th class="nb-tree-grid-header-cell" role="columnheader">
+    <span i18n="@@created">Created</span>
+  </th>
+</tr>
+</thead>
+  <tbody role="rowgroup">
+  <tr role="row" *ngFor="let p of parcels | ngxSortByDate" (click)="viewParcel(p.id)">
+<td role="gridcell" class="nb-tree-grid-cell">
+  {{p.external ? p.external : p.id}}
+</td>
+    <td role="gridcell" class="nb-tree-grid-cell">
+      {{p.statuses[0].type}}
+    </td>
+    <td role="gridcell" class="nb-tree-grid-cell">
+      {{p.statuses[0].dateTime|date: 'short'}}
+    </td>
+    <td role="gridcell" class="nb-tree-grid-cell">
+      {{p.sender}}
+    </td>
+    <td role="gridcell" class="nb-tree-grid-cell">
+      {{p.recipient}}
+    </td>
+    <td role="gridcell" class="nb-tree-grid-cell">
+      {{p.created| date: 'short'}}
+    </td>
+  </tr>
+  </tbody>
+</table>

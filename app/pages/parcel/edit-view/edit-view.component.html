@@ -1,0 +1,250 @@
+<div class="row">
+  <div class="col">
+    <div class="form-group">
+      <label class="label" for="name" i18n="label|input label@@name">Name</label>
+      <input [(ngModel)]="parcel.name" [disabled]="disabled" fullWidth id="name" nbInput>
+    </div>
+    <div class="form-group">
+      <label class="label" for="description" i18n="label|input label@@description">Description</label>
+      <textarea [(ngModel)]="parcel.description" [disabled]="disabled" fullWidth id="description" nbInput
+                rows="4"></textarea>
+    </div>
+  </div>
+
+  <div class="col">
+    <div class="form-group">
+      <label class="label" for="type" i18n="label|input label@@type">Type</label>
+      <nb-select [(selected)]="parcel.type" [disabled]="disabled" fullWidth id="type">
+        <nb-option i18n="option|select option item@@parcel" value="parcel">Parcel</nb-option>
+        <nb-option i18n="option|select option item@@mail" value="mail">Mail</nb-option>
+        <nb-option i18n="option|select option item@@asset" value="asset">Asset</nb-option>
+        <nb-option i18n="option|select option item@@inventory" value="inventory">Inventory</nb-option>
+      </nb-select>
+    </div>
+    <div class="form-group">
+      <label class="label" for="subtype" i18n="label|input label@@subtype">Sub-type</label>
+      <nb-select [(selected)]="parcel.subtype" [disabled]="disabled" fullWidth id="subtype">
+        <nb-option i18n="option|select option item@@regular" value="regular">Regular</nb-option>
+        <nb-option i18n="option|select option item@@fragile" value="fragile">Fragile</nb-option>
+        <nb-option i18n="option|select option item@@hazardous" value="hazardous">hazardous</nb-option>
+        <nb-option i18n="option|select option item@@liquids" value="liquids">liquids</nb-option>
+        <nb-option i18n="option|select option item@@animal" value="animal">animal</nb-option>
+        <nb-option i18n="option|select option item@@secure" value="secure">secure</nb-option>
+        <nb-option i18n="option|select option item@@frozen" value="frozen">frozen</nb-option>
+        <nb-option i18n="option|select option item@@heated" value="heated">heated</nb-option>
+        <nb-option i18n="option|select option item@@chilled" value="chilled">chilled</nb-option>
+      </nb-select>
+    </div>
+    <div class="form-group">
+      <label class="label" i18n="label|input label@@status">Status</label>
+      <div class="row">
+        <div class="col">
+          <nb-toggle [(ngModel)]="parcel.pouch" [disabled]="disabled" i18n="toggle|input toggle@@pouch" id="pouch">Pouch</nb-toggle>
+        </div>
+        <div class="col text-right">
+          <nb-toggle [(ngModel)]="parcel.active" [disabled]="disabled" i18n="toggle|input toggle@@active" id="active" labelPosition="start">Active
+          </nb-toggle>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="form-group">
+      <label class="label" for="created" i18n="label|input label@@created">Created</label>
+      <input [(ngModel)]="parcel.created" [disabled]="disabled" [owlDateTimeTrigger]="dt1"
+             [owlDateTime]="dt1" fullWidth id="created" nbInput i18n-placeholder="input|placeholder@@datetime" placeholder="Date Time">
+      <owl-date-time #dt1></owl-date-time>
+    </div>
+    <div class="form-group">
+      <label class="label" for="prio" i18n="label|input label@@priority">Priority</label>
+      <nb-select [(selected)]="parcel.priority" [disabled]="disabled" fullWidth id="prio">
+        <nb-option i18n="option|select option item@@low" value="low">Low</nb-option>
+        <nb-option i18n="option|select option item@@medium" value="medium">Medium</nb-option>
+        <nb-option i18n="option|select option item@@standard" value="standard">Standard</nb-option>
+        <nb-option i18n="option|select option item@@high" value="high">High</nb-option>
+        <nb-option i18n="option|select option item@@emergency" value="emergency">Emergency</nb-option>
+      </nb-select>
+    </div>
+    <div class="form-group">
+      <label class="label" for="method" i18n="label|input label@@deliverymethod">Delivery Method</label>
+      <nb-select [(selected)]="parcel.delivery" [disabled]="disabled" fullWidth id="method">
+        <nb-option i18n="option|select option item@@direct" value="direct">Direct</nb-option>
+        <nb-option i18n="option|select option item@@location" value="location">Location</nb-option>
+        <nb-option i18n="option|select option item@@warehouse" value="warehouse">Warehouse</nb-option>
+        <nb-option i18n="option|select option item@@mailroom" value="mailroom">Mail room</nb-option>
+      </nb-select>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="col">
+    <div class="form-group">
+      <label class="label" for="sender" i18n="label|input label@@sender">Sender</label>
+      <input autocomplete="off" (click)="sender=null" (keyup)="searchUser($event)" [disabled]="disabled" [value]="sender" fullWidth id="sender" nbInput>
+      <span class="typeahead" *ngIf="searching == 'sender'">
+        <nb-alert *ngIf="loading" i18n="alert|progress sign@@loading" status="basic">Loading...</nb-alert>
+        <nb-card *ngIf="users.length">
+      <nb-list>
+        <nb-list-item (click)="selectSender(u)" *ngFor="let u of users">
+          <nb-user [name]="u.firstName + ' ' + u.lastName" [title]="u.department + ', ' + u.site"></nb-user>
+        </nb-list-item>
+      </nb-list>
+    </nb-card>
+      </span>
+    </div>
+  </div>
+  <div class="col">
+    <div class="form-group">
+      <label class="label" for="recipient" i18n="label|input description@@recipient">Recipient</label>
+      <input autocomplete="off" (click)="recipient=null" (keyup)="searchUser($event)" [disabled]="disabled"
+             [value]="recipient" fullWidth id="recipient" nbInput>
+      <span class="typeahead" *ngIf="searching == 'recipient'">
+        <nb-alert *ngIf="loading" i18n="alert|progress sign@@loading" status="basic">Loading...</nb-alert>
+        <nb-card *ngIf="users.length">
+      <nb-list>
+        <nb-list-item (click)="selectRecipient(u)" *ngFor="let u of users">
+          <nb-user [name]="u.firstName + ' ' + u.lastName" [title]="u.department + ', ' + u.site"></nb-user>
+        </nb-list-item>
+      </nb-list>
+    </nb-card>
+      </span>
+    </div>
+  </div>
+  <div class="col">
+    <div class="form-group">
+      <label class="label" for="site" i18n="label|input description@@site">Site</label>
+      <input autocomplete="off" [(ngModel)]="parcel.site" [disabled]="disabled" fullWidth id="site" nbInput>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="col">
+    <div class="form-group">
+      <label class="label" for="return" i18n="label|input description@@return">Return</label>
+      <input autocomplete="off" (keyup)="searchUser($event)" (click)="return=null" [value]="return" [disabled]="disabled" fullWidth id="return" nbInput>
+      <span class="typeahead" *ngIf="searching == 'return'">
+        <nb-alert *ngIf="loading" i18n="alert|progress sign@@loading" status="basic">Loading...</nb-alert>
+        <nb-card *ngIf="users.length">
+      <nb-list>
+        <nb-list-item (click)="selectReturn(u)" *ngFor="let u of users">
+          <nb-user [name]="u.firstName + ' ' + u.lastName" [title]="u.department + ', ' + u.site"></nb-user>
+        </nb-list-item>
+      </nb-list>
+    </nb-card>
+      </span>
+    </div>
+  </div>
+  <div class="col">
+    <div class="form-group">
+      <label class="label" for="alternative" i18n="label|input description@@alternativerecipient">Alternative Recipient</label>
+      <input autocomplete="off" [value]="alternative" (click)="alternative=null" (keyup)="searchUser($event)" [disabled]="disabled" fullWidth id="alternative" nbInput>
+      <span class="typeahead" *ngIf="searching == 'alternative'">
+        <nb-alert *ngIf="loading" i18n="alert|progress sign@@loading" status="basic">Loading...</nb-alert>
+        <nb-card *ngIf="users.length">
+      <nb-list>
+        <nb-list-item (click)="selectAlternative(u)" *ngFor="let u of users">
+          <nb-user [name]="u.firstName + ' ' + u.lastName" [title]="u.department + ', ' + u.site"></nb-user>
+        </nb-list-item>
+      </nb-list>
+    </nb-card>
+      </span>
+    </div>
+  </div>
+  <div class="col">
+    <label class="label" for="status" i18n="label|input description@@status">Status</label>
+    <nb-select [(selected)]="parcel.statuses[0].type" [disabled]="disabled" fullWidth id="status">
+      <nb-option *ngFor="let status of types" [value]="status">{{status}}</nb-option>
+    </nb-select>
+  </div>
+</div>
+<div class="row">
+  <div class="col">
+    <div class="form-group">
+      <label class="label" for="po" i18n="label|input description@@po">Purchase Order number</label>
+      <input [(ngModel)]="parcel.po" [disabled]="disabled" fullWidth id="po" nbInput type="text">
+    </div>
+  </div>
+  <div class="col">
+    <div class="form-group">
+      <label class="label" for="courier" i18n="label|input description@@couriername">Courier Name</label>
+      <input [(ngModel)]="parcel.courier" [disabled]="disabled" fullWidth id="courier" nbInput>
+    </div>
+  </div>
+  <div class="col">
+    <div class="form-group">
+      <label class="label" for="external" i18n="label|input description@@externalreference">External Reference</label>
+      <input [(ngModel)]="parcel.external" [disabled]="disabled" fullWidth id="external" nbInput>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="col">
+    <div class="form-group">
+      <label class="label" for="height" i18n="label|input description@@height">Height</label>
+      <input *ngIf="parcel.dimension.y" [(ngModel)]="parcel.dimension.y" [disabled]="disabled"
+             fullWidth i18n-placeholder="@@height" id="height" nbInput placeholder="height" type="number">
+    </div>
+  </div>
+  <div class="col">
+    <div class="form-group">
+      <label class="label" for="width" i18n="label|input description@@width">Width</label>
+      <input *ngIf="parcel.dimension.x" [(ngModel)]="parcel.dimension.x" [disabled]="disabled" fullWidth i18n-placeholder="@@width"
+             id="width" nbInput placeholder="width" type="number">
+    </div>
+  </div>
+  <div class="col">
+    <div class="form-group">
+      <label class="label" for="depth" i18n="label|input description@@depth">Depth</label>
+      <input *ngIf="parcel.dimension.z" [(ngModel)]="parcel.dimension.z" [disabled]="disabled" fullWidth i18n-placeholder="@@depth"
+             id="depth" nbInput placeholder="depth" type="number">
+    </div>
+  </div>
+  <div class="col">
+    <div class="form-group">
+      <label class="label" for="units" i18n="label|input description@@unit">Unit</label>
+      <nb-select *ngIf="parcel.dimension.unit" [(selected)]="parcel.dimension.unit" [disabled]="disabled" fullWidth id="units">
+        <nb-option i18n="option|select option item@@millimeters" value="millimeters">Millimeters</nb-option>
+        <nb-option i18n="option|select option item@@centimeters" value="centimeters">Centimeters</nb-option>
+        <nb-option i18n="option|select option item@@meters" value="meters">Meters</nb-option>
+        <nb-option i18n="option|select option item@@inches" value="inches">Inches</nb-option>
+        <nb-option i18n="option|select option item@@feet" value="feet">Feet</nb-option>
+      </nb-select>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="col">
+    <div class="form-group">
+      <label class="label" for="weight" i18n="label|input description@@weight">Weight</label>
+      <input [(ngModel)]="parcel.weight.amount" [disabled]="disabled" fullWidth id="weight" nbInput type="number">
+    </div>
+  </div>
+  <div class="col">
+    <div class="form-group">
+      <label class="label" for="wunit" i18n="label|input description@@unit">Unit</label>
+      <nb-select [(selected)]="parcel.weight.unit" [disabled]="disabled" fullWidth id="wunit">
+        <nb-option i18n="option|select option item@@kilograms" value="kg">Kilograms</nb-option>
+        <nb-option i18n="option|select option item@@grams" value="gram">Grams</nb-option>
+        <nb-option i18n="option|select option item@@tons" value="ton">Tons</nb-option>
+        <nb-option i18n="option|select option item@@pound" value="pound">Pound</nb-option>
+      </nb-select>
+    </div>
+  </div>
+  <div class="col">
+    <div class="form-group">
+      <label class="label" for="expiry" i18n="label|input description@@unit">Expire</label>
+      <input type="number" [(ngModel)]="parcel.expiry.amount" [disabled]="disabled" fullWidth id="expiry" nbInput>
+    </div>
+  </div>
+  <div class="col">
+    <div class="form-group">
+      <label class="label" for="expunit" i18n="label|input description@@unit">Unit</label>
+      <nb-select [(selected)]="parcel.expiry.unit" [disabled]="disabled" fullWidth id="expunit">
+        <nb-option i18n="option|select option item@@hours" value="hours">Hours</nb-option>
+        <nb-option i18n="option|select option item@@days" value="days">Days</nb-option>
+        <nb-option i18n="option|select option item@@months" value="months">Months</nb-option>
+        <nb-option i18n="option|select option item@@years" value="years">Years</nb-option>
+      </nb-select>
+    </div>
+  </div>
+</div>

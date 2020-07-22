@@ -1,0 +1,30 @@
+<div class="row">
+<div class="col">
+<nb-card accent="basic" [nbSpinner]="loading"
+         nbSpinnerStatus="basic"
+         nbSpinnerSize="large"
+         nbSpinnerMessage="{{loadingString}}">
+  <nb-card-body>
+    <div class="row">
+      <div class="col"><h2 i18n="@@users">Users</h2></div>
+      <div class="col text-right">
+        <button nbButton outline (click)="createUser()"> <nb-icon icon="plus-outline"></nb-icon> <span i18n="@@new">New</span> </button>
+      </div>
+    </div>
+  </nb-card-body>
+</nb-card>
+</div>
+</div>
+
+<div class="row">
+  <div class="col">
+    <nb-card>
+      <nb-card-body>
+        <ng2-smart-table [settings]="settings" (delete)="deleteUser($event)" (create)="createUser()" (edit)="editUser($event)" [source]="source" (deleteConfirm)="onDeleteConfirm($event)">
+        </ng2-smart-table>
+      </nb-card-body>
+    </nb-card>
+
+  </div>
+</div>
+

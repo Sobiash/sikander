@@ -1,0 +1,41 @@
+@import 'src/app/@theme/styles/themes';
+:host ::ng-deep .ck-editor__editable_inline {
+  min-height: 500px;
+}
+button.left-margin {
+  margin-left: 2vh;
+}
+nb-card.no-margin {
+  margin-bottom: 0;
+}
+label.full-width {
+  width: 100%;
+}
+nb-list-item {
+  cursor: pointer;
+  font-size: 0.9rem;
+  font-weight: 600;
+  line-height: 1.5rem;
+  nb-icon {
+    margin-right: 0.5rem;
+  }
+}
+nb-list-item:hover {
+  color: nb-theme(text-primary-hover-color);
+}
+nb-list-item.selected {
+  color:nb-theme(text-primary-focus-color);
+}
+nb-list-item.disabled {
+  color:nb-theme(text-disabled-color);
+}
+nb-alert {
+  font-family: 'Exo', sans-serif;
+}
+nb-alert {
+  margin-top: 0.3rem;
+  display: block;
+  position: absolute;
+  z-index: 1;
+  box-shadow: 0 0.5rem 1rem 0 rgba(25, 30, 51, 0.24);
+}

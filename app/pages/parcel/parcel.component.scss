@@ -1,0 +1,171 @@
+@import '~@tomtom-international/web-sdk-maps/dist/maps.css';
+
+nb-card-footer {
+  padding-right: 3em;
+}
+
+label {
+  width: 100%;
+}
+
+button.left-margin {
+  margin-left: 2vh;
+}
+
+div.map {
+  height: 40vh;
+}
+
+
+
+div.timeline {
+  --uiTimelineMainColor: var(--timelineMainColor, #222);
+  --uiTimelineSecondaryColor: var(--timelineSecondaryColor, #fff);
+  position: relative;
+  padding-top: 0.2rem;
+  padding-bottom: 2.2rem;
+  img {
+    max-width: 10vw;
+    max-height: 20vh;
+    border: 1px solid #e4e9f2;
+    border-radius: 3px;
+    padding: 0.3em 0.3em 1em;
+    margin: 0.5em;
+  }
+}
+
+.timeline::before {
+  content: '';
+  width: 0.3rem;
+  height: 100%;
+  background-color: var(--uiTimelineMainColor);
+  position: absolute;
+  top: 0;
+}
+
+
+.timeline__box {
+  position: relative;
+  margin-left: -2rem;
+}
+
+.timeline__box:not(:last-of-type) {
+  margin-bottom: 3vh;
+}
+
+.timeline__box::before {
+  content: '';
+  width: 100%;
+  height: 2px;
+  background-color: var(--uiTimelineMainColor);
+
+  position: absolute;
+  left: 0;
+  z-index: -1;
+}
+
+.timeline__date {
+  min-width: 3em;
+  position: absolute;
+  left: 0;
+  box-sizing: border-box;
+  padding: 0.5rem 1.5rem;
+  text-align: center;
+
+  background-color: var(--uiTimelineMainColor);
+  color: var(--uiTimelineSecondaryColor);
+}
+
+.timeline__day {
+  font-size: 1.3rem;
+  font-weight: 600;
+  display: block;
+}
+
+.timeline__month {
+  display: block;
+  font-size: 0.6em;
+  text-transform: uppercase;
+}
+.timeline__time {
+  display: block;
+  font-size: 0.7em;
+  line-height: 0.9em;
+  text-transform: uppercase;
+}
+.timeline__status {
+  display: block;
+  font-size: 0.8em;
+  line-height: 1.1rem;
+  font-weight: 600;
+}
+
+.timeline__post {
+  padding: 1.5rem 2rem;
+  border-radius: 2px;
+  border-left: 0.2rem solid var(--uiTimelineMainColor);
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 1px 2px 0 rgba(0, 0, 0, 0.24);
+ // background-color: var(--uiTimelineSecondaryColor);
+}
+
+@media screen and (min-width: 641px) {
+
+  .timeline__group {
+    padding-top: 55px;
+  }
+
+  .timeline__box {
+    padding-left: 5vw;
+  }
+
+  .timeline__box::before {
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .timeline__date {
+    top: 50%;
+    margin-top: -4.6vh;
+  }
+}
+
+@media screen and (max-width: 640px) {
+
+  .timeline::before {
+    left: 0;
+  }
+
+  .timeline__group {
+    padding-top: 40px;
+  }
+
+  .timeline__box {
+    padding-left: 20px;
+    padding-top: 70px;
+  }
+
+  .timeline__box::before {
+    top: 90px;
+  }
+
+  .timeline__date {
+    top: 0;
+  }
+}
+
+.timeline {
+  --timelineMainColor: #282794;
+  font-size: 16px;
+}
+
+
+p {
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+  line-height: 1.5;
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+

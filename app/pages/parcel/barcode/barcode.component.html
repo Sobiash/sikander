@@ -1,0 +1,102 @@
+<nb-card>
+  <nb-card-header>
+    <div class="row">
+      <div class="col text-right">
+        <button (click)="cancel()" nbButton status="basic">
+          <nb-icon icon="close-outline"></nb-icon> <span i18n="button|modal cancel@@cancel">Cancel</span></button>
+        <button [useExistingCss]="true" nbButton outline printSectionId="print-section" ngxPrint>
+          <nb-icon icon="printer-outline"></nb-icon> <span i18n="print|print label@@print">Print</span></button>
+      </div>
+    </div>
+
+  </nb-card-header>
+  <nb-card-body id="print-section">
+    <div class="row">
+      <div class="col">
+        <div class="form-group">
+          <label class="label" i18n="label|input label@@to">To</label>
+          <h2><ngx-display-user [id]="parcel.recipient"></ngx-display-user></h2>
+        </div>
+        <div class="form-group">
+          <label class="label" i18n="label|input label@@department">Department</label>
+          <h6><ngx-display-user [get]="'department'" [id]="parcel.recipient"></ngx-display-user></h6>
+        </div>
+        <div class="form-group">
+          <label class="label" i18n="label|input label@@location">Location</label>
+          <h6><ngx-display-user [get]="'location'" [id]="parcel.recipient"></ngx-display-user></h6>
+        </div>
+        <div class="form-group">
+          <label class="label" i18n="label|input label@@phone">Phone number</label>
+          <h6><ngx-display-user [get]="'phone'" [id]="parcel.recipient"></ngx-display-user></h6>
+        </div>
+        <div class="form-group">
+          <label class="label" i18n="label|input label@@email">Email address</label>
+          <h6><ngx-display-user [get]="'email'" [id]="parcel.recipient"></ngx-display-user></h6>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="form-group">
+          <label class="label" i18n="label|input label@@from">From</label>
+          <h5><ngx-display-user [id]="parcel.sender"></ngx-display-user></h5>
+        </div>
+        <div class="form-group">
+          <label class="label" i18n="label|input label@@department">Department</label>
+          <h6><ngx-display-user [get]="'department'" [id]="parcel.sender"></ngx-display-user></h6>
+        </div>
+        <div class="form-group">
+          <label class="label" i18n="label|input label@@location">Location</label>
+          <h6><ngx-display-user [get]="'location'" [id]="parcel.sender"></ngx-display-user></h6>
+        </div>
+        <div class="form-group">
+          <label class="label" i18n="label|input label@@phone">Phone number</label>
+          <h6><ngx-display-user [get]="'phone'" [id]="parcel.sender"></ngx-display-user></h6>
+        </div>
+        <div class="form-group">
+          <label class="label" i18n="label|input label@@email">Email address</label>
+          <h6><ngx-display-user [get]="'email'" [id]="parcel.sender"></ngx-display-user></h6>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col" *ngIf="parcel.created">
+        <div class="form-group">
+          <label class="label" i18n="label|input label@@registered">Registered</label>
+          <h6>{{parcel.created|date}}</h6>
+        </div>
+      </div>
+      <div class="col" *ngIf="parcel.delivery">
+        <div class="form-group">
+          <label class="label" i18n="label|input label@@deliverytype">Delivery type</label>
+          <h6> {{parcel.delivery}}</h6>
+        </div>
+      </div>
+      <div class="col" *ngIf="parcel.courier">
+        <div class="form-group">
+          <label class="label" i18n="label|input label@@couriername">Courier name</label>
+          <h6> {{parcel.courier}}</h6>
+        </div>
+      </div>
+      <div class="col" *ngIf="parcel.po">
+        <div class="form-group">
+          <label class="label" i18n="label|input label@@po">Purchase Order number</label>
+          <h6> {{parcel.po}}</h6>
+        </div>
+      </div>
+      <div class="col" *ngIf="parcel.name">
+        <div class="form-group">
+          <label class="label" i18n="label|input label@@name">Name</label>
+          <h6> {{parcel.name}}</h6>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <div class="form-group text-center">
+          <ngx-barcode [bc-value]="parcel.external ? parcel.external : parcel.id" [bc-display-value]="true"></ngx-barcode>
+        </div>
+      </div>
+    </div>
+
+  </nb-card-body>
+</nb-card>

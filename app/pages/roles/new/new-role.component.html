@@ -1,0 +1,83 @@
+<nb-card>
+  <nb-card-header>
+    <div class="row">
+      <div class="col-12" i18n="@@createrole">Create Role</div>
+    </div>
+  </nb-card-header>
+  <nb-card-body>
+    <div class="row">
+      <div class="col-5">
+        <div class="form-group">
+          <label i18n="@@rolename" for="roleName" class="label">Role Name</label>
+          <input autofocus id="roleName" type="text" nbInput fullWidth [(ngModel)]="role.name" >
+        </div>
+        <div class="form-group">
+          <label i18n="@@resourcecontrol" class="label">Resource Control</label>
+          <div class="row">
+            <div class="col">
+              <button nbButton fullWidth outline status="basic" (click)="newRole()">
+                <nb-icon icon="plus-circle-outline"></nb-icon><span i18n="@@add">Add</span>
+              </button>
+            </div>
+            <div class="col">
+              <button nbButton fullWidth outline status="basic" (click)="removeRole()">
+                <nb-icon icon="minus-circle-outline"></nb-icon><span i18n="@@remove">Remove</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-7">
+        <label i18n="@@description" for="roleDesc" class="label">Description</label>
+        <textarea id="roleDesc" [(ngModel)]="role.description"
+                  rows="5"
+                  nbInput
+                  fullWidth
+                  placeholder="Textarea"
+        ></textarea>
+      </div>
+    </div>
+
+    <div class="form-group" *ngFor="let _ of role.resources; let i = index">
+      <div class="row">
+        <div class="col-5">
+          <label i18n="@@resources" for="resources" class="label">Resources</label>
+          <nb-select id="resources" fullWidth placeholder="Choose Resource" [(selected)]="role.resources[i].name">
+            <nb-option i18n="@@notifications" value="notifications">Notifications</nb-option>
+            <nb-option i18n="@@search" value="search">Search</nb-option>
+            <nb-option i18n="@@dashboard" value="dashboard">Dashboard</nb-option>
+            <nb-option i18n="@@parcel" value="receive">Parcel</nb-option>
+            <nb-option i18n="@@kremo" value="request">Kremo</nb-option>
+            <nb-option i18n="@@user" value="users">User</nb-option>
+            <nb-option i18n="@@role" value="roles">Role</nb-option>
+            <nb-option i18n="@@inventory" value="inventory">Inventory</nb-option>
+            <nb-option i18n="@@routes" value="routes">Routes</nb-option>
+          </nb-select>
+        </div>
+        <div class="col-7">
+          <label i18n="@@resourcename" for="resources" class="label">Resource Name</label>
+          <div class="row">
+            <div class="col"><nb-toggle i18n="@@create" [(ngModel)]="role.resources[i].create">Create</nb-toggle></div>
+            <div class="col"><nb-toggle i18n="@@read" [(ngModel)]="role.resources[i].read">Read</nb-toggle></div>
+            <div class="col"><nb-toggle i18n="@@update" [(ngModel)]="role.resources[i].update">Update</nb-toggle></div>
+            <div class="col"><nb-toggle i18n="@@delete" [(ngModel)]="role.resources[i].delete">Delete</nb-toggle></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </nb-card-body>
+  <nb-card-footer>
+    <div class="row">
+      <div class="col-2"></div>
+      <div class="col-2"></div>
+      <div class="col-2"></div>
+      <div class="col-3">
+        <button nbButton fullWidth outline (click)="cancel()" status="basic" i18n="@@cancel">Cancel</button>
+      </div>
+      <div class="col-3">
+        <button nbButton fullWidth outline (click)="save()" i18n="@@save">Save</button>
+      </div>
+    </div>
+  </nb-card-footer>
+</nb-card>

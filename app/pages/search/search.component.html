@@ -1,0 +1,97 @@
+<nb-card accent="basic" [nbSpinner]="loading"
+         nbSpinnerStatus="basic"
+         nbSpinnerSize="large"
+         nbSpinnerMessage="{{loadingString}}">
+  <nb-card-header>
+    <div class="row">
+      <div class="col-md-4">
+        <h5 *ngIf="value"><span i18n="@@searchfor">Searched for:</span> {{value}}<button (click)="clearSearch()" nbButton ghost status="basic"><nb-icon icon="close-circle-outline"></nb-icon></button></h5>
+        <h5 *ngIf="!value" i18n="@@latestparcels">Latest parcels </h5>
+      </div>
+      <div class="col-md-8">
+        <input nbInput type="text" [(ngModel)]="value" placeholder="Search" i18n-placeholder="@@search">
+        <button (click)="filter()" nbButton outline>
+          <nb-icon icon="refresh-outline"></nb-icon>
+          <span i18n="@@search">Search</span>
+        </button>
+        <button (click)="exportAsXLSX()" nbButton outline status="info">
+          <nb-icon icon="cloud-download-outline"></nb-icon>
+          <span i18n="@@download">Download</span>
+        </button>
+
+          <nb-action icon="funnel-outline" (click)="filters = !filters"></nb-action>
+
+      </div>
+    </div>
+
+    <div class="row" *ngIf="filters">
+      <div class="col">
+        <div class="form-group">
+          <input fullWidth nbInput i18n-placeholder="@@pickdaterange" placeholder="Pick Date Range" [nbDatepicker]="range">
+          <nb-rangepicker #range (rangeChange)="dateRange($event)"></nb-rangepicker>
+        </div>
+      </div>
+      <div class="col">
+        <div class="form-group">
+          <nb-select fullWidth [(selected)]="sender" placeholder="Sender" i18n-placeholder="@@sender">
+            <nb-option [value]="''" i18n="@@none">None</nb-option>
+            <nb-option *ngFor="let u of userList" [value]="u.id">{{u.firstName + ' '+u.lastName}}</nb-option>
+          </nb-select>
+        </div>
+      </div>
+      <div class="col">
+        <div class="form-group">
+          <nb-select fullWidth [(selected)]="status" placeholder="Status" i18n-placeholder="@@status">
+            <nb-option [value]="''" i18n="@@none">None</nb-option>
+            <nb-option *ngFor="let status of statuses" [value]="status">{{status}}</nb-option>
+          </nb-select>
+        </div>
+      </div>
+    </div>
+
+  </nb-card-header>
+  <nb-card-body>
+    <table class="table table-hover">
+      <thead>
+      <tr>
+        <th scope="col" i18n="@@trackingno">Tracking #</th>
+        <th scope="col" i18n="@@type">Type</th>
+        <th scope="col" i18n="@@name">Name</th>
+        <th scope="col" i18n="@@sender">Sender</th>
+        <th scope="col" i18n="@@recipient">Recipient</th>
+        <th scope="col" i18n="@@created">Created</th>
+        <th scope="col" i18n="@@status">Status</th>
+        <th scope="col" i18n="@@lastupdate">Last Update</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr *ngFor="let p of parcels | ngxSortByDate" (click)="viewParcel(p.id)">
+        <td> <nb-icon *ngIf="p.confirmation" icon="edit-outline"></nb-icon> {{p.external? p.external : p.id}}</td>
+        <td>{{p.type}}</td>
+        <td>{{p.name}}</td>
+        <td>{{p.sender}}</td>
+        <td>{{p.recipient}}</td>
+        <td>{{p.created|date}}</td>
+        <td>{{p.statuses[0].type}}</td>
+        <td>{{p.statuses[0].dateTime| date}}</td>
+      </tr>
+      </tbody>
+    </table>
+  </nb-card-body>
+  <nb-card-footer>
+
+    <div class="row">
+      <div class="col text-right">
+        <nb-select [(selected)]="limit" (selectedChange)="limitChanged()">
+          <nb-option *ngFor="let l of [10, 20, 50, 100, 500]" [value]="l">{{l}}</nb-option>
+
+        </nb-select>
+        <button [disabled]="skip==0" nbButton ghost (click)="prev()"> <nb-icon icon="chevron-left"></nb-icon></button>
+        <button [disabled]="parcels.length < skip || parcels.length < limit" nbButton ghost (click)="next()"> <nb-icon icon="chevron-right"></nb-icon></button>
+
+      </div>
+    </div>
+
+  </nb-card-footer>
+</nb-card>
+

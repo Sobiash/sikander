@@ -1,0 +1,566 @@
+<div class="row">
+  <div class="col-12">
+    <nb-card>
+      <nb-card-body>
+        <div class="row">
+          <div class="col"><h2 i18n="@@receive">Receive</h2></div>
+          <!--
+          <div class="col-4">
+
+            <nb-select status="basic" fullWidth i18n-placeholder placeholder="From Template">
+              <nb-option i18n>Parcel</nb-option>
+              <nb-option i18n>Mail</nb-option>
+              <nb-option i18n>Asset</nb-option>
+              <nb-option i18n>Inventory</nb-option>
+            </nb-select>
+
+          </div>
+          <div class="col-2">
+
+            <button status="basic" nbButton outline i18n>
+              <nb-icon icon="upload-outline"></nb-icon>
+              Save as Template
+            </button>
+
+          </div>
+        -->
+          <div class="col text-right">
+            <button nbButton outline (click)="createParcel()">
+              <nb-icon icon="cloud-upload-outline"></nb-icon>
+              <span i18n="@@create">Create</span>
+            </button>
+          </div>
+        </div>
+
+      </nb-card-body>
+    </nb-card>
+  </div>
+  <div class="col-6" *ngIf="!parcelSize">
+    <nb-card>
+      <nb-card-header>
+        <div class="row">
+          <div class="col-6" i18n="@@packageinfo">Package Info</div>
+          <div class="col-6 text-right">
+            <button nbButton ghost>
+              <nb-icon icon="chevron-down-outline" (click)="smallParcel()"></nb-icon>
+            </button>
+          </div>
+        </div>
+      </nb-card-header>
+      <nb-card-body>
+
+        <div class="form-group">
+          <label i18n="@@trackingnumber" for="tracknos" class="label">Tracking number</label>
+          <div class="row">
+            <div class="col-8">
+              <input [(ngModel)]="parcel.id" autofocus id="tracknos" type="text" nbInput fullWidth></div>
+            <div class="col-4">
+              <button (click)="getTrackNo()" fullWidth nbButton outline status="basic" i18n="@@generate">Generate</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <div class="row">
+            <div class="col-4">
+              <label for="scourier" class="label" i18n="@@couriername">Courier Name</label>
+              <input id="scourier" nbInput fullWidth [(ngModel)]="parcel.courier">
+            </div>
+            <div class="col-4">
+              <label i18n="@@type" for="types" class="label">Type</label>
+              <nb-select id="types" fullWidth [(selected)]="parcel.type" [(ngModel)]="parcel.type">
+                <nb-option i18n="@@parcel" value="parcel">Parcel</nb-option>
+                <nb-option i18n="@@mail" value="mail">Mail</nb-option>
+                <nb-option i18n="@@asset" value="asset">Asset</nb-option>
+                <nb-option i18n="@@inventory" value="inventory">Inventory</nb-option>
+              </nb-select>
+            </div>
+            <div class="col-4">
+              <label i18n="@@subtype" for="subtypes" class="label">Sub-type</label>
+              <nb-select id="subtypes" fullWidth [(selected)]="parcel.subtype" [(ngModel)]="parcel.subtype">
+                <nb-option i18n="@@regular" value="regular">Regular</nb-option>
+                <nb-option i18n="@@fragile" value="fragile">Fragile</nb-option>
+                <nb-option i18n="@@hazardous" value="hazardous">hazardous</nb-option>
+                <nb-option i18n="@@liquids" value="liquids">liquids</nb-option>
+                <nb-option i18n="@@animal" value="animal">animal</nb-option>
+                <nb-option i18n="@@secure" value="secure">secure</nb-option>
+                <nb-option i18n="@@frozen" value="frozen">frozen</nb-option>
+                <nb-option i18n="@@heated" value="heated">heated</nb-option>
+                <nb-option i18n="@@chilled" value="chilled">chilled</nb-option>
+              </nb-select>
+            </div>
+          </div>
+        </div>
+      </nb-card-body>
+    </nb-card>
+  </div>
+  <div class="col-12" *ngIf="parcelSize">
+    <nb-card>
+      <nb-card-header>
+        <div class="row">
+          <div class="col-6" i18n="@@packageinfo">Package Info</div>
+          <div class="col-6 text-right">
+            <button nbButton ghost (click)="smallParcel()">
+              <nb-icon icon="chevron-up-outline"></nb-icon>
+            </button>
+          </div>
+        </div>
+      </nb-card-header>
+
+      <nb-card-body>
+        <div class="row">
+          <div class="col-4">
+            <div class="form-group">
+              <label i18n="@@trackingnumber" for="trackno" class="label">Tracking number</label>
+              <div class="row">
+                <div class="col-8">
+                  <input [(ngModel)]="parcel.id" id="trackno" type="text" nbInput fullWidth></div>
+                <div class="col-4">
+                  <button (click)="getTrackNo()" fullWidth nbButton outline status="basic" i18n="@@generate">Generate</button>
+                </div>
+              </div>
+
+            </div>
+            <div class="form-group">
+              <div class="row">
+                <div class="col-6">
+                  <label i18n="@@type" for="type" class="label">Type</label>
+                  <nb-select id="type" fullWidth [(selected)]="parcel.type" [(ngModel)]="parcel.type">
+                    <nb-option i18n="@@parcel" value="parcel">Parcel</nb-option>
+                    <nb-option i18n="@@mail" value="mail">Mail</nb-option>
+                    <nb-option i18n="@@asset" value="asset">Asset</nb-option>
+                    <nb-option i18n="@@inventory" value="inventory">Inventory</nb-option>
+                  </nb-select>
+                </div>
+                <div class="col-6">
+                  <label i18n="@@subtype" for="subtype" class="label">Sub-type</label>
+                  <nb-select id="subtype" fullWidth [(selected)]="parcel.subtype" [(ngModel)]="parcel.subtype">
+                    <nb-option i18n="@@regular" value="regular">Regular</nb-option>
+                    <nb-option i18n="@@fragile" value="fragile">Fragile</nb-option>
+                    <nb-option i18n="@@hazardous" value="hazardous">hazardous</nb-option>
+                    <nb-option i18n="@@liquids" value="liquids">liquids</nb-option>
+                    <nb-option i18n="@@animal" value="animal">animal</nb-option>
+                    <nb-option i18n="@@secure" value="secure">secure</nb-option>
+                    <nb-option i18n="@@frozen" value="frozen">frozen</nb-option>
+                    <nb-option i18n="@@heated" value="heated">heated</nb-option>
+                    <nb-option i18n="@@chilled" value="chilled">chilled</nb-option>
+                  </nb-select>
+                </div>
+              </div>
+
+            </div>
+            <div class="form-group">
+              <div class="row">
+                <div class="col-7">
+                  <label i18n="@@po" for="po" class="label">Purchase Order number</label>
+                  <input id="po" type="text" nbInput fullWidth [(ngModel)]="parcel.po">
+                </div>
+                <div class="col-5">
+                  <label i18n="@@priority" for="prio" class="label">Priority</label>
+                  <nb-select id="prio" [(selected)]="parcel.priority" fullWidth [(ngModel)]="parcel.priority">
+                    <nb-option i18n="@@low" value="low">Low</nb-option>
+                    <nb-option i18n="@@medium" value="medium">Medium</nb-option>
+                    <nb-option i18n="@@standard" value="standard">Standard</nb-option>
+                    <nb-option i18n="@@high" value="high">High</nb-option>
+                    <nb-option i18n="@@emergency" value="emergency">Emergency</nb-option>
+                  </nb-select>
+                </div>
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="row">
+                <div class="col-4">
+                  <nb-toggle id="pouch" [(ngModel)]="parcel.pouch" i18n="@@pouch" [(ngModel)]="parcel.pouch">Pouch</nb-toggle>
+                </div>
+                <div class="col-8">
+                  <label for="created" class="label" i18n="@@created">Created</label>
+                  <input [(ngModel)]="parcel.created" id="created" nbInput fullWidth [owlDateTime]="dt1"
+                         [owlDateTimeTrigger]="dt1" placeholder="Date Time" i18n-placeholder="@@datetime">
+                  <owl-date-time #dt1></owl-date-time>
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+          <div class="col-4">
+
+            <div class="form-group">
+              <label i18n="@@dimensions" class="label">Dimensions</label>
+              <div class="row">
+                <div class="col-4"><input [(ngModel)]="parcel.dimension.y" type="number" nbInput fullWidth
+                                          i18n-placeholder="@@height" placeholder="height"></div>
+                <div class="col-4"><input [(ngModel)]="parcel.dimension.x" type="number" nbInput fullWidth
+                                          i18n-placeholder="@@width" placeholder="width"></div>
+                <div class="col-4"><input [(ngModel)]="parcel.dimension.z" type="number" nbInput fullWidth
+                                          i18n-placeholder="@@depth" placeholder="depth"></div>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <div class="row">
+                <div class="col-6">
+                  <label i18n="@@unit" class="label" for="units">Unit</label>
+                  <nb-select id="units" fullWidth [(selected)]="parcel.dimension.unit"
+                             [(ngModel)]="parcel.dimension.unit">
+                    <nb-option i18n="@@millimeters" value="millimeters">Millimeters</nb-option>
+                    <nb-option i18n="@@centimeters" value="centimeters">Centimeters</nb-option>
+                    <nb-option i18n="@@meters" value="meters">Meters</nb-option>
+                    <nb-option i18n="@@inches" value="inches">Inches</nb-option>
+                    <nb-option i18n="@@feet" value="feet">Feet</nb-option>
+                  </nb-select>
+                </div>
+                <div class="col-6">
+                  <label i18n="@@status" class="label" for="status">Status</label>
+                  <nb-select id="status" fullWidth [(ngModel)]="parcel.statuses[0].type"
+                             [(selected)]="parcel.statuses[0].type">
+                    <nb-option [value]="s" *ngFor="let s of statuses">{{s}}</nb-option>
+                  </nb-select>
+                </div>
+              </div>
+
+            </div>
+            <div class="form-group">
+              <div class="row">
+                <div class="col-6">
+                  <label for="weight" i18n="@@weight" class="label">Weight</label>
+                  <input id="weight" type="number" [(ngModel)]="parcel.weight.amount" nbInput fullWidth>
+                </div>
+                <div class="col-6">
+                  <label for="wunit" i18n="@@unit" class="label">Unit</label>
+                  <nb-select id="wunit" fullWidth [(ngModel)]="parcel.weight.unit" [(selected)]="parcel.weight.unit">
+                    <nb-option i18n="@@kilograms" value="kg">Kilograms</nb-option>
+                    <nb-option i18n="@@grams" value="gram">Grams</nb-option>
+                    <nb-option i18n="@@tons" value="ton">Tons</nb-option>
+                    <nb-option i18n="@@pounds" value="pound">Pounds</nb-option>
+                  </nb-select>
+                </div>
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="row">
+                <div class="col-4">
+                  <label for="expiry" class="label" i18n="@@expire">Expire</label>
+                  <input type="number" nbInput id="expiry" [(ngModel)]="parcel.expiry.amount" fullWidth>
+                </div>
+                <div class="col-4">
+                  <label for="expunit" class="label" i18n="@@unit">Unit</label>
+                  <nb-select id="expunit" fullWidth [(selected)]="parcel.expiry.unit">
+                    <nb-option i18n="@@hours" value="hours">Hours</nb-option>
+                    <nb-option i18n="@@days" value="days">Days</nb-option>
+                    <nb-option i18n="@@months" value="months">Months</nb-option>
+                    <nb-option i18n="@@years" value="years">Years</nb-option>
+                  </nb-select>
+                </div>
+                <div class="col-4">
+                  <label class="label" i18n="@@manifest">Manifest</label>
+                  <button nbButton outline fullWidth i18n="@@browse" id="browse" status="basic">Browse</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="form-group">
+              <label for="name" class="label" i18n="@@packagename">Package Name</label>
+              <input nbInput id="name" [(ngModel)]="parcel.name" fullWidth i18n-placeholder="@@boxbikefolder"
+                     placeholder="e.g. box, bike, folder">
+            </div>
+            <div class="form-group">
+              <label for="description" class="label" i18n="@@description">Description</label>
+              <textarea rows="5" nbInput fullWidth id="description" [(ngModel)]="parcel.description"></textarea>
+            </div>
+            <div class="form-group">
+              <label for="courier" class="label" i18n="@@couriername">Courier Name</label>
+              <input id="courier" nbInput fullWidth [(ngModel)]="parcel.courier">
+            </div>
+          </div>
+
+        </div>
+      </nb-card-body>
+    </nb-card>
+  </div>
+
+  <div class="col-6" *ngIf="parcel.type == 'parcel' || parcel.type == 'mail'">
+    <nb-card>
+      <nb-card-header>
+        <div class="row">
+          <div class="col-6" i18n="@@deliverydetails">Delivery Details</div>
+          <div class="col-6 text-right">
+            <button nbButton ghost (click)="smallDelivery()">
+              <nb-icon *ngIf="!deliveryLarge" icon="chevron-down-outline"></nb-icon>
+              <nb-icon *ngIf="deliveryLarge" icon="chevron-up-outline"></nb-icon>
+            </button>
+          </div>
+        </div>
+
+      </nb-card-header>
+      <nb-card-body>
+        <div class="form-group">
+          <div class="row">
+            <div class="col-6">
+              <label for="sender" i18n="@@sender" class="label">Sender</label>
+              <input autocomplete="off" (keyup)="searchUser($event)" #searchSender (click)="sender=null"
+                     nbInput fullWidth id="sender" [value]="sender">
+              <span class="typeahead" *ngIf="searching == 'sender'">
+        <nb-alert *ngIf="loading" i18n="@@loading" status="basic">Loading...</nb-alert>
+        <nb-card *ngIf="users.length">
+      <nb-list>
+        <nb-list-item (click)="createSender(searchSender.value)" i18n="@@newsender">
+          New Sender
+        </nb-list-item>
+        <nb-list-item (click)="selectSender(u)" *ngFor="let u of users">
+          <nb-user [name]="u.firstName + ' ' + u.lastName" [title]="u.department + ', ' + u.site"></nb-user>
+        </nb-list-item>
+      </nb-list>
+    </nb-card>
+      </span>
+            </div>
+            <div class="col-6">
+              <label for="recipient" i18n="@@recipient" class="label">Recipient</label>
+              <input autocomplete="off" (click)="recipient=null" (keyup)="searchUser($event)"
+                     #searchRecipient nbInput fullWidth id="recipient" [value]="recipient">
+              <span class="typeahead" *ngIf="searching == 'recipient'">
+        <nb-alert *ngIf="loading" i18n="@@loading" status="basic">Loading...</nb-alert>
+        <nb-card *ngIf="users.length">
+      <nb-list>
+                <nb-list-item (click)="createRecipient(searchRecipient.value)" i18n="@@newrecipient">
+          New Recipient
+        </nb-list-item>
+        <nb-list-item (click)="selectRecipient(u)" *ngFor="let u of users">
+          <nb-user [name]="u.firstName + ' ' + u.lastName" [title]="u.department + ', ' + u.site"></nb-user>
+        </nb-list-item>
+      </nb-list>
+    </nb-card>
+      </span>
+            </div>
+          </div>
+        </div>
+        <div class="form-group" *ngIf="deliveryLarge">
+          <div class="row">
+            <div class="col-6">
+              <label for="return" i18n="@@return" class="label">Return</label>
+              <input autocomplete="off" [value]="return" (click)="return=null" (keyup)="searchUser($event)" nbInput fullWidth id="return">
+              <span class="typeahead" *ngIf="searching == 'return'">
+        <nb-alert *ngIf="loading" i18n="@@loading" status="basic">Loading...</nb-alert>
+        <nb-card *ngIf="users.length">
+      <nb-list>
+        <nb-list-item (click)="selectReturn(u)" *ngFor="let u of users">
+          <nb-user [name]="u.firstName + ' ' + u.lastName" [title]="u.department + ', ' + u.site"></nb-user>
+        </nb-list-item>
+      </nb-list>
+    </nb-card>
+      </span>
+            </div>
+            <div class="col-6">
+              <label for="alternative" i18n="@@alternativerecipient" class="label">Alternative Recipient</label>
+              <input autocomplete="off" [value]="alternative" (click)="alternative=null" (keyup)="searchUser($event)" nbInput fullWidth id="alternative">
+              <span class="typeahead" *ngIf="searching == 'alternative'">
+        <nb-alert *ngIf="loading" i18n="@@loading" status="basic">Loading...</nb-alert>
+        <nb-card *ngIf="users.length">
+      <nb-list>
+        <nb-list-item (click)="selectAlternative(u)" *ngFor="let u of users">
+          <nb-user [name]="u.firstName + ' ' + u.lastName" [title]="u.department + ', ' + u.site"></nb-user>
+        </nb-list-item>
+      </nb-list>
+    </nb-card>
+      </span>
+            </div>
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="row">
+            <div class="col-7">
+              <label for="site" i18n="@@site" class="label">Site</label>
+              <input nbInput fullWidth id="site">
+            </div>
+            <div class="col-5">
+              <label for="method" i18n="@@deliverymethod" class="label">Delivery Method</label>
+              <nb-select id="method" fullWidth [(selected)]="parcel.delivery">
+                <nb-option i18n="@@direct" value="direct">Direct</nb-option>
+                <nb-option i18n="@@location" value="location">Location</nb-option>
+                <nb-option i18n="@@warehouse" value="warehouse">Warehouse</nb-option>
+                <nb-option i18n="@@mailroom" value="mailroom">Mail room</nb-option>
+              </nb-select>
+            </div>
+          </div>
+        </div>
+      </nb-card-body>
+    </nb-card>
+  </div>
+
+  <div class="col-6" *ngIf="parcel.type=='inventory'">
+    <nb-card>
+      <nb-card-header>
+        <div class="row">
+          <div class="col-6" i18n="@@inventorydetails">Inventory Details</div>
+          <div class="col-6 text-right">
+            <button nbButton ghost (click)="inventorySmall()">
+              <nb-icon *ngIf="inventorySize" icon="chevron-up-outline"></nb-icon>
+              <nb-icon *ngIf="!inventorySize" icon="chevron-down-outline"></nb-icon>
+            </button>
+          </div>
+        </div>
+      </nb-card-header>
+      <nb-card-body>
+        <div class="form-group">
+          <div class="row">
+            <div class="col-4"><label i18n="@@inventoryid" class="label" for="iid">Inventory Id</label></div>
+            <div class="col-2"></div>
+            <div class="col-3"><label i18n="@@amount" class="label" for="iamount">Amount</label></div>
+            <div class="col-3"></div>
+          </div>
+          <div class="row">
+            <div class="col-4">
+              <input nbInput fullWidth id="iid">
+            </div>
+            <div class="col-2">
+              <button nbButton fullWidth status="basic" i18n="@@new">New</button>
+            </div>
+            <div class="col-3">
+              <input nbInput fullWidth id="iamount">
+            </div>
+            <div class="col-3">
+              <nb-select fullWidth [(selected)]="inventory.multiple.unit">
+                <nb-option value="items" i18n="@@items">Items</nb-option>
+                <nb-option value="kg" i18n="@@kilos">Kilos</nb-option>
+                <nb-option value="meter" i18n="@@meters">Meters</nb-option>
+                <nb-option value="litre" i18n="@@litre">Litre</nb-option>
+              </nb-select>
+            </div>
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="row">
+            <div class="col-6">
+              <label for="plu" class="label" i18n="@@sku">SKU</label>
+              <input nbInput fullWidth id="plu">
+            </div>
+            <div class="col-6">
+              <label for="iname" class="label" i18n="@@inventoryname">Inventory Name</label>
+              <input nbInput fullWidth id="iname">
+            </div>
+          </div>
+        </div>
+        <div class="form-group" *ngIf="inventorySize">
+          <div class="row">
+            <div class="col-12">
+              <label for="idesc" class="label" i18n="@@inventorydescription">Inventory Description</label>
+              <textarea nbInput fullWidth id="idesc" rows="4"></textarea>
+            </div>
+          </div>
+        </div>
+
+        <div class="form-group" *ngIf="inventorySize">
+          <label class="label" i18n="@@location">Location</label>
+          <div class="row">
+            <div class="col-8">
+              <input nbInput fullWidth i18n-placeholder="@@locationcodeorname" placeholder="Location Code or Name">
+            </div>
+            <div class="col-4">
+              <input nbInput fullWidth i18n-placeholder="@@isle" placeholder="Isle">
+
+            </div>
+          </div>
+        </div>
+
+        <div class="form-group" *ngIf="inventorySize">
+          <div class="row">
+            <div class="col-4">
+              <input nbInput fullWidth i18n-placeholder="@@row" placeholder="Row">
+            </div>
+            <div class="col-4">
+              <input nbInput fullWidth i18n-placeholder="@@shelf" placeholder="Shelf">
+            </div>
+            <div class="col-4">
+              <input nbInput fullWidth i18n-placeholder="@@compartment" placeholder="Compartment">
+            </div>
+          </div>
+        </div>
+
+        <div class="form-group" *ngIf="inventorySize">
+          <div class="row">
+            <div class="col-4">
+              <label for="iweight" i18n="@@weight" class="label">Weight</label>
+              <input id="iweight" nbInput fullWidth>
+            </div>
+            <div class="col-4">
+              <label for="iwunit" i18n="@@unit" class="label">Unit</label>
+              <nb-select id="iwunit" fullWidth [(selected)]="inventory.location[0].weight.unit">
+                <nb-option i18n="@@kilograms" value="kg">Kilograms</nb-option>
+                <nb-option i18n="@@grams" value="gram">Grams</nb-option>
+                <nb-option i18n="@@tons" value="ton">Tons</nb-option>
+                <nb-option i18n="@@pound" value="pound">Pound</nb-option>
+              </nb-select>
+            </div>
+            <div class="col-4">
+              <nb-toggle [(ngModel)]="inventory.seasonable" i18n="@@seasonable">Seasonable</nb-toggle>
+            </div>
+          </div>
+        </div>
+        <div class="form-group" *ngIf="inventorySize">
+          <label i18n="@@dimensions" class="label">Dimensions</label>
+          <div class="row">
+            <div class="col-3"><input type="text" nbInput fullWidth i18n-placeholder="@@height" placeholder="height"></div>
+            <div class="col-3"><input type="text" nbInput fullWidth i18n-placeholder="@@width" placeholder="width"></div>
+            <div class="col-3"><input type="text" nbInput fullWidth i18n-placeholder="@@depth" placeholder="depth"></div>
+            <div class="col-3">
+              <nb-select fullWidth [(selected)]="inventory.location[0].dimensions.unit">
+                <nb-option i18n="@@millimeters" value="millimeters">Millimeters</nb-option>
+                <nb-option i18n="@@centimeters" value="centimeters">Centimeters</nb-option>
+                <nb-option i18n="@@meters" value="meters">Meters</nb-option>
+                <nb-option i18n="@@inches" value="inches">Inches</nb-option>
+                <nb-option i18n="@@feet" value="feet">Feet</nb-option>
+              </nb-select>
+            </div>
+          </div>
+        </div>
+        <div class="form-group" *ngIf="inventorySize">
+          <div class="row">
+            <div class="col-4">
+              <label for="igross" class="label" i18n="@@grosvalue">Gross Value</label>
+              <input nbInput fullWidth id="igross">
+            </div>
+            <div class="col-4">
+              <label i18n="@@tax" for="itax" class="label">Tax</label>
+              <nb-select fullWidth id="itax" [(selected)]="inventory.price.tax">
+                <nb-option value="0">0</nb-option>
+                <nb-option value="0.08">8%</nb-option>
+                <nb-option value="0.12">12%</nb-option>
+                <nb-option value="0.23">23%</nb-option>
+              </nb-select>
+            </div>
+            <div class="col-4">
+              <label for="inet" class="label" i18n="@@netvalue">Net Value</label>
+              <input nbInput fullWidth id="inet">
+            </div>
+
+          </div>
+        </div>
+        <div class="form-group" *ngIf="inventorySize">
+          <div class="row">
+            <div class="col-4">
+              <label for="imargin" class="label" i18n="@@margin">Margin</label>
+              <input nbInput fullWidth id="imargin" [(ngModel)]="inventory.price.margin">
+            </div>
+            <div class="col-4">
+              <label for="itotal" class="label" i18n="@@totalvalue">Total Value</label>
+              <input nbInput fullWidth id="itotal">
+            </div>
+            <div class="col-4">
+              <label for="icurrency" i18n="@@currency" class="label">Currency</label>
+              <nb-select fullWidth id="icurrency" [(selected)]="inventory.price.currency">
+                <nb-option value="sek">SEK</nb-option>
+                <nb-option value="nok">NOK</nb-option>
+                <nb-option value="dkk">DKK</nb-option>
+                <nb-option value="eur">EUR</nb-option>
+                <nb-option value="usd">USD</nb-option>
+              </nb-select>
+            </div>
+          </div>
+        </div>
+      </nb-card-body>
+    </nb-card>
+  </div>
+
+</div>

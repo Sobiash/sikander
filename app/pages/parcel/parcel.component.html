@@ -1,0 +1,99 @@
+<nb-card>
+  <nb-card-body>
+    <nb-tabset>
+      <nb-tab tabTitle="Log" tabIcon="car-outline">
+      <div class="row">
+          <div class="col">
+
+              <div class="timeline">
+                <div class="timeline__group">
+                  <div class="timeline__box">
+                    <div class="timeline__date">
+                      <span class="timeline__day">
+                        {{parcel.external ? parcel.external : parcel.id}}
+                      </span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="timeline__group">
+                  <div class="timeline__box"  *ngFor="let log of parcel.statuses; let i = index">
+                    <div class="timeline__date">
+                      <span class="timeline__day">{{log.dateTime| date: 'd'}}</span>
+                      <span class="timeline__month">{{log.dateTime| date: 'LLL'}}</span>
+                      <span class="timeline__time">{{log.dateTime| date: 'HH:mm:ss'}}</span>
+                      <span class="timeline__status">{{log.type}}</span>
+                    </div>
+                    <div class="timeline__post">
+                      <div class="timeline__content">
+                        <p>{{log.note}}</p>
+                        <i>@<ngx-display-user [id]="log.by"></ngx-display-user></i>
+                        <div *ngIf="parcel.confirmation && i==0">
+                          <label class="label" i18n="label|for signature box @@signature">Signature</label>
+                          <img *ngIf="signature.id" src="data:image/jpeg;base64,{{signature.content}}" alt="No signature">
+                        </div>
+                        <div class="photo" *ngFor="let p of photos">
+                          <img *ngIf="log.photos.includes(p.id)" src="data:image/jpeg;base64,{{p.content}}" alt="No signature">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+
+          </div>
+        <div class="col">
+          <div class="form-group text-right">
+            <button (click)="back()" nbButton outline status="basic">
+              <nb-icon icon="undo-outline"></nb-icon>
+              <span i18n="button|go back @@back">Back</span>
+            </button>
+            <button class="left-margin" (click)="printBarcode()" nbButton outline status="basic">
+              <nb-icon icon="printer-outline"></nb-icon>
+              <span i18n="button|show barcode print label @@barcode">Barcode</span>
+            </button>
+            <button class="left-margin" (click)="openLog()" nbButton outline status="primary">
+              <nb-icon icon="plus-outline"></nb-icon>
+              <span i18n="button|add new status log @@log">Log</span>
+            </button>
+          </div>
+          <div [nbSpinner]="loading" class="map" id="map"></div>
+        </div>
+        </div>
+      </nb-tab>
+      <nb-tab tabTitle="Parcel" [tabTitle]="parcelLabel" tabIcon="clipboard-outline">
+        <div class="row">
+          <div class="col text-left">
+            <div class="form-group">
+              <h5>
+                <ng-container i18n="@@requestcremation">Requisition Number:</ng-container>
+                {{parcel.external ? parcel.external : parcel.id}}</h5>
+            </div>
+          </div>
+          <div class="col text-right">
+            <div class="form-group">
+            <button *ngIf="disabled" (click)="back()" nbButton outline status="basic">
+              <nb-icon icon="undo-outline"></nb-icon>
+              <span i18n="button|go back @@back">Back</span>
+            </button>
+            <button class="left-margin" *ngIf="disabled" (click)="disabled=!disabled" nbButton outline status="basic">
+              <nb-icon icon="edit-outline"></nb-icon>
+              <span i18n="button|edit parcel @@edit">Edit</span>
+            </button>
+            <button class="left-margin" *ngIf="!disabled" (click)="disabled=!disabled" nbButton outline status="warning">
+              <nb-icon icon="close-outline"></nb-icon>
+              <span i18n="button|cancel form @@cancel">Cancel</span>
+            </button>
+            <button class="left-margin" *ngIf="!disabled" (click)="save()" nbButton outline status="success">
+              <nb-icon icon="save-outline"></nb-icon>
+              <span i18n="button|save form @@save">Save</span>
+            </button>
+          </div></div>
+        </div>
+        <ngx-kremo-edit-view *ngIf="!loading" [parcel]="parcel" [disabled]="disabled"></ngx-kremo-edit-view>
+            <!-- <ngx-edit-view #edit *ngIf="!loading" [parcel]="parcel" [disabled]="disabled"></ngx-edit-view> -->
+      </nb-tab>
+    </nb-tabset>
+  </nb-card-body>
+</nb-card>

@@ -1,0 +1,29 @@
+
+  <nb-card [nbSpinner]="loading" nbSpinnerStatus="basic" accent="basic">
+    <nb-card-header>
+      <div class="row">
+        <div class="col"><h5 i18n="@@myparcels">My Parcels</h5></div>
+        <div class="col">
+          <input nbInput fullWidth i18n-placeholder="@@pickdaterange" placeholder="Pick Date Range" [nbDatepicker]="range">
+          <nb-rangepicker #range (rangeChange)="dateRange($event)"></nb-rangepicker>
+        </div>
+      </div>
+    </nb-card-header>
+    <nb-card-body>
+        <ngx-parcels [parcels]="parcels"></ngx-parcels>
+    </nb-card-body>
+    <nb-card-footer>
+      <div class="row">
+        <div class="col text-right">
+          <nb-select [(selected)]="limit" (selectedChange)="limitChanged()">
+            <nb-option *ngFor="let l of [10, 20, 50, 100, 500]" [value]="l">{{l}}</nb-option>
+
+          </nb-select>
+          <button [disabled]="skip==0" nbButton ghost (click)="prev()"> <nb-icon icon="chevron-left"></nb-icon></button>
+            <button [disabled]="parcels.length < skip || parcels.length < limit" nbButton ghost (click)="next()"> <nb-icon icon="chevron-right"></nb-icon></button>
+
+        </div>
+      </div>
+    </nb-card-footer>
+  </nb-card>
+

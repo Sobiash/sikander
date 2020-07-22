@@ -1,0 +1,31 @@
+<div class="header-container">
+  <div class="logo-container">
+    <a (click)="toggleSidebar()" href="#" class="sidebar-toggle">
+      <nb-icon icon="menu-2-outline"></nb-icon>
+    </a>
+    <a class="logo" href="#" (click)="navigateHome()">
+    <!-- <img src="assets/images/azolver-white-logo.svg"> -->
+      <img src="assets/images/kremo-logo-white.png">
+    </a>
+  </div>
+
+
+</div>
+
+<div class="header-container">
+  <nb-actions size="small">
+
+    <nb-action class="control-item fade">
+      <nb-search (click)="goToSearch()" type="rotate-layout"></nb-search>
+    </nb-action>
+    <nb-action class="control-item fade" icon="email-outline"></nb-action>
+    <nb-action class="control-item fade" icon="bell-outline"></nb-action>
+    <nb-action class="user-action" *nbIsGranted="['view', 'user']" >
+      <nb-user [nbContextMenu]="userMenu"
+               onlyPicture
+               nbContextMenuTag="user-context-menu"
+               [name]="user?.unique_name" onlyPicture>
+      </nb-user>
+    </nb-action>
+  </nb-actions>
+</div>

@@ -1,0 +1,9 @@
+span.typeahead {
+  display: block;
+  position: fixed;
+  z-index: 1;
+}
+nb-list-item:hover {
+  cursor:pointer;
+  filter: invert(30%);
+}

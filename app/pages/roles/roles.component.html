@@ -1,0 +1,115 @@
+<div class="row">
+  <div class="col">
+    <nb-card accent="basic" [nbSpinner]="loading"
+             nbSpinnerStatus="basic"
+             nbSpinnerSize="large"
+             nbSpinnerMessage="{{loadingString}}">
+      <nb-card-body>
+        <div class="row">
+          <div class="col"><h2 i18n="@@roles">Roles</h2></div>
+          <div class="col text-right">
+            <button nbButton outline (click)="newRole()">
+              <nb-icon icon="plus-outline"></nb-icon>
+              <span i18n="@@new">New</span>
+            </button>
+          </div>
+        </div>
+      </nb-card-body>
+    </nb-card>
+  </div>
+
+</div>
+<div class="row">
+  <div class="col" *ngIf="!loading">
+    <nb-card size="large">
+      <nb-list>
+        <nb-list-item *ngFor="let r of roles">
+          <div class="row">
+            <div class="col">
+              <nb-user [name]="r.name" [title]="r.description"></nb-user>
+            </div>
+            <div class="col text-right">
+              <button (click)="viewRole(r)" size="large" nbButton ghost status="basic">
+                <nb-icon status="basic" icon="eye-outline"></nb-icon>
+              </button>
+              <button (click)="editRole(r)" size="large" nbButton ghost status="basic">
+                <nb-icon status="basic" icon="edit-2-outline"></nb-icon>
+              </button>
+              <button (click)="delete(r.id)" size="large" nbButton ghost status="basic">
+                <nb-icon status="basic" icon="trash-2-outline"></nb-icon>
+              </button>
+            </div>
+          </div>
+        </nb-list-item>
+      </nb-list>
+    </nb-card>
+  </div>
+  <div class="col" *ngIf="edit">
+    <ngx-edit [role]="role" (status)="editEnabled($event)"></ngx-edit>
+  </div>
+  <div class="col" *ngIf="view">
+    <nb-card>
+      <nb-card-header>
+        <div class="row">
+          <div class="col">{{role.name}}</div>
+          <div class="col text-right">
+            <button nbButton ghost status="basic" (click)="view = false">
+              <nb-icon icon="close-outline"></nb-icon>
+            </button>
+          </div>
+        </div>
+      </nb-card-header>
+      <nb-card-body>
+        <div class="row">
+
+          <div class="col">
+            <label i18n="@@description" class="label">Description</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+    <span class="paragraph-2">
+              {{role.description}}
+            </span>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <table class="table table-borderless table-hover">
+              <thead>
+              <tr>
+                <th scope="col" class="label" i18n="@@resource">Resource</th>
+                <th scope="col" class="label" i18n="@@create">Create</th>
+                <th scope="col" class="label" i18n="@@read">Read</th>
+                <th scope="col" class="label" i18n="@@update">Update</th>
+                <th scope="col" class="label" i18n="@@delete">Delete</th>
+              </tr>
+              </thead>
+              <tbody>
+              <tr *ngFor="let _ of role.resources; let i = index">
+                <th scope="row">{{role.resources[i].name}}</th>
+                <td>
+                  <nb-icon icon="checkmark-outline" *ngIf="role.resources[i].create"></nb-icon>
+                </td>
+                <td>
+                  <nb-icon icon="checkmark-outline" *ngIf="role.resources[i].read"></nb-icon>
+                </td>
+                <td>
+                  <nb-icon icon="checkmark-outline" *ngIf="role.resources[i].update"></nb-icon>
+                </td>
+                <td>
+                  <nb-icon icon="checkmark-outline" *ngIf="role.resources[i].delete"></nb-icon>
+                </td>
+              </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+
+      </nb-card-body>
+    </nb-card>
+
+  </div>
+</div>
+

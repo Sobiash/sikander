@@ -1,0 +1,22 @@
+textarea {
+  max-height: 8.3em;
+}
+div .plnp {
+  padding-left: 0;
+}
+div .prnp {
+  padding-right: 0;
+}
+nb-toggle {
+  position: absolute;
+  bottom: 0;
+}
+span.typeahead {
+  display: block;
+  position: fixed;
+  z-index: 1;
+}
+nb-list-item:hover {
+  cursor:pointer;
+  filter: invert(30%);
+}

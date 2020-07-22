@@ -1,0 +1,3479 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en-US" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="200" datatype="html">
+        <source>200 paper box (hearth)</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apps/kremo/kremo.component.html</context>
+          <context context-type="linenumber">161</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apps/kremo/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">139</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="201" datatype="html">
+        <source>201 plastic</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apps/kremo/kremo.component.html</context>
+          <context context-type="linenumber">169</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apps/kremo/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">147</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="240" datatype="html">
+        <source>240 standard for heart 250 gold</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apps/kremo/kremo.component.html</context>
+          <context context-type="linenumber">164</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apps/kremo/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">142</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="245" datatype="html">
+        <source>240 velvet leather for heart 250 heart</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apps/kremo/kremo.component.html</context>
+          <context context-type="linenumber">165</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apps/kremo/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">143</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="250" datatype="html">
+        <source>250 heart (under 3kg) black</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apps/kremo/kremo.component.html</context>
+          <context context-type="linenumber">163</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apps/kremo/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">141</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="260" datatype="html">
+        <source>260 heart (under 10kg) black</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apps/kremo/kremo.component.html</context>
+          <context context-type="linenumber">166</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apps/kremo/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">144</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="265" datatype="html">
+        <source>265 stand for heart 260 gold</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apps/kremo/kremo.component.html</context>
+          <context context-type="linenumber">167</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apps/kremo/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">145</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="270" datatype="html">
+        <source>270 velvet gold 360 heart</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apps/kremo/kremo.component.html</context>
+          <context context-type="linenumber">168</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apps/kremo/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">146</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="310" datatype="html">
+        <source>310 degradable under 10kg</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apps/kremo/kremo.component.html</context>
+          <context context-type="linenumber">95</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apps/kremo/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">73</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="330" datatype="html">
+        <source>330 degradable over 10kg</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apps/kremo/kremo.component.html</context>
+          <context context-type="linenumber">96</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apps/kremo/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">74</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="340" datatype="html">
+        <source>340 degradable over 10kg</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apps/kremo/kremo.component.html</context>
+          <context context-type="linenumber">97</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apps/kremo/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">75</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="360" datatype="html">
+        <source>360 degradable over 65kg</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apps/kremo/kremo.component.html</context>
+          <context context-type="linenumber">98</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apps/kremo/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">76</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="700" datatype="html">
+        <source>700 ceramic small (20kg)</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apps/kremo/kremo.component.html</context>
+          <context context-type="linenumber">99</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apps/kremo/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">77</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="710" datatype="html">
+        <source>710 ceramic medium (60kg)</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apps/kremo/kremo.component.html</context>
+          <context context-type="linenumber">100</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apps/kremo/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">78</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="720" datatype="html">
+        <source>720 ceramic big (90kg)</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apps/kremo/kremo.component.html</context>
+          <context context-type="linenumber">101</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apps/kremo/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">79</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="800" datatype="html">
+        <source>800 brass small (under 10kg)</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apps/kremo/kremo.component.html</context>
+          <context context-type="linenumber">102</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apps/kremo/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">80</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="810" datatype="html">
+        <source>810 brass medium (under 25kg)</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apps/kremo/kremo.component.html</context>
+          <context context-type="linenumber">103</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apps/kremo/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">81</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="820" datatype="html">
+        <source>820 brass large (under 50kg)</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apps/kremo/kremo.component.html</context>
+          <context context-type="linenumber">104</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apps/kremo/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">82</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="830" datatype="html">
+        <source>830 brass extra large (under 90kg)</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apps/kremo/kremo.component.html</context>
+          <context context-type="linenumber">105</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apps/kremo/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">83</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="840" datatype="html">
+        <source>840 brass small oval (under 15kg)</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apps/kremo/kremo.component.html</context>
+          <context context-type="linenumber">106</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apps/kremo/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">84</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="850" datatype="html">
+        <source>850 brass medium oval (under 30kg)</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apps/kremo/kremo.component.html</context>
+          <context context-type="linenumber">107</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apps/kremo/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">85</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="860" datatype="html">
+        <source>860 brass large oval (under 65kg)</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apps/kremo/kremo.component.html</context>
+          <context context-type="linenumber">108</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apps/kremo/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">86</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="870" datatype="html">
+        <source>870 brass extra large oval (under 65kg)</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apps/kremo/kremo.component.html</context>
+          <context context-type="linenumber">109</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apps/kremo/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">87</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="900" datatype="html">
+        <source>900 Ash jewelery heart and silver</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apps/kremo/kremo.component.html</context>
+          <context context-type="linenumber">170</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apps/kremo/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">148</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="910" datatype="html">
+        <source>910 steel with pawprint</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apps/kremo/kremo.component.html</context>
+          <context context-type="linenumber">171</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apps/kremo/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">149</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="915" datatype="html">
+        <source>915 gilded with stone decoration</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apps/kremo/kremo.component.html</context>
+          <context context-type="linenumber">172</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apps/kremo/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">150</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="930" datatype="html">
+        <source>930 Ash jewelery with special glass order</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apps/kremo/kremo.component.html</context>
+          <context context-type="linenumber">173</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apps/kremo/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">151</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2542" datatype="html">
+        <source>2542 black (metal)</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apps/kremo/kremo.component.html</context>
+          <context context-type="linenumber">162</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apps/kremo/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">140</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="copyrights" datatype="html">
+        <source>Copyrights protected</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/@theme/components/footer/footer.component.ts</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="cecbd67ca43d629e7f6f6f15dcbf2220bda9af2b" datatype="html">
+        <source>Type your search request here...</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/@theme/components/search-input/search-input.component.ts</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="signin" datatype="html">
+        <source>Sign In</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/auth/login/login.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ohsnap" datatype="html">
+        <source>Oh snap!</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/auth/login/login.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="hooray" datatype="html">
+        <source>Hooray!</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/auth/login/login.component.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="emailaddress" datatype="html">
+        <source>Email address:</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/auth/login/login.component.html</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="emailisrequired" datatype="html">
+        <source>
+        Email is required!
+      </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/auth/login/login.component.html</context>
+          <context context-type="linenumber">35</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="emailshouldbetherealone" datatype="html">
+        <source>
+        Email should be the real one!
+      </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/auth/login/login.component.html</context>
+          <context context-type="linenumber">38</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="password" datatype="html">
+        <source>Password:</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/auth/login/login.component.html</context>
+          <context context-type="linenumber">45</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/profile/profile.component.html</context>
+          <context context-type="linenumber">155</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/new-user/new-user.component.html</context>
+          <context context-type="linenumber">63</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/edit-user/edit-user.component.html</context>
+          <context context-type="linenumber">180</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="passwordisrequired" datatype="html">
+        <source>
+        Password is required!
+      </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/auth/login/login.component.html</context>
+          <context context-type="linenumber">60</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="passwordshouldcontain" datatype="html">
+        <source>Password should contains</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/auth/login/login.component.html</context>
+          <context context-type="linenumber">64</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="from" datatype="html">
+        <source>from</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/auth/login/login.component.html</context>
+          <context context-type="linenumber">65</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/barcode/barcode.component.html</context>
+          <context context-type="linenumber">40</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="to" datatype="html">
+        <source>to</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/auth/login/login.component.html</context>
+          <context context-type="linenumber">66</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/barcode/barcode.component.html</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="characters" datatype="html">
+        <source>characters</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/auth/login/login.component.html</context>
+          <context context-type="linenumber">67</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="rememberme" datatype="html">
+        <source>Remember me</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/auth/login/login.component.html</context>
+          <context context-type="linenumber">73</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="forgotpassword" datatype="html">
+        <source>Forgot Password?</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/auth/login/login.component.html</context>
+          <context context-type="linenumber">74</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="a8fa187b3cd234f7436e3f26284753854001a43e" datatype="html">
+        <source>
+    Sign In
+  </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/auth/login/login.component.html</context>
+          <context context-type="linenumber">81</context>
+        </context-group>
+        <note priority="1" from="description">@signin</note>
+      </trans-unit>
+      <trans-unit id="donthaveanaccount" datatype="html">
+        <source>Don&apos;t have an account?</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/auth/login/login.component.html</context>
+          <context context-type="linenumber">89</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="signup" datatype="html">
+        <source>Sign Up</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/auth/login/login.component.html</context>
+          <context context-type="linenumber">89</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="requestcremation" datatype="html">
+        <source>Requisition Number:</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apps/kremo/kremo.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/parcel.component.html</context>
+          <context context-type="linenumber">70</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="save" datatype="html">
+        <source>Save</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apps/kremo/kremo.component.html</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/profile/profile.component.html</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/new-user/new-user.component.html</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/edit-user/edit-user.component.html</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/roles/new/new-role.component.html</context>
+          <context context-type="linenumber">79</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/parcel.component.html</context>
+          <context context-type="linenumber">90</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/notifications/notifications.component.html</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/roles/edit/edit.component.html</context>
+          <context context-type="linenumber">84</context>
+        </context-group>
+        <note priority="1" from="description">Confirmation</note>
+        <note priority="1" from="meaning">button</note>
+      </trans-unit>
+      <trans-unit id="animaldetails" datatype="html">
+        <source>
+        Animal details
+      </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apps/kremo/kremo.component.html</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apps/kremo/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="animaltype" datatype="html">
+        <source>Animal type</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apps/kremo/kremo.component.html</context>
+          <context context-type="linenumber">34</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apps/kremo/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dog" datatype="html">
+        <source>Dog</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apps/kremo/kremo.component.html</context>
+          <context context-type="linenumber">36</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apps/kremo/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="cat" datatype="html">
+        <source>Cat</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apps/kremo/kremo.component.html</context>
+          <context context-type="linenumber">37</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apps/kremo/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="bird" datatype="html">
+        <source>Bird</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apps/kremo/kremo.component.html</context>
+          <context context-type="linenumber">38</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apps/kremo/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="reptile" datatype="html">
+        <source>Reptile</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apps/kremo/kremo.component.html</context>
+          <context context-type="linenumber">39</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apps/kremo/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="other" datatype="html">
+        <source>Other</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apps/kremo/kremo.component.html</context>
+          <context context-type="linenumber">40</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apps/kremo/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="cremation" datatype="html">
+        <source>Cremation</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apps/kremo/kremo.component.html</context>
+          <context context-type="linenumber">44</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apps/kremo/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">22</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="single" datatype="html">
+        <source>Single</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apps/kremo/kremo.component.html</context>
+          <context context-type="linenumber">46</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apps/kremo/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="joined" datatype="html">
+        <source>Joined</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apps/kremo/kremo.component.html</context>
+          <context context-type="linenumber">47</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apps/kremo/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="payer" datatype="html">
+        <source>Payer</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apps/kremo/kremo.component.html</context>
+          <context context-type="linenumber">51</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apps/kremo/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">29</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="owner" datatype="html">
+        <source>Owner</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apps/kremo/kremo.component.html</context>
+          <context context-type="linenumber">53</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apps/kremo/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">31</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="clinic" datatype="html">
+        <source>Clinic</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apps/kremo/kremo.component.html</context>
+          <context context-type="linenumber">54</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apps/kremo/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">32</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="payment" datatype="html">
+        <source>Payment</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apps/kremo/kremo.component.html</context>
+          <context context-type="linenumber">58</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apps/kremo/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">36</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="vipps" datatype="html">
+        <source>VIPPS</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apps/kremo/kremo.component.html</context>
+          <context context-type="linenumber">60</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apps/kremo/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">38</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="invoice" datatype="html">
+        <source>Invoice</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apps/kremo/kremo.component.html</context>
+          <context context-type="linenumber">61</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apps/kremo/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">39</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="weight" datatype="html">
+        <source>Weight (kg)</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apps/kremo/kremo.component.html</context>
+          <context context-type="linenumber">72</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apps/kremo/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">50</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">227</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">484</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">218</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="bymail" datatype="html">
+        <source>Send by</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apps/kremo/kremo.component.html</context>
+          <context context-type="linenumber">76</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apps/kremo/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">54</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="mail" datatype="html">
+        <source>Mail</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apps/kremo/kremo.component.html</context>
+          <context context-type="linenumber">78</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apps/kremo/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">56</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">73</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">130</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="courier" datatype="html">
+        <source>Courier</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apps/kremo/kremo.component.html</context>
+          <context context-type="linenumber">79</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apps/kremo/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">57</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="engravings" datatype="html">
+        <source>Engravings</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apps/kremo/kremo.component.html</context>
+          <context context-type="linenumber">84</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apps/kremo/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">62</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="urn" datatype="html">
+        <source>Urn type</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apps/kremo/kremo.component.html</context>
+          <context context-type="linenumber">93</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apps/kremo/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">71</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apps/kremo/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">136</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="color" datatype="html">
+        <source>Color</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apps/kremo/kremo.component.html</context>
+          <context context-type="linenumber">113</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apps/kremo/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">91</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="white" datatype="html">
+        <source>
+                  White
+                </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apps/kremo/kremo.component.html</context>
+          <context context-type="linenumber">115</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apps/kremo/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">93</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="atumnred" datatype="html">
+        <source>Atumn Red
+                </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apps/kremo/kremo.component.html</context>
+          <context context-type="linenumber">119</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apps/kremo/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">97</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="blue" datatype="html">
+        <source>
+                  Blue
+                </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apps/kremo/kremo.component.html</context>
+          <context context-type="linenumber">121</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apps/kremo/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">99</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="grey" datatype="html">
+        <source>
+                  Grey
+                </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apps/kremo/kremo.component.html</context>
+          <context context-type="linenumber">124</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apps/kremo/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">102</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="beige" datatype="html">
+        <source>
+                  Beige
+                </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apps/kremo/kremo.component.html</context>
+          <context context-type="linenumber">127</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apps/kremo/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">105</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="green" datatype="html">
+        <source>
+                  Green
+                </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apps/kremo/kremo.component.html</context>
+          <context context-type="linenumber">130</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apps/kremo/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">108</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="brown" datatype="html">
+        <source>
+                  Brown
+                </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apps/kremo/kremo.component.html</context>
+          <context context-type="linenumber">133</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apps/kremo/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">111</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="black" datatype="html">
+        <source>Black
+                </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apps/kremo/kremo.component.html</context>
+          <context context-type="linenumber">138</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apps/kremo/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">116</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="sand" datatype="html">
+        <source>
+                  Sand
+                </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apps/kremo/kremo.component.html</context>
+          <context context-type="linenumber">140</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apps/kremo/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">118</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="graystone" datatype="html">
+        <source>Gray
+                  Stone
+                </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apps/kremo/kremo.component.html</context>
+          <context context-type="linenumber">144</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apps/kremo/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">122</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="offwhite" datatype="html">
+        <source>Off White
+                </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apps/kremo/kremo.component.html</context>
+          <context context-type="linenumber">148</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apps/kremo/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">126</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="steel" datatype="html">
+        <source>Steel</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apps/kremo/kremo.component.html</context>
+          <context context-type="linenumber">150</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apps/kremo/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">128</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="urnaddon" datatype="html">
+        <source>Urn add-ons</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apps/kremo/kremo.component.html</context>
+          <context context-type="linenumber">158</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="decoration" datatype="html">
+        <source>Decoration</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apps/kremo/kremo.component.html</context>
+          <context context-type="linenumber">177</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apps/kremo/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">155</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="rose" datatype="html">
+        <source>Rose</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apps/kremo/kremo.component.html</context>
+          <context context-type="linenumber">180</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apps/kremo/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">158</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="lily" datatype="html">
+        <source>Lily</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apps/kremo/kremo.component.html</context>
+          <context context-type="linenumber">181</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apps/kremo/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">159</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dove" datatype="html">
+        <source>Dove</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apps/kremo/kremo.component.html</context>
+          <context context-type="linenumber">182</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apps/kremo/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">160</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ownerdetails" datatype="html">
+        <source>
+        Owner details
+      </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apps/kremo/kremo.component.html</context>
+          <context context-type="linenumber">192</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apps/kremo/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">169</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="email" datatype="html">
+        <source>Email</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apps/kremo/kremo.component.html</context>
+          <context context-type="linenumber">200</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apps/kremo/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">178</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/profile/profile.component.html</context>
+          <context context-type="linenumber">143</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/new-user/new-user.component.html</context>
+          <context context-type="linenumber">46</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/edit-user/edit-user.component.html</context>
+          <context context-type="linenumber">164</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/barcode/barcode.component.html</context>
+          <context context-type="linenumber">33</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/barcode/barcode.component.html</context>
+          <context context-type="linenumber">56</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="loading" datatype="html">
+        <source>Loading...</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apps/kremo/kremo.component.html</context>
+          <context context-type="linenumber">208</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apps/kremo/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">186</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">306</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">324</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">345</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">359</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">85</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">102</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">126</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">142</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="mobile" datatype="html">
+        <source>Mobile</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apps/kremo/kremo.component.html</context>
+          <context context-type="linenumber">220</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apps/kremo/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">198</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="firstName" datatype="html">
+        <source>First Name</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apps/kremo/kremo.component.html</context>
+          <context context-type="linenumber">229</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apps/kremo/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">207</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="surname" datatype="html">
+        <source>Surname</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apps/kremo/kremo.component.html</context>
+          <context context-type="linenumber">234</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apps/kremo/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">212</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="zipcode" datatype="html">
+        <source>Zip-Code</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apps/kremo/kremo.component.html</context>
+          <context context-type="linenumber">244</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apps/kremo/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">222</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="city" datatype="html">
+        <source>City</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apps/kremo/kremo.component.html</context>
+          <context context-type="linenumber">248</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apps/kremo/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">226</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="street" datatype="html">
+        <source>Street</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apps/kremo/kremo.component.html</context>
+          <context context-type="linenumber">256</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apps/kremo/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">234</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="number" datatype="html">
+        <source>Number</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apps/kremo/kremo.component.html</context>
+          <context context-type="linenumber">260</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apps/kremo/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">238</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="myparcels" datatype="html">
+        <source>My Parcels</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="pickdaterange" datatype="html">
+        <source>Pick Date Range</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/search/search.component.html</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="045ed332fbb2645493d6955677247db0d1134c2d" datatype="html">
+        <source><x id="INTERPOLATION" equiv-text="{{title}}"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/new-item-modal/new-item-modal.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="name" datatype="html">
+        <source>Name</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/new-item-modal/new-item-modal.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/search/search.component.html</context>
+          <context context-type="linenumber">50</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/barcode/barcode.component.html</context>
+          <context context-type="linenumber">88</context>
+        </context-group>
+        <note priority="1" from="description"> new item to create</note>
+        <note priority="1" from="meaning">item name</note>
+      </trans-unit>
+      <trans-unit id="cancel" datatype="html">
+        <source>Cancel</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/new-item-modal/new-item-modal.component.html</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/new-user/new-user.component.html</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/edit-user/edit-user.component.html</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/roles/new/new-role.component.html</context>
+          <context context-type="linenumber">76</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/log-new/log-new.component.html</context>
+          <context context-type="linenumber">30</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apps/kremo/barcode/barcode.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/parcel.component.html</context>
+          <context context-type="linenumber">86</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/roles/edit/edit.component.html</context>
+          <context context-type="linenumber">81</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/barcode/barcode.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+        <note priority="1" from="description">cancel button</note>
+        <note priority="1" from="meaning">button</note>
+      </trans-unit>
+      <trans-unit id="submit" datatype="html">
+        <source>Submit</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/new-item-modal/new-item-modal.component.html</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+        <note priority="1" from="description">form submit button</note>
+        <note priority="1" from="meaning">button</note>
+      </trans-unit>
+      <trans-unit id="accountsettings" datatype="html">
+        <source>Account Settings</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/profile/profile.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+        <note priority="1" from="description">page title</note>
+        <note priority="1" from="meaning">header</note>
+      </trans-unit>
+      <trans-unit id="location" datatype="html">
+        <source>Location</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/profile/profile.component.html</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/new-user/new-user.component.html</context>
+          <context context-type="linenumber">99</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/edit-user/edit-user.component.html</context>
+          <context context-type="linenumber">35</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">381</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">455</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">72</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/barcode/barcode.component.html</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/barcode/barcode.component.html</context>
+          <context context-type="linenumber">48</context>
+        </context-group>
+        <note priority="1" from="description">page title</note>
+        <note priority="1" from="meaning">header</note>
+      </trans-unit>
+      <trans-unit id="site" datatype="html">
+        <source>Site</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/profile/profile.component.html</context>
+          <context context-type="linenumber">40</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/new-user/new-user.component.html</context>
+          <context context-type="linenumber">111</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/edit-user/edit-user.component.html</context>
+          <context context-type="linenumber">47</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">374</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">115</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="new" datatype="html">
+        <source>New</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/profile/profile.component.html</context>
+          <context context-type="linenumber">42</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/profile/profile.component.html</context>
+          <context context-type="linenumber">49</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/profile/profile.component.html</context>
+          <context context-type="linenumber">60</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/profile/profile.component.html</context>
+          <context context-type="linenumber">67</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/profile/profile.component.html</context>
+          <context context-type="linenumber">78</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/profile/profile.component.html</context>
+          <context context-type="linenumber">85</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/profile/profile.component.html</context>
+          <context context-type="linenumber">96</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/profile/profile.component.html</context>
+          <context context-type="linenumber">103</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/new-user/new-user.component.html</context>
+          <context context-type="linenumber">113</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/new-user/new-user.component.html</context>
+          <context context-type="linenumber">120</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/new-user/new-user.component.html</context>
+          <context context-type="linenumber">131</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/new-user/new-user.component.html</context>
+          <context context-type="linenumber">138</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/new-user/new-user.component.html</context>
+          <context context-type="linenumber">149</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/new-user/new-user.component.html</context>
+          <context context-type="linenumber">156</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/new-user/new-user.component.html</context>
+          <context context-type="linenumber">167</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/new-user/new-user.component.html</context>
+          <context context-type="linenumber">174</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/new-user/new-user.component.html</context>
+          <context context-type="linenumber">191</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/edit-user/edit-user.component.html</context>
+          <context context-type="linenumber">49</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/edit-user/edit-user.component.html</context>
+          <context context-type="linenumber">56</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/edit-user/edit-user.component.html</context>
+          <context context-type="linenumber">67</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/edit-user/edit-user.component.html</context>
+          <context context-type="linenumber">74</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/edit-user/edit-user.component.html</context>
+          <context context-type="linenumber">85</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/edit-user/edit-user.component.html</context>
+          <context context-type="linenumber">92</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/edit-user/edit-user.component.html</context>
+          <context context-type="linenumber">103</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/edit-user/edit-user.component.html</context>
+          <context context-type="linenumber">110</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/edit-user/edit-user.component.html</context>
+          <context context-type="linenumber">127</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/user-list.component.html</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/roles/roles.component.html</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">418</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/notifications/notifications.component.html</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="subsite" datatype="html">
+        <source>Sub Site</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/profile/profile.component.html</context>
+          <context context-type="linenumber">47</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/new-user/new-user.component.html</context>
+          <context context-type="linenumber">118</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/edit-user/edit-user.component.html</context>
+          <context context-type="linenumber">54</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="building" datatype="html">
+        <source>Building</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/profile/profile.component.html</context>
+          <context context-type="linenumber">58</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/new-user/new-user.component.html</context>
+          <context context-type="linenumber">129</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/edit-user/edit-user.component.html</context>
+          <context context-type="linenumber">65</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="floor" datatype="html">
+        <source>Floor</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/profile/profile.component.html</context>
+          <context context-type="linenumber">65</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/new-user/new-user.component.html</context>
+          <context context-type="linenumber">136</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/edit-user/edit-user.component.html</context>
+          <context context-type="linenumber">72</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="department" datatype="html">
+        <source>Department</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/profile/profile.component.html</context>
+          <context context-type="linenumber">76</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/new-user/new-user.component.html</context>
+          <context context-type="linenumber">147</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/edit-user/edit-user.component.html</context>
+          <context context-type="linenumber">83</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/barcode/barcode.component.html</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/barcode/barcode.component.html</context>
+          <context context-type="linenumber">44</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="costcenter" datatype="html">
+        <source>Cost Center</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/profile/profile.component.html</context>
+          <context context-type="linenumber">83</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/new-user/new-user.component.html</context>
+          <context context-type="linenumber">154</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/edit-user/edit-user.component.html</context>
+          <context context-type="linenumber">90</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="maildrop" datatype="html">
+        <source>Mail Drop</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/profile/profile.component.html</context>
+          <context context-type="linenumber">94</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/new-user/new-user.component.html</context>
+          <context context-type="linenumber">165</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/edit-user/edit-user.component.html</context>
+          <context context-type="linenumber">101</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="mailstop" datatype="html">
+        <source>Mail Stop</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/profile/profile.component.html</context>
+          <context context-type="linenumber">101</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/new-user/new-user.component.html</context>
+          <context context-type="linenumber">172</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/edit-user/edit-user.component.html</context>
+          <context context-type="linenumber">108</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="profile" datatype="html">
+        <source>Profile</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/profile/profile.component.html</context>
+          <context context-type="linenumber">118</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/new-user/new-user.component.html</context>
+          <context context-type="linenumber">33</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/edit-user/edit-user.component.html</context>
+          <context context-type="linenumber">140</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="firstname" datatype="html">
+        <source>First Name</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/profile/profile.component.html</context>
+          <context context-type="linenumber">131</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/new-user/new-user.component.html</context>
+          <context context-type="linenumber">75</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/edit-user/edit-user.component.html</context>
+          <context context-type="linenumber">152</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="lastname" datatype="html">
+        <source>Last Name</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/profile/profile.component.html</context>
+          <context context-type="linenumber">135</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/new-user/new-user.component.html</context>
+          <context context-type="linenumber">79</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/edit-user/edit-user.component.html</context>
+          <context context-type="linenumber">156</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="phonenumber" datatype="html">
+        <source>Phone Number</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/profile/profile.component.html</context>
+          <context context-type="linenumber">147</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/new-user/new-user.component.html</context>
+          <context context-type="linenumber">51</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/edit-user/edit-user.component.html</context>
+          <context context-type="linenumber">168</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="repeatpassword" datatype="html">
+        <source>Repeat Password</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/profile/profile.component.html</context>
+          <context context-type="linenumber">159</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="uisettings" datatype="html">
+        <source>UI Settings</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/profile/profile.component.html</context>
+          <context context-type="linenumber">170</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="language" datatype="html">
+        <source>Language</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/profile/profile.component.html</context>
+          <context context-type="linenumber">175</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="theme" datatype="html">
+        <source>Theme</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/profile/profile.component.html</context>
+          <context context-type="linenumber">181</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="direction" datatype="html">
+        <source>Direction</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/profile/profile.component.html</context>
+          <context context-type="linenumber">188</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="addinguser" datatype="html">
+        <source>Adding User</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/new-user/new-user.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="username" datatype="html">
+        <source>Username</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/new-user/new-user.component.html</context>
+          <context context-type="linenumber">59</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/edit-user/edit-user.component.html</context>
+          <context context-type="linenumber">176</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="externalreferenceid" datatype="html">
+        <source>External Reference Id</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/new-user/new-user.component.html</context>
+          <context context-type="linenumber">87</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/edit-user/edit-user.component.html</context>
+          <context context-type="linenumber">193</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="status" datatype="html">
+        <source>Status</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/new-user/new-user.component.html</context>
+          <context context-type="linenumber">91</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/edit-user/edit-user.component.html</context>
+          <context context-type="linenumber">197</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">215</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/log-new/log-new.component.html</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/search/search.component.html</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/search/search.component.html</context>
+          <context context-type="linenumber">54</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/components/parcels/parcels.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">39</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">154</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="accessrole" datatype="html">
+        <source>Access Role</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/new-user/new-user.component.html</context>
+          <context context-type="linenumber">183</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/edit-user/edit-user.component.html</context>
+          <context context-type="linenumber">119</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="route" datatype="html">
+        <source>Route</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/new-user/new-user.component.html</context>
+          <context context-type="linenumber">189</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/edit-user/edit-user.component.html</context>
+          <context context-type="linenumber">125</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="editinguser" datatype="html">
+        <source>Editing User</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/edit-user/edit-user.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4f3ace6a26f0c79aa9518e045664ad9d796aa9c8" datatype="html">
+        <source><x id="INTERPOLATION" equiv-text="{{data.active ? activeString : inactiveString}}"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/edit-user/edit-user.component.html</context>
+          <context context-type="linenumber">198</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="users" datatype="html">
+        <source>Users</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/user-list.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="createrole" datatype="html">
+        <source>Create Role</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/roles/new/new-role.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="rolename" datatype="html">
+        <source>Role Name</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/roles/new/new-role.component.html</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/roles/edit/edit.component.html</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="resourcecontrol" datatype="html">
+        <source>Resource Control</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/roles/new/new-role.component.html</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/roles/edit/edit.component.html</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="add" datatype="html">
+        <source>Add</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/roles/new/new-role.component.html</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/log-new/log-new.component.html</context>
+          <context context-type="linenumber">36</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/roles/edit/edit.component.html</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="remove" datatype="html">
+        <source>Remove</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/roles/new/new-role.component.html</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/roles/edit/edit.component.html</context>
+          <context context-type="linenumber">29</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="description" datatype="html">
+        <source>Description</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/roles/new/new-role.component.html</context>
+          <context context-type="linenumber">31</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/roles/roles.component.html</context>
+          <context context-type="linenumber">66</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">270</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/roles/edit/edit.component.html</context>
+          <context context-type="linenumber">36</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="resources" datatype="html">
+        <source>Resources</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/roles/new/new-role.component.html</context>
+          <context context-type="linenumber">44</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/roles/edit/edit.component.html</context>
+          <context context-type="linenumber">49</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="notifications" datatype="html">
+        <source>Notifications</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/roles/new/new-role.component.html</context>
+          <context context-type="linenumber">46</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/roles/edit/edit.component.html</context>
+          <context context-type="linenumber">51</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="search" datatype="html">
+        <source>Search</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/roles/new/new-role.component.html</context>
+          <context context-type="linenumber">47</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/search/search.component.html</context>
+          <context context-type="linenumber">33</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/roles/edit/edit.component.html</context>
+          <context context-type="linenumber">52</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard" datatype="html">
+        <source>Dashboard</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/roles/new/new-role.component.html</context>
+          <context context-type="linenumber">48</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/roles/edit/edit.component.html</context>
+          <context context-type="linenumber">53</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="parcel" datatype="html">
+        <source>Parcel</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/roles/new/new-role.component.html</context>
+          <context context-type="linenumber">49</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">72</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">129</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/roles/edit/edit.component.html</context>
+          <context context-type="linenumber">54</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="kremo" datatype="html">
+        <source>Kremo</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/roles/new/new-role.component.html</context>
+          <context context-type="linenumber">50</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/roles/edit/edit.component.html</context>
+          <context context-type="linenumber">55</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="user" datatype="html">
+        <source>User</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/roles/new/new-role.component.html</context>
+          <context context-type="linenumber">51</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/roles/edit/edit.component.html</context>
+          <context context-type="linenumber">56</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="role" datatype="html">
+        <source>Role</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/roles/new/new-role.component.html</context>
+          <context context-type="linenumber">52</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/roles/edit/edit.component.html</context>
+          <context context-type="linenumber">57</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="inventory" datatype="html">
+        <source>Inventory</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/roles/new/new-role.component.html</context>
+          <context context-type="linenumber">53</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">75</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">132</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/roles/edit/edit.component.html</context>
+          <context context-type="linenumber">58</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="routes" datatype="html">
+        <source>Routes</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/roles/new/new-role.component.html</context>
+          <context context-type="linenumber">54</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/roles/edit/edit.component.html</context>
+          <context context-type="linenumber">59</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="resourcename" datatype="html">
+        <source>Resource Name</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/roles/new/new-role.component.html</context>
+          <context context-type="linenumber">58</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/roles/edit/edit.component.html</context>
+          <context context-type="linenumber">63</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="create" datatype="html">
+        <source>Create</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/roles/new/new-role.component.html</context>
+          <context context-type="linenumber">60</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/roles/roles.component.html</context>
+          <context context-type="linenumber">82</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">30</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/roles/edit/edit.component.html</context>
+          <context context-type="linenumber">65</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="read" datatype="html">
+        <source>Read</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/roles/new/new-role.component.html</context>
+          <context context-type="linenumber">61</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/roles/roles.component.html</context>
+          <context context-type="linenumber">83</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/roles/edit/edit.component.html</context>
+          <context context-type="linenumber">66</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="update" datatype="html">
+        <source>Update</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/roles/new/new-role.component.html</context>
+          <context context-type="linenumber">62</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/roles/roles.component.html</context>
+          <context context-type="linenumber">84</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/roles/edit/edit.component.html</context>
+          <context context-type="linenumber">67</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="delete" datatype="html">
+        <source>Delete</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/roles/new/new-role.component.html</context>
+          <context context-type="linenumber">63</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/roles/roles.component.html</context>
+          <context context-type="linenumber">85</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/notifications/notifications.component.html</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/roles/edit/edit.component.html</context>
+          <context context-type="linenumber">68</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="roles" datatype="html">
+        <source>Roles</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/roles/roles.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="resource" datatype="html">
+        <source>Resource</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/roles/roles.component.html</context>
+          <context context-type="linenumber">81</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="receive" datatype="html">
+        <source>Receive</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="packageinfo" datatype="html">
+        <source>Package Info</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">42</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">101</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="trackingnumber" datatype="html">
+        <source>Tracking number</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">53</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">114</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="generate" datatype="html">
+        <source>Generate</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">58</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">119</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="couriername" datatype="html">
+        <source>Courier Name</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">66</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">274</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">169</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/barcode/barcode.component.html</context>
+          <context context-type="linenumber">76</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="type" datatype="html">
+        <source>Type</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">70</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">127</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/search/search.component.html</context>
+          <context context-type="linenumber">49</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="asset" datatype="html">
+        <source>Asset</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">74</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">131</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="subtype" datatype="html">
+        <source>Sub-type</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">79</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">136</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="regular" datatype="html">
+        <source>Regular</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">81</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">138</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="fragile" datatype="html">
+        <source>Fragile</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">82</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">139</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">28</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="hazardous" datatype="html">
+        <source>hazardous</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">83</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">140</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">29</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="liquids" datatype="html">
+        <source>liquids</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">84</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">141</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">30</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="animal" datatype="html">
+        <source>animal</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">85</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">142</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">31</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="secure" datatype="html">
+        <source>secure</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">86</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">143</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">32</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="frozen" datatype="html">
+        <source>frozen</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">87</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">144</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">33</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="heated" datatype="html">
+        <source>heated</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">88</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">145</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">34</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="chilled" datatype="html">
+        <source>chilled</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">89</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">146</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">35</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="po" datatype="html">
+        <source>Purchase Order number</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">155</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">163</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/barcode/barcode.component.html</context>
+          <context context-type="linenumber">82</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="priority" datatype="html">
+        <source>Priority</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">159</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">59</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="low" datatype="html">
+        <source>Low</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">161</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">61</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="medium" datatype="html">
+        <source>Medium</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">162</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">62</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="standard" datatype="html">
+        <source>Standard</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">163</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">63</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="high" datatype="html">
+        <source>High</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">164</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">64</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="emergency" datatype="html">
+        <source>Emergency</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">165</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">65</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="pouch" datatype="html">
+        <source>Pouch</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">173</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">42</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="created" datatype="html">
+        <source>Created</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">176</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/search/search.component.html</context>
+          <context context-type="linenumber">53</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/components/parcels/parcels.component.html</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">53</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="datetime" datatype="html">
+        <source>Date Time</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">178</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">55</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dimensions" datatype="html">
+        <source>Dimensions</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">190</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">502</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="height" datatype="html">
+        <source>height</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">193</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">504</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">183</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">185</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="width" datatype="html">
+        <source>width</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">195</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">505</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">190</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">192</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="depth" datatype="html">
+        <source>depth</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">197</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">506</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">197</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">199</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="unit" datatype="html">
+        <source>Unit</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">204</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">231</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">248</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">488</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">204</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">224</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">235</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">241</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="millimeters" datatype="html">
+        <source>Millimeters</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">207</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">509</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">206</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="centimeters" datatype="html">
+        <source>Centimeters</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">208</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">510</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">207</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="meters" datatype="html">
+        <source>Meters</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">209</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">427</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">511</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">208</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="inches" datatype="html">
+        <source>Inches</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">210</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">512</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">209</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="feet" datatype="html">
+        <source>Feet</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">211</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">513</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">210</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="kilograms" datatype="html">
+        <source>Kilograms</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">233</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">490</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">226</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="grams" datatype="html">
+        <source>Grams</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">234</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">491</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">227</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="tons" datatype="html">
+        <source>Tons</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">235</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">492</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">228</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="pounds" datatype="html">
+        <source>Pounds</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">236</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="expire" datatype="html">
+        <source>Expire</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">244</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="hours" datatype="html">
+        <source>Hours</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">250</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">243</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="days" datatype="html">
+        <source>Days</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">251</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">244</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="months" datatype="html">
+        <source>Months</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">252</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">245</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="years" datatype="html">
+        <source>Years</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">253</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">246</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="manifest" datatype="html">
+        <source>Manifest</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">257</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="browse" datatype="html">
+        <source>Browse</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">258</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="packagename" datatype="html">
+        <source>Package Name</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">265</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="boxbikefolder" datatype="html">
+        <source>e.g. box, bike, folder</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">267</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="deliverydetails" datatype="html">
+        <source>Delivery Details</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">288</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="sender" datatype="html">
+        <source>Sender</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">302</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/search/search.component.html</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/search/search.component.html</context>
+          <context context-type="linenumber">51</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/components/parcels/parcels.component.html</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">82</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="newsender" datatype="html">
+        <source>
+          New Sender
+        </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">309</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="recipient" datatype="html">
+        <source>Recipient</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">320</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/search/search.component.html</context>
+          <context context-type="linenumber">52</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/components/parcels/parcels.component.html</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">98</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="newrecipient" datatype="html">
+        <source>
+          New Recipient
+        </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">327</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="return" datatype="html">
+        <source>Return</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">342</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">123</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="alternativerecipient" datatype="html">
+        <source>Alternative Recipient</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">356</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">139</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="deliverymethod" datatype="html">
+        <source>Delivery Method</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">378</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">69</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="direct" datatype="html">
+        <source>Direct</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">380</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">71</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="warehouse" datatype="html">
+        <source>Warehouse</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">382</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">73</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="mailroom" datatype="html">
+        <source>Mail room</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">383</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">74</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="inventorydetails" datatype="html">
+        <source>Inventory Details</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">396</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="inventoryid" datatype="html">
+        <source>Inventory Id</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">408</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="amount" datatype="html">
+        <source>Amount</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">410</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="items" datatype="html">
+        <source>Items</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">425</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="kilos" datatype="html">
+        <source>Kilos</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">426</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="litre" datatype="html">
+        <source>Litre</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">428</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="sku" datatype="html">
+        <source>SKU</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">436</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="inventoryname" datatype="html">
+        <source>Inventory Name</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">440</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="inventorydescription" datatype="html">
+        <source>Inventory Description</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">448</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="locationcodeorname" datatype="html">
+        <source>Location Code or Name</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">458</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="isle" datatype="html">
+        <source>Isle</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">461</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="row" datatype="html">
+        <source>Row</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">470</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="shelf" datatype="html">
+        <source>Shelf</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">473</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="compartment" datatype="html">
+        <source>Compartment</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">476</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="pound" datatype="html">
+        <source>Pound</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">493</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">229</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="seasonable" datatype="html">
+        <source>Seasonable</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">497</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="grosvalue" datatype="html">
+        <source>Gross Value</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">521</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="tax" datatype="html">
+        <source>Tax</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">525</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="netvalue" datatype="html">
+        <source>Net Value</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">534</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="margin" datatype="html">
+        <source>Margin</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">543</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="totalvalue" datatype="html">
+        <source>Total Value</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">547</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="currency" datatype="html">
+        <source>Currency</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">551</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5a4099cec9aa7775313157889bea5b94da8a7e7d" datatype="html">
+        <source>Adding Log Trace</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/log-new/log-new.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+        <note priority="1" from="description">section description</note>
+        <note priority="1" from="meaning">title</note>
+      </trans-unit>
+      <trans-unit id="note" datatype="html">
+        <source>Note</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/log-new/log-new.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+        <note priority="1" from="description">input description</note>
+        <note priority="1" from="meaning">label</note>
+      </trans-unit>
+      <trans-unit id="print" datatype="html">
+        <source>Print</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apps/kremo/barcode/barcode.component.html</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/barcode/barcode.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+        <note priority="1" from="description">print label</note>
+        <note priority="1" from="meaning">print</note>
+      </trans-unit>
+      <trans-unit id="signature" datatype="html">
+        <source>Signature</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/parcel.component.html</context>
+          <context context-type="linenumber">32</context>
+        </context-group>
+        <note priority="1" from="description">for signature box </note>
+        <note priority="1" from="meaning">label</note>
+      </trans-unit>
+      <trans-unit id="back" datatype="html">
+        <source>Back</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/parcel.component.html</context>
+          <context context-type="linenumber">50</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/parcel.component.html</context>
+          <context context-type="linenumber">78</context>
+        </context-group>
+        <note priority="1" from="description">go back </note>
+        <note priority="1" from="meaning">button</note>
+      </trans-unit>
+      <trans-unit id="barcode" datatype="html">
+        <source>Barcode</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/parcel.component.html</context>
+          <context context-type="linenumber">54</context>
+        </context-group>
+        <note priority="1" from="description">show barcode print label </note>
+        <note priority="1" from="meaning">button</note>
+      </trans-unit>
+      <trans-unit id="log" datatype="html">
+        <source>Log</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/parcel.component.html</context>
+          <context context-type="linenumber">58</context>
+        </context-group>
+        <note priority="1" from="description">add new status log </note>
+        <note priority="1" from="meaning">button</note>
+      </trans-unit>
+      <trans-unit id="edit" datatype="html">
+        <source>Edit</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/parcel.component.html</context>
+          <context context-type="linenumber">82</context>
+        </context-group>
+        <note priority="1" from="description">edit parcel </note>
+        <note priority="1" from="meaning">button</note>
+      </trans-unit>
+      <trans-unit id="searchfor" datatype="html">
+        <source>Searched for:</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/search/search.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="latestparcels" datatype="html">
+        <source>Latest parcels </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/search/search.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="none" datatype="html">
+        <source>None</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/search/search.component.html</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/search/search.component.html</context>
+          <context context-type="linenumber">28</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="download" datatype="html">
+        <source>Download</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/search/search.component.html</context>
+          <context context-type="linenumber">37</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="trackingno" datatype="html">
+        <source>Tracking #</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/search/search.component.html</context>
+          <context context-type="linenumber">48</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="lastupdate" datatype="html">
+        <source>Last Update</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/search/search.component.html</context>
+          <context context-type="linenumber">55</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="statusesandnotifications" datatype="html">
+        <source>Statuses &amp; Notifications</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/notifications/notifications.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+        <note priority="1" from="description">notification section header</note>
+        <note priority="1" from="meaning">header</note>
+      </trans-unit>
+      <trans-unit id="statusname" datatype="html">
+        <source>Status name</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/notifications/notifications.component.html</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="condition" datatype="html">
+        <source>Condition</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/notifications/notifications.component.html</context>
+          <context context-type="linenumber">31</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="initial" datatype="html">
+        <source>Initial</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/notifications/notifications.component.html</context>
+          <context context-type="linenumber">33</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="external" datatype="html">
+        <source>By User</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/notifications/notifications.component.html</context>
+          <context context-type="linenumber">34</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="inprogress" datatype="html">
+        <source>In Progress</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/notifications/notifications.component.html</context>
+          <context context-type="linenumber">35</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="final" datatype="html">
+        <source>Final</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/notifications/notifications.component.html</context>
+          <context context-type="linenumber">36</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="onlyoneinitialallowed" datatype="html">
+        <source>
+                    Only one Initial status allowed
+                  </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/notifications/notifications.component.html</context>
+          <context context-type="linenumber">39</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="notification" datatype="html">
+        <source>Notification</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/notifications/notifications.component.html</context>
+          <context context-type="linenumber">46</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="enabled" datatype="html">
+        <source>Enabled</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/notifications/notifications.component.html</context>
+          <context context-type="linenumber">48</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="disabled" datatype="html">
+        <source>Disabled</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/notifications/notifications.component.html</context>
+          <context context-type="linenumber">49</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="state" datatype="html">
+        <source>State</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/notifications/notifications.component.html</context>
+          <context context-type="linenumber">55</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="active" datatype="html">
+        <source>Active</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/notifications/notifications.component.html</context>
+          <context context-type="linenumber">57</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">45</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="inactive" datatype="html">
+        <source>Inactive</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/notifications/notifications.component.html</context>
+          <context context-type="linenumber">58</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="subject" datatype="html">
+        <source>Subject</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/notifications/notifications.component.html</context>
+          <context context-type="linenumber">68</context>
+        </context-group>
+        <note priority="1" from="description">form input label</note>
+        <note priority="1" from="meaning">label</note>
+      </trans-unit>
+      <trans-unit id="b502b6c66c29fbdc8db3f515e17cd58897faa192" datatype="html">
+        <source>Available template tags</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/notifications/notifications.component.html</context>
+          <context context-type="linenumber">108</context>
+        </context-group>
+        <note priority="1" from="description">section description</note>
+        <note priority="1" from="meaning">title</note>
+      </trans-unit>
+      <trans-unit id="b3391c0c4ad358a39d26fc06842703d30723381d" datatype="html">
+        <source>Tracking reference code</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/notifications/notifications.component.html</context>
+          <context context-type="linenumber">112</context>
+        </context-group>
+        <note priority="1" from="description">instructions</note>
+        <note priority="1" from="meaning">description</note>
+      </trans-unit>
+      <trans-unit id="a1e0199f3a8b879642565e4695c6f904526a3e76" datatype="html">
+        <source>Parcel designated recipient</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/notifications/notifications.component.html</context>
+          <context context-type="linenumber">115</context>
+        </context-group>
+        <note priority="1" from="description">instructions</note>
+        <note priority="1" from="meaning">description</note>
+      </trans-unit>
+      <trans-unit id="66d1290577dc0b34f398948000241a44536e3240" datatype="html">
+        <source>Time and Date of last update</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/notifications/notifications.component.html</context>
+          <context context-type="linenumber">118</context>
+        </context-group>
+        <note priority="1" from="description">instructions</note>
+        <note priority="1" from="meaning">description</note>
+      </trans-unit>
+      <trans-unit id="76a634d40ab12400ad108f278504d5aa3d86a191" datatype="html">
+        <source>Current parcel status</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/notifications/notifications.component.html</context>
+          <context context-type="linenumber">121</context>
+        </context-group>
+        <note priority="1" from="description">instructions</note>
+        <note priority="1" from="meaning">description</note>
+      </trans-unit>
+      <trans-unit id="orderconfirmation" datatype="html">
+        <source>Order Confirmation</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apps/kremo/confirm/confirm.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="orderconotfound" datatype="html">
+        <source>Order Not Found</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apps/kremo/confirm/confirm.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="pleasewait" datatype="html">
+        <source>Please wait</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apps/kremo/confirm/confirm.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="wouldyouliketoproceed" datatype="html">
+        <source>Would you like to confirm and proceed with your order?</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apps/kremo/confirm/confirm.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ordernotinsystem" datatype="html">
+        <source>Order you&apos;re looking for is not in our system. This could be number of things. It&apos;s already completed / rejected by owner, overdue, cancelled or we could be facing technical difficulties.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apps/kremo/confirm/confirm.component.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="contactclinic" datatype="html">
+        <source>For any further assistance, please contact your clinic, we are sorry for any inconvenience caused.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apps/kremo/confirm/confirm.component.html</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5a5d7ee2acbfa9c91ab7f41d26bda9ff0cafe42f" datatype="html">
+        <source>Comment</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apps/kremo/confirm/confirm.component.html</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+        <note priority="1" from="description">comment</note>
+      </trans-unit>
+      <trans-unit id="id" datatype="html">
+        <source>Track #</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/components/parcels/parcels.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="updated" datatype="html">
+        <source>Updated</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/components/parcels/parcels.component.html</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="editrole" datatype="html">
+        <source>Edit Role</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/roles/edit/edit.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="externalreference" datatype="html">
+        <source>External Reference</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">175</context>
+        </context-group>
+        <note priority="1" from="description">input description</note>
+        <note priority="1" from="meaning">label</note>
+      </trans-unit>
+      <trans-unit id="phone" datatype="html">
+        <source>Phone number</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/barcode/barcode.component.html</context>
+          <context context-type="linenumber">29</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/barcode/barcode.component.html</context>
+          <context context-type="linenumber">52</context>
+        </context-group>
+        <note priority="1" from="description">input label</note>
+        <note priority="1" from="meaning">label</note>
+      </trans-unit>
+      <trans-unit id="registered" datatype="html">
+        <source>Registered</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/barcode/barcode.component.html</context>
+          <context context-type="linenumber">64</context>
+        </context-group>
+        <note priority="1" from="description">input label</note>
+        <note priority="1" from="meaning">label</note>
+      </trans-unit>
+      <trans-unit id="deliverytype" datatype="html">
+        <source>Delivery type</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/barcode/barcode.component.html</context>
+          <context context-type="linenumber">70</context>
+        </context-group>
+        <note priority="1" from="description">input label</note>
+        <note priority="1" from="meaning">label</note>
+      </trans-unit>
+      <trans-unit id="404pagenotfound" datatype="html">
+        <source>404 Page Not Found</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/components/not-found/not-found.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="thepageyouwerelookingfor" datatype="html">
+        <source>The page you were looking for doesn&apos;t exist</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/components/not-found/not-found.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="takemehome" datatype="html">
+        <source>
+            Take me home
+          </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/components/not-found/not-found.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

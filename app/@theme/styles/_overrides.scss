@@ -1,0 +1,66 @@
+@import './themes';
+
+@mixin nb-overrides() {
+  body, h1, h2, h3, h4, h5, a, span, div, label.label, [nbButton], [nbInput], .select-button,
+  div.initials, nb-list-item, div.user-name, div.user-title, button.select-button, nb-option, nb-card, p,
+  [nbInput].size-medium::placeholder, span.text, nb-card-header {
+    font-family: 'Exo', sans-serif;
+  }
+  nb-layout-header, nb-layout-footer nav {
+    font-family: 'Exo', sans-serif;
+    background: linear-gradient(230deg, #d14ca6, #282794 50%);
+    background-size: 120% 120%;
+    color: #e4e9f2;
+    -webkit-animation: AnimationName 40s ease infinite;
+    -moz-animation: AnimationName 40s ease infinite;
+    -o-animation: AnimationName 40s ease infinite;
+    animation: AnimationName 40s ease infinite;
+    box-shadow: none;
+    span, div.initials {
+      font-family: 'Exo', sans-serif;
+      color: #e4e9f2;
+    }
+    a.logo {
+      font-family: 'Exo', sans-serif;
+      font-weight: bolder;
+      color: #e4e9f2;
+      img {
+        max-height: 80px;
+      }
+    }
+    a.logo:hover {
+      font-family: 'Exo', sans-serif;
+      color: #e0e5ee;
+      text-decoration: underline;
+    }
+  }
+
+  @-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%;}
+    50%{background-position:100% 50%;}
+    100%{background-position:0% 50%;}
+  }
+  @-moz-keyframes AnimationName {
+    0%{background-position:0% 50%;}
+    50%{background-position:100% 50%;}
+    100%{background-position:0% 50%;}
+  }
+  @-o-keyframes AnimationName {
+    0%{background-position:0% 50%;}
+    50%{background-position:100% 50%;}
+    100%{background-position:0% 50%;}
+  }
+  @keyframes AnimationName {
+    0%{background-position:0% 50%;}
+    50%{background-position:100% 50%;}
+    100%{background-position:0% 50%;}
+  }
+
+  nb-select.size-medium button {
+    // padding: 0.4375rem 2.2rem 0.4375rem 1.125rem !important;
+
+    nb-icon {
+      right: 0.41rem !important;
+    }
+  }
+}

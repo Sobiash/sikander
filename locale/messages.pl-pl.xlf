@@ -1,0 +1,2426 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en" datatype="plaintext" original="ng2.template" target-language="pl-PL">
+    <body>
+      <trans-unit id="copyrights" datatype="html">
+        <source>Copyrights protected</source>
+        <target xml:lang="pl-PL">Prawa autorskie chronione</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/@theme/components/footer/footer.component.ts</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="cecbd67ca43d629e7f6f6f15dcbf2220bda9af2b" datatype="html">
+        <source>Type your search request here...</source>
+        <target xml:lang="pl-PL">Wpisz tutaj zapytanie wyszukiwania...</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/@theme/components/search-input/search-input.component.ts</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="a8fa187b3cd234f7436e3f26284753854001a43e" datatype="html">
+        <source>Sign In</source>
+        <target xml:lang="pl-PL">Zaloguj się</target>
+<note from="description" priority="1">@signin</note><context-group purpose="location">
+          <context context-type="sourcefile">app/auth/login/login.component.html</context>
+          <context context-type="linenumber">81</context>
+        </context-group>
+        
+      </trans-unit>
+      <trans-unit id="signup" datatype="html">
+        <source>Sign Up</source>
+        <target xml:lang="pl-PL">Zapisz się</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/auth/login/login.component.html</context>
+          <context context-type="linenumber">89</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="045ed332fbb2645493d6955677247db0d1134c2d" datatype="html">
+        <source><x id="INTERPOLATION" equiv-text="{{title}}"/></source>
+        <target xml:lang="pl-PL"><x id="INTERPOLATION" equiv-text="{{title}}"/></target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/new-item-modal/new-item-modal.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="name" datatype="html">
+        <source>Name</source>
+        <target xml:lang="pl-PL">Imię</target>
+<note from="description" priority="1"> new item to create</note><note from="meaning" priority="1">item name</note><context-group purpose="location">
+          <context context-type="sourcefile">app/pages/new-item-modal/new-item-modal.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/barcode/barcode.component.html</context>
+          <context context-type="linenumber">88</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/search/search.component.html</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+        
+        
+      </trans-unit>
+      <trans-unit id="cancel" datatype="html">
+        <source>Cancel</source>
+        <target xml:lang="pl-PL">Anuluj</target>
+<note from="description" priority="1">cancel button</note><note from="meaning" priority="1">button</note><context-group purpose="location">
+          <context context-type="sourcefile">app/pages/new-item-modal/new-item-modal.component.html</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/new-user/new-user.component.html</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/edit-user/edit-user.component.html</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/roles/new/new-role.component.html</context>
+          <context context-type="linenumber">72</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/log-new/log-new.component.html</context>
+          <context context-type="linenumber">30</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/barcode/barcode.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/parcel.component.html</context>
+          <context context-type="linenumber">70</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/roles/edit/edit.component.html</context>
+          <context context-type="linenumber">77</context>
+        </context-group>
+        
+        
+      </trans-unit>
+      <trans-unit id="submit" datatype="html">
+        <source>Submit</source>
+        <target xml:lang="pl-PL">Prześlij</target>
+<note from="description" priority="1">form submit button</note><note from="meaning" priority="1">button</note><context-group purpose="location">
+          <context context-type="sourcefile">app/pages/new-item-modal/new-item-modal.component.html</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+        
+        
+      </trans-unit>
+      <trans-unit id="accountsettings" datatype="html">
+        <source>Account Settings</source>
+        <target xml:lang="pl-PL">Ustawienia konta</target>
+<note from="description" priority="1">page title</note><note from="meaning" priority="1">header</note><context-group purpose="location">
+          <context context-type="sourcefile">app/pages/profile/profile.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+        
+        
+      </trans-unit>
+      <trans-unit id="save" datatype="html">
+        <source>Save</source>
+        <target xml:lang="pl-PL">Zapisz</target>
+<note from="description" priority="1">Confirmation</note><note from="meaning" priority="1">button</note><context-group purpose="location">
+          <context context-type="sourcefile">app/pages/profile/profile.component.html</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/new-user/new-user.component.html</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/edit-user/edit-user.component.html</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/roles/new/new-role.component.html</context>
+          <context context-type="linenumber">75</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/parcel.component.html</context>
+          <context context-type="linenumber">74</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/notifications/notifications.component.html</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/roles/edit/edit.component.html</context>
+          <context context-type="linenumber">80</context>
+        </context-group>
+        
+        
+      </trans-unit>
+      <trans-unit id="location" datatype="html">
+        <source>Location</source>
+        <target xml:lang="pl-PL">Lokalizacja</target>
+<note from="description" priority="1">page title</note><note from="meaning" priority="1">header</note><context-group purpose="location">
+          <context context-type="sourcefile">app/pages/profile/profile.component.html</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/new-user/new-user.component.html</context>
+          <context context-type="linenumber">99</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/edit-user/edit-user.component.html</context>
+          <context context-type="linenumber">35</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">382</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">456</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">72</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/barcode/barcode.component.html</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/barcode/barcode.component.html</context>
+          <context context-type="linenumber">48</context>
+        </context-group>
+        
+        
+      </trans-unit>
+      <trans-unit id="site" datatype="html">
+        <source>Site</source>
+        <target xml:lang="pl-PL">Strona</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/profile/profile.component.html</context>
+          <context context-type="linenumber">40</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/new-user/new-user.component.html</context>
+          <context context-type="linenumber">111</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/edit-user/edit-user.component.html</context>
+          <context context-type="linenumber">47</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">375</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">115</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="new" datatype="html">
+        <source>New</source>
+        <target xml:lang="pl-PL">Nowy</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/profile/profile.component.html</context>
+          <context context-type="linenumber">42</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/profile/profile.component.html</context>
+          <context context-type="linenumber">49</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/profile/profile.component.html</context>
+          <context context-type="linenumber">60</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/profile/profile.component.html</context>
+          <context context-type="linenumber">67</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/profile/profile.component.html</context>
+          <context context-type="linenumber">78</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/profile/profile.component.html</context>
+          <context context-type="linenumber">85</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/profile/profile.component.html</context>
+          <context context-type="linenumber">96</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/profile/profile.component.html</context>
+          <context context-type="linenumber">103</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/new-user/new-user.component.html</context>
+          <context context-type="linenumber">113</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/new-user/new-user.component.html</context>
+          <context context-type="linenumber">120</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/new-user/new-user.component.html</context>
+          <context context-type="linenumber">131</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/new-user/new-user.component.html</context>
+          <context context-type="linenumber">138</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/new-user/new-user.component.html</context>
+          <context context-type="linenumber">149</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/new-user/new-user.component.html</context>
+          <context context-type="linenumber">156</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/new-user/new-user.component.html</context>
+          <context context-type="linenumber">167</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/new-user/new-user.component.html</context>
+          <context context-type="linenumber">174</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/new-user/new-user.component.html</context>
+          <context context-type="linenumber">185</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/new-user/new-user.component.html</context>
+          <context context-type="linenumber">192</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/edit-user/edit-user.component.html</context>
+          <context context-type="linenumber">49</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/edit-user/edit-user.component.html</context>
+          <context context-type="linenumber">56</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/edit-user/edit-user.component.html</context>
+          <context context-type="linenumber">67</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/edit-user/edit-user.component.html</context>
+          <context context-type="linenumber">74</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/edit-user/edit-user.component.html</context>
+          <context context-type="linenumber">85</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/edit-user/edit-user.component.html</context>
+          <context context-type="linenumber">92</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/edit-user/edit-user.component.html</context>
+          <context context-type="linenumber">103</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/edit-user/edit-user.component.html</context>
+          <context context-type="linenumber">110</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/edit-user/edit-user.component.html</context>
+          <context context-type="linenumber">121</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/edit-user/edit-user.component.html</context>
+          <context context-type="linenumber">128</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/user-list.component.html</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/roles/roles.component.html</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">419</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/notifications/notifications.component.html</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="subsite" datatype="html">
+        <source>Sub Site</source>
+        <target xml:lang="pl-PL">Pod Lokalizacja</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/profile/profile.component.html</context>
+          <context context-type="linenumber">47</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/new-user/new-user.component.html</context>
+          <context context-type="linenumber">118</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/edit-user/edit-user.component.html</context>
+          <context context-type="linenumber">54</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="building" datatype="html">
+        <source>Building</source>
+        <target xml:lang="pl-PL">Budynek</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/profile/profile.component.html</context>
+          <context context-type="linenumber">58</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/new-user/new-user.component.html</context>
+          <context context-type="linenumber">129</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/edit-user/edit-user.component.html</context>
+          <context context-type="linenumber">65</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="floor" datatype="html">
+        <source>Floor</source>
+        <target xml:lang="pl-PL">Piętro</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/profile/profile.component.html</context>
+          <context context-type="linenumber">65</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/new-user/new-user.component.html</context>
+          <context context-type="linenumber">136</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/edit-user/edit-user.component.html</context>
+          <context context-type="linenumber">72</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="department" datatype="html">
+        <source>Department</source>
+        <target xml:lang="pl-PL">Dział</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/profile/profile.component.html</context>
+          <context context-type="linenumber">76</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/new-user/new-user.component.html</context>
+          <context context-type="linenumber">147</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/edit-user/edit-user.component.html</context>
+          <context context-type="linenumber">83</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/barcode/barcode.component.html</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/barcode/barcode.component.html</context>
+          <context context-type="linenumber">44</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="costcenter" datatype="html">
+        <source>Cost Center</source>
+        <target xml:lang="pl-PL">Centrum kosztów</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/profile/profile.component.html</context>
+          <context context-type="linenumber">83</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/new-user/new-user.component.html</context>
+          <context context-type="linenumber">154</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/edit-user/edit-user.component.html</context>
+          <context context-type="linenumber">90</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="maildrop" datatype="html">
+        <source>Mail Drop</source>
+        <target xml:lang="pl-PL">Punkt zrzutu</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/profile/profile.component.html</context>
+          <context context-type="linenumber">94</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/new-user/new-user.component.html</context>
+          <context context-type="linenumber">165</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/edit-user/edit-user.component.html</context>
+          <context context-type="linenumber">101</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="mailstop" datatype="html">
+        <source>Mail Stop</source>
+        <target xml:lang="pl-PL">Punkt zatrzymania</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/profile/profile.component.html</context>
+          <context context-type="linenumber">101</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/new-user/new-user.component.html</context>
+          <context context-type="linenumber">172</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/edit-user/edit-user.component.html</context>
+          <context context-type="linenumber">108</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="profile" datatype="html">
+        <source>Profile</source>
+        <target xml:lang="pl-PL">Profil</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/profile/profile.component.html</context>
+          <context context-type="linenumber">118</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/new-user/new-user.component.html</context>
+          <context context-type="linenumber">33</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/edit-user/edit-user.component.html</context>
+          <context context-type="linenumber">141</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="firstname" datatype="html">
+        <source>First Name</source>
+        <target xml:lang="pl-PL">Imię</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/profile/profile.component.html</context>
+          <context context-type="linenumber">131</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/new-user/new-user.component.html</context>
+          <context context-type="linenumber">75</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/edit-user/edit-user.component.html</context>
+          <context context-type="linenumber">153</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="lastname" datatype="html">
+        <source>Last Name</source>
+        <target xml:lang="pl-PL">Nazwisko</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/profile/profile.component.html</context>
+          <context context-type="linenumber">135</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/new-user/new-user.component.html</context>
+          <context context-type="linenumber">79</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/edit-user/edit-user.component.html</context>
+          <context context-type="linenumber">157</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="email" datatype="html">
+        <source>Email</source>
+        <target xml:lang="pl-PL">E-mail</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/profile/profile.component.html</context>
+          <context context-type="linenumber">143</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/new-user/new-user.component.html</context>
+          <context context-type="linenumber">46</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/edit-user/edit-user.component.html</context>
+          <context context-type="linenumber">165</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/barcode/barcode.component.html</context>
+          <context context-type="linenumber">33</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/barcode/barcode.component.html</context>
+          <context context-type="linenumber">56</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="phonenumber" datatype="html">
+        <source>Phone Number</source>
+        <target xml:lang="pl-PL">Numer telefonu</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/profile/profile.component.html</context>
+          <context context-type="linenumber">147</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/new-user/new-user.component.html</context>
+          <context context-type="linenumber">51</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/edit-user/edit-user.component.html</context>
+          <context context-type="linenumber">169</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="password" datatype="html">
+        <source>Password</source>
+        <target xml:lang="pl-PL">Hasło</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/profile/profile.component.html</context>
+          <context context-type="linenumber">155</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/new-user/new-user.component.html</context>
+          <context context-type="linenumber">63</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/edit-user/edit-user.component.html</context>
+          <context context-type="linenumber">181</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="repeatpassword" datatype="html">
+        <source>Repeat Password</source>
+        <target xml:lang="pl-PL">Powtórz hasło</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/profile/profile.component.html</context>
+          <context context-type="linenumber">159</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="uisettings" datatype="html">
+        <source>UI Settings</source>
+        <target xml:lang="pl-PL">Ustawienia interfejsu użytkownika</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/profile/profile.component.html</context>
+          <context context-type="linenumber">170</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="language" datatype="html">
+        <source>Language</source>
+        <target xml:lang="pl-PL">Język</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/profile/profile.component.html</context>
+          <context context-type="linenumber">175</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="theme" datatype="html">
+        <source>Theme</source>
+        <target xml:lang="pl-PL">Motyw</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/profile/profile.component.html</context>
+          <context context-type="linenumber">181</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="direction" datatype="html">
+        <source>Direction</source>
+        <target xml:lang="pl-PL">Kierunek</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/profile/profile.component.html</context>
+          <context context-type="linenumber">188</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="addinguser" datatype="html">
+        <source>Adding User</source>
+        <target xml:lang="pl-PL">Dodawanie użytkownika</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/new-user/new-user.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="username" datatype="html">
+        <source>Username</source>
+        <target xml:lang="pl-PL">Nazwa użytkownika</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/new-user/new-user.component.html</context>
+          <context context-type="linenumber">59</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/edit-user/edit-user.component.html</context>
+          <context context-type="linenumber">177</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="externalreferenceid" datatype="html">
+        <source>External Reference Id</source>
+        <target xml:lang="pl-PL">Zewnętrzny identyfikator referencyjny</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/new-user/new-user.component.html</context>
+          <context context-type="linenumber">87</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/edit-user/edit-user.component.html</context>
+          <context context-type="linenumber">194</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="status" datatype="html">
+        <source>Status</source>
+        <target xml:lang="pl-PL">Status</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/new-user/new-user.component.html</context>
+          <context context-type="linenumber">91</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/edit-user/edit-user.component.html</context>
+          <context context-type="linenumber">198</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">216</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/log-new/log-new.component.html</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">39</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">154</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/search/search.component.html</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="accessrole" datatype="html">
+        <source>Access Role</source>
+        <target xml:lang="pl-PL">Rola dostępu</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/new-user/new-user.component.html</context>
+          <context context-type="linenumber">183</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/edit-user/edit-user.component.html</context>
+          <context context-type="linenumber">119</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="route" datatype="html">
+        <source>Route</source>
+        <target xml:lang="pl-PL">Droga</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/new-user/new-user.component.html</context>
+          <context context-type="linenumber">190</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/edit-user/edit-user.component.html</context>
+          <context context-type="linenumber">126</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="editinguser" datatype="html">
+        <source>Editing User</source>
+        <target xml:lang="pl-PL">Edytowanie</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/edit-user/edit-user.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4f3ace6a26f0c79aa9518e045664ad9d796aa9c8" datatype="html">
+        <source><x id="INTERPOLATION" equiv-text="{{data.active ? activeString : inactiveString}}"/></source>
+        <target xml:lang="pl-PL"><x id="INTERPOLATION" equiv-text="{{data.active ? activeString : inactiveString}}"/></target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/edit-user/edit-user.component.html</context>
+          <context context-type="linenumber">199</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="users" datatype="html">
+        <source>Users</source>
+        <target xml:lang="pl-PL">Użytkownicy</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/user-list/user-list.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="createrole" datatype="html">
+        <source>Create Role</source>
+        <target xml:lang="pl-PL">Utwórz rolę</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/roles/new/new-role.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="rolename" datatype="html">
+        <source>Role Name</source>
+        <target xml:lang="pl-PL">Nazwa roli</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/roles/new/new-role.component.html</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/roles/edit/edit.component.html</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="resourcecontrol" datatype="html">
+        <source>Resource Control</source>
+        <target xml:lang="pl-PL">Kontrola zasobów</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/roles/new/new-role.component.html</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/roles/edit/edit.component.html</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="add" datatype="html">
+        <source>Add</source>
+        <target xml:lang="pl-PL">Dodaj</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/roles/new/new-role.component.html</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/log-new/log-new.component.html</context>
+          <context context-type="linenumber">36</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/roles/edit/edit.component.html</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="remove" datatype="html">
+        <source>Remove</source>
+        <target xml:lang="pl-PL">Usuń</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/roles/new/new-role.component.html</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/roles/edit/edit.component.html</context>
+          <context context-type="linenumber">29</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="description" datatype="html">
+        <source>Description</source>
+        <target xml:lang="pl-PL">Opis</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/roles/new/new-role.component.html</context>
+          <context context-type="linenumber">31</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/roles/roles.component.html</context>
+          <context context-type="linenumber">66</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">271</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/roles/edit/edit.component.html</context>
+          <context context-type="linenumber">36</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="resources" datatype="html">
+        <source>Resources</source>
+        <target xml:lang="pl-PL">Zasoby</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/roles/new/new-role.component.html</context>
+          <context context-type="linenumber">44</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/roles/edit/edit.component.html</context>
+          <context context-type="linenumber">49</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="parcel" datatype="html">
+        <source>Parcel</source>
+        <target xml:lang="pl-PL">Przesyłka</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/roles/new/new-role.component.html</context>
+          <context context-type="linenumber">46</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">73</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">130</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/roles/edit/edit.component.html</context>
+          <context context-type="linenumber">51</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="user" datatype="html">
+        <source>User</source>
+        <target xml:lang="pl-PL">Użytkownik</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/roles/new/new-role.component.html</context>
+          <context context-type="linenumber">47</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/roles/edit/edit.component.html</context>
+          <context context-type="linenumber">52</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="role" datatype="html">
+        <source>Role</source>
+        <target xml:lang="pl-PL">Rola</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/roles/new/new-role.component.html</context>
+          <context context-type="linenumber">48</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/roles/edit/edit.component.html</context>
+          <context context-type="linenumber">53</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="inventory" datatype="html">
+        <source>Inventory</source>
+        <target xml:lang="pl-PL">Wyposażenie</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/roles/new/new-role.component.html</context>
+          <context context-type="linenumber">49</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">76</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">133</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/roles/edit/edit.component.html</context>
+          <context context-type="linenumber">54</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="routes" datatype="html">
+        <source>Routes</source>
+        <target xml:lang="pl-PL">Drogi</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/roles/new/new-role.component.html</context>
+          <context context-type="linenumber">50</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/roles/edit/edit.component.html</context>
+          <context context-type="linenumber">55</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="resourcename" datatype="html">
+        <source>Resource Name</source>
+        <target xml:lang="pl-PL">Nazwa zasobu</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/roles/new/new-role.component.html</context>
+          <context context-type="linenumber">54</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/roles/edit/edit.component.html</context>
+          <context context-type="linenumber">59</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="create" datatype="html">
+        <source>Create</source>
+        <target xml:lang="pl-PL">Utwórz</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/roles/new/new-role.component.html</context>
+          <context context-type="linenumber">56</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/roles/roles.component.html</context>
+          <context context-type="linenumber">82</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">30</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/roles/edit/edit.component.html</context>
+          <context context-type="linenumber">61</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="read" datatype="html">
+        <source>Read</source>
+        <target xml:lang="pl-PL">Odczyt</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/roles/new/new-role.component.html</context>
+          <context context-type="linenumber">57</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/roles/roles.component.html</context>
+          <context context-type="linenumber">83</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/roles/edit/edit.component.html</context>
+          <context context-type="linenumber">62</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="update" datatype="html">
+        <source>Update</source>
+        <target xml:lang="pl-PL">Aktualizacja</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/roles/new/new-role.component.html</context>
+          <context context-type="linenumber">58</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/roles/roles.component.html</context>
+          <context context-type="linenumber">84</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/roles/edit/edit.component.html</context>
+          <context context-type="linenumber">63</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="delete" datatype="html">
+        <source>Delete</source>
+        <target xml:lang="pl-PL">Usuń</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/roles/new/new-role.component.html</context>
+          <context context-type="linenumber">59</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/roles/roles.component.html</context>
+          <context context-type="linenumber">85</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/notifications/notifications.component.html</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/roles/edit/edit.component.html</context>
+          <context context-type="linenumber">64</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="roles" datatype="html">
+        <source>Roles</source>
+        <target xml:lang="pl-PL">Role</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/roles/roles.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="resource" datatype="html">
+        <source>Resource</source>
+        <target xml:lang="pl-PL">Zasoby</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/roles/roles.component.html</context>
+          <context context-type="linenumber">81</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="receive" datatype="html">
+        <source>Receive</source>
+        <target xml:lang="pl-PL">Odbierz</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="packageinfo" datatype="html">
+        <source>Package Info</source>
+        <target xml:lang="pl-PL">Informacje o przesyłce</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">43</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">102</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="trackingnumber" datatype="html">
+        <source>Tracking number</source>
+        <target xml:lang="pl-PL">Numer referencyjny</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">54</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">115</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="generate" datatype="html">
+        <source>Generate</source>
+        <target xml:lang="pl-PL">Generuj</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">59</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">120</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="couriername" datatype="html">
+        <source>Courier Name</source>
+        <target xml:lang="pl-PL">Nazwa kuriera</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">67</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">275</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">169</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/barcode/barcode.component.html</context>
+          <context context-type="linenumber">76</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="type" datatype="html">
+        <source>Type</source>
+        <target xml:lang="pl-PL">Typ</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">71</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">128</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/search/search.component.html</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="mail" datatype="html">
+        <source>Mail</source>
+        <target xml:lang="pl-PL">Poczta</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">74</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">131</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="asset" datatype="html">
+        <source>Asset</source>
+        <target xml:lang="pl-PL">Aktyw</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">75</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">132</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="subtype" datatype="html">
+        <source>Sub-type</source>
+        <target xml:lang="pl-PL">Podtyp</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">80</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">137</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="regular" datatype="html">
+        <source>Regular</source>
+        <target xml:lang="pl-PL">Regularne</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">82</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">139</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="fragile" datatype="html">
+        <source>Fragile</source>
+        <target xml:lang="pl-PL">Delikatny materiał</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">83</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">140</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">28</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="hazardous" datatype="html">
+        <source>hazardous</source>
+        <target xml:lang="pl-PL">odpady niebezpieczne</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">84</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">141</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">29</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="liquids" datatype="html">
+        <source>liquids</source>
+        <target xml:lang="pl-PL">ciecze</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">85</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">142</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">30</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="animal" datatype="html">
+        <source>animal</source>
+        <target xml:lang="pl-PL">zwierzę</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">86</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">143</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">31</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="secure" datatype="html">
+        <source>secure</source>
+        <target xml:lang="pl-PL">zabezpieczone</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">87</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">144</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">32</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="frozen" datatype="html">
+        <source>frozen</source>
+        <target xml:lang="pl-PL">zamrożony</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">88</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">145</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">33</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="heated" datatype="html">
+        <source>heated</source>
+        <target xml:lang="pl-PL">Ogrzewany</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">89</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">146</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">34</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="chilled" datatype="html">
+        <source>chilled</source>
+        <target xml:lang="pl-PL">Schłodzony</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">90</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">147</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">35</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="po" datatype="html">
+        <source>Purchase Order number</source>
+        <target xml:lang="pl-PL">Numer zamówienia</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">156</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">163</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/barcode/barcode.component.html</context>
+          <context context-type="linenumber">82</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="priority" datatype="html">
+        <source>Priority</source>
+        <target xml:lang="pl-PL">Priorytet</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">160</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">59</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="low" datatype="html">
+        <source>Low</source>
+        <target xml:lang="pl-PL">Niski</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">162</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">61</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="medium" datatype="html">
+        <source>Medium</source>
+        <target xml:lang="pl-PL">Średni</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">163</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">62</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="standard" datatype="html">
+        <source>Standard</source>
+        <target xml:lang="pl-PL">Zwykły</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">164</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">63</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="high" datatype="html">
+        <source>High</source>
+        <target xml:lang="pl-PL">Wysoki</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">165</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">64</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="emergency" datatype="html">
+        <source>Emergency</source>
+        <target xml:lang="pl-PL">Krytyczny</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">166</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">65</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="pouch" datatype="html">
+        <source>Pouch</source>
+        <target xml:lang="pl-PL">Kolekcja</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">174</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">42</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="created" datatype="html">
+        <source>Created</source>
+        <target xml:lang="pl-PL">Utworzono</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">177</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">53</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/search/search.component.html</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="datetime" datatype="html">
+        <source>Date Time</source>
+        <target xml:lang="pl-PL">Data i czas</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">179</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">55</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dimensions" datatype="html">
+        <source>Dimensions</source>
+        <target xml:lang="pl-PL">Wymiary</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">191</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">503</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="height" datatype="html">
+        <source>height</source>
+        <target xml:lang="pl-PL">wysokość</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">194</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">505</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">183</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">185</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="width" datatype="html">
+        <source>width</source>
+        <target xml:lang="pl-PL">szerokość</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">196</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">506</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">190</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">192</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="depth" datatype="html">
+        <source>depth</source>
+        <target xml:lang="pl-PL">głębokość</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">198</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">507</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">197</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">199</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="unit" datatype="html">
+        <source>Unit</source>
+        <target xml:lang="pl-PL">Jednostka</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">205</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">232</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">249</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">489</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">204</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">224</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">235</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">241</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="millimeters" datatype="html">
+        <source>Millimeters</source>
+        <target xml:lang="pl-PL">Milimetry</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">208</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">510</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">206</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="centimeters" datatype="html">
+        <source>Centimeters</source>
+        <target xml:lang="pl-PL">Centymetry</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">209</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">511</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">207</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="meters" datatype="html">
+        <source>Meters</source>
+        <target xml:lang="pl-PL">Metry</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">210</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">428</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">512</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">208</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="inches" datatype="html">
+        <source>Inches</source>
+        <target xml:lang="pl-PL">Cale</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">211</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">513</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">209</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="feet" datatype="html">
+        <source>Feet</source>
+        <target xml:lang="pl-PL">Stopy</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">212</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">514</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">210</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="weight" datatype="html">
+        <source>Weight</source>
+        <target xml:lang="pl-PL">Waga</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">228</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">485</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">218</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="kilograms" datatype="html">
+        <source>Kilograms</source>
+        <target xml:lang="pl-PL">Kilogramy</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">234</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">491</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">226</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="grams" datatype="html">
+        <source>Grams</source>
+        <target xml:lang="pl-PL">Gramy</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">235</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">492</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">227</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="tons" datatype="html">
+        <source>Tons</source>
+        <target xml:lang="pl-PL">Tony</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">236</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">493</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">228</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="pounds" datatype="html">
+        <source>Pounds</source>
+        <target xml:lang="pl-PL">Funty</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">237</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="expire" datatype="html">
+        <source>Expire</source>
+        <target xml:lang="pl-PL">Wygaśnie</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">245</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="hours" datatype="html">
+        <source>Hours</source>
+        <target xml:lang="pl-PL">Godzin</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">251</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">243</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="days" datatype="html">
+        <source>Days</source>
+        <target xml:lang="pl-PL">Dni</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">252</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">244</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="months" datatype="html">
+        <source>Months</source>
+        <target xml:lang="pl-PL">Miesiące</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">253</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">245</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="years" datatype="html">
+        <source>Years</source>
+        <target xml:lang="pl-PL">Lata</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">254</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">246</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="manifest" datatype="html">
+        <source>Manifest</source>
+        <target xml:lang="pl-PL">Manifest</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">258</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="browse" datatype="html">
+        <source>Browse</source>
+        <target xml:lang="pl-PL">Przeglądaj</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">259</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="packagename" datatype="html">
+        <source>Package Name</source>
+        <target xml:lang="pl-PL">Nazwa paczki</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">266</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="boxbikefolder" datatype="html">
+        <source>e.g. box, bike, folder</source>
+        <target xml:lang="pl-PL">np. pudełko, rower, teczka</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">268</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="deliverydetails" datatype="html">
+        <source>Delivery Details</source>
+        <target xml:lang="pl-PL">Szczegóły dostawy</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">289</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="sender" datatype="html">
+        <source>Sender</source>
+        <target xml:lang="pl-PL">Nadawca</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">303</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">82</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/search/search.component.html</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="loading" datatype="html">
+        <source>Loading...</source>
+        <target xml:lang="pl-PL">Wczytywanie...</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">307</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">325</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">346</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">360</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">85</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">102</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">126</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">142</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="newsender" datatype="html">
+        <source>New Sender</source>
+        <target xml:lang="pl-PL">Nowy Nadawca</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">310</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="recipient" datatype="html">
+        <source>Recipient</source>
+        <target xml:lang="pl-PL">Odbiorca</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">321</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">98</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/search/search.component.html</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="newrecipient" datatype="html">
+        <source>New Recipient</source>
+        <target xml:lang="pl-PL">Nowy odbiorca</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">328</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="return" datatype="html">
+        <source>Return</source>
+        <target xml:lang="pl-PL">Zwrot</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">343</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">123</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="alternativerecipient" datatype="html">
+        <source>Alternative Recipient</source>
+        <target xml:lang="pl-PL">Alternatywny odbiorca</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">357</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">139</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="deliverymethod" datatype="html">
+        <source>Delivery Method</source>
+        <target xml:lang="pl-PL">Sposób dostawy</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">379</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">69</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="direct" datatype="html">
+        <source>Direct</source>
+        <target xml:lang="pl-PL">Bezpośrednia</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">381</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">71</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="warehouse" datatype="html">
+        <source>Warehouse</source>
+        <target xml:lang="pl-PL">Magazyn</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">383</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">73</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="mailroom" datatype="html">
+        <source>Mail room</source>
+        <target xml:lang="pl-PL">Poczta</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">384</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">74</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="inventorydetails" datatype="html">
+        <source>Inventory Details</source>
+        <target xml:lang="pl-PL">Szczegóły zapasów</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">397</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="inventoryid" datatype="html">
+        <source>Inventory Id</source>
+        <target xml:lang="pl-PL">Identyfikator wyposażenia</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">409</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="amount" datatype="html">
+        <source>Amount</source>
+        <target xml:lang="pl-PL">Kwota</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">411</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="items" datatype="html">
+        <source>Items</source>
+        <target xml:lang="pl-PL">Elementy</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">426</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="kilos" datatype="html">
+        <source>Kilos</source>
+        <target xml:lang="pl-PL">Kilo</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">427</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="litre" datatype="html">
+        <source>Litre</source>
+        <target xml:lang="pl-PL">Litry</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">429</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="sku" datatype="html">
+        <source>SKU</source>
+        <target xml:lang="pl-PL">SKU</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">437</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="inventoryname" datatype="html">
+        <source>Inventory Name</source>
+        <target xml:lang="pl-PL">Nazwa wyposażenia</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">441</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="inventorydescription" datatype="html">
+        <source>Inventory Description</source>
+        <target xml:lang="pl-PL">Opis zapasów</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">449</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="locationcodeorname" datatype="html">
+        <source>Location Code or Name</source>
+        <target xml:lang="pl-PL">Kod lokalizacji lub nazwa</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">459</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="isle" datatype="html">
+        <source>Isle</source>
+        <target xml:lang="pl-PL">Wyspa</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">462</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="row" datatype="html">
+        <source>Row</source>
+        <target xml:lang="pl-PL">Rząd</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">471</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="shelf" datatype="html">
+        <source>Shelf</source>
+        <target xml:lang="pl-PL">półka</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">474</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="compartment" datatype="html">
+        <source>Compartment</source>
+        <target xml:lang="pl-PL">Przedział</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">477</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="pound" datatype="html">
+        <source>Pound</source>
+        <target xml:lang="pl-PL">Funt</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">494</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">229</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="seasonable" datatype="html">
+        <source>Seasonable</source>
+        <target xml:lang="pl-PL">Sezonowy</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">498</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="grosvalue" datatype="html">
+        <source>Gross Value</source>
+        <target xml:lang="pl-PL">Wartość brutto</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">522</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="tax" datatype="html">
+        <source>Tax</source>
+        <target xml:lang="pl-PL">Podatek</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">526</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="netvalue" datatype="html">
+        <source>Net Value</source>
+        <target xml:lang="pl-PL">Wartość netto</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">535</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="margin" datatype="html">
+        <source>Margin</source>
+        <target xml:lang="pl-PL">Marża</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">544</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="totalvalue" datatype="html">
+        <source>Total Value</source>
+        <target xml:lang="pl-PL">Łączna wartość</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">548</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="currency" datatype="html">
+        <source>Currency</source>
+        <target xml:lang="pl-PL">Waluta</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/receive/receive.component.html</context>
+          <context context-type="linenumber">552</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5a4099cec9aa7775313157889bea5b94da8a7e7d" datatype="html">
+        <source>Adding Log Trace</source>
+        <target xml:lang="pl-PL">Dodawanie statusu dziennika</target>
+<note from="description" priority="1">section description</note><note from="meaning" priority="1">title</note><context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/log-new/log-new.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+        
+        
+      </trans-unit>
+      <trans-unit id="note" datatype="html">
+        <source>Note</source>
+        <target xml:lang="pl-PL">Notatka</target>
+<note from="description" priority="1">input description</note><note from="meaning" priority="1">label</note><context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/log-new/log-new.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+        
+        
+      </trans-unit>
+      <trans-unit id="active" datatype="html">
+        <source>Active</source>
+        <target xml:lang="pl-PL">Aktywny</target>
+<note from="description" priority="1">input toggle</note><note from="meaning" priority="1">toggle</note><context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">45</context>
+        </context-group>
+        
+        
+      </trans-unit>
+      <trans-unit id="externalreference" datatype="html">
+        <source>External Reference</source>
+        <target xml:lang="pl-PL">Zewnętrzne odniesienie</target>
+<note from="description" priority="1">input description</note><note from="meaning" priority="1">label</note><context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/edit-view/edit-view.component.html</context>
+          <context context-type="linenumber">175</context>
+        </context-group>
+        
+        
+      </trans-unit>
+      <trans-unit id="print" datatype="html">
+        <source>Print</source>
+        <target xml:lang="pl-PL">Drukuj</target>
+<note from="description" priority="1">print label</note><note from="meaning" priority="1">print</note><context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/barcode/barcode.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+        
+        
+      </trans-unit>
+      <trans-unit id="to" datatype="html">
+        <source>To</source>
+        <target xml:lang="pl-PL">Do</target>
+<note from="description" priority="1">input label</note><note from="meaning" priority="1">label</note><context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/barcode/barcode.component.html</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+        
+        
+      </trans-unit>
+      <trans-unit id="phone" datatype="html">
+        <source>Phone number</source>
+        <target xml:lang="pl-PL">Numer telefonu</target>
+<note from="description" priority="1">input label</note><note from="meaning" priority="1">label</note><context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/barcode/barcode.component.html</context>
+          <context context-type="linenumber">29</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/barcode/barcode.component.html</context>
+          <context context-type="linenumber">52</context>
+        </context-group>
+        
+        
+      </trans-unit>
+      <trans-unit id="from" datatype="html">
+        <source>From</source>
+        <target xml:lang="pl-PL">Od</target>
+<note from="description" priority="1">input label</note><note from="meaning" priority="1">label</note><context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/barcode/barcode.component.html</context>
+          <context context-type="linenumber">40</context>
+        </context-group>
+        
+        
+      </trans-unit>
+      <trans-unit id="registered" datatype="html">
+        <source>Registered</source>
+        <target xml:lang="pl-PL">Zarejestrowane</target>
+<note from="description" priority="1">input label</note><note from="meaning" priority="1">label</note><context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/barcode/barcode.component.html</context>
+          <context context-type="linenumber">64</context>
+        </context-group>
+        
+        
+      </trans-unit>
+      <trans-unit id="deliverytype" datatype="html">
+        <source>Delivery type</source>
+        <target xml:lang="pl-PL">Rodzaj dostawy</target>
+<note from="description" priority="1">input label</note><note from="meaning" priority="1">label</note><context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/barcode/barcode.component.html</context>
+          <context context-type="linenumber">70</context>
+        </context-group>
+        
+        
+      </trans-unit>
+      <trans-unit id="signature" datatype="html">
+        <source>Signature</source>
+        <target xml:lang="pl-PL">Podpis</target>
+<note from="description" priority="1">for signature box</note><note from="meaning" priority="1">label</note><context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/parcel.component.html</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+        
+        
+      </trans-unit>
+      <trans-unit id="back" datatype="html">
+        <source>Back</source>
+        <target xml:lang="pl-PL">Wstecz</target>
+<note from="description" priority="1">go back</note><note from="meaning" priority="1">button</note><context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/parcel.component.html</context>
+          <context context-type="linenumber">41</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/parcel.component.html</context>
+          <context context-type="linenumber">62</context>
+        </context-group>
+        
+        
+      </trans-unit>
+      <trans-unit id="barcode" datatype="html">
+        <source>Barcode</source>
+        <target xml:lang="pl-PL">Kod kreskowy</target>
+<note from="description" priority="1">show barcode print label</note><note from="meaning" priority="1">button</note><context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/parcel.component.html</context>
+          <context context-type="linenumber">45</context>
+        </context-group>
+        
+        
+      </trans-unit>
+      <trans-unit id="log" datatype="html">
+        <source>Log</source>
+        <target xml:lang="pl-PL">Wspisy</target>
+<note from="description" priority="1">add new status log</note><note from="meaning" priority="1">button</note><context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/parcel.component.html</context>
+          <context context-type="linenumber">49</context>
+        </context-group>
+        
+        
+      </trans-unit>
+      <trans-unit id="edit" datatype="html">
+        <source>Edit</source>
+        <target xml:lang="pl-PL">Edytuj</target>
+<note from="description" priority="1">edit parcel</note><note from="meaning" priority="1">button</note><context-group purpose="location">
+          <context context-type="sourcefile">app/pages/parcel/parcel.component.html</context>
+          <context context-type="linenumber">66</context>
+        </context-group>
+        
+        
+      </trans-unit>
+      <trans-unit id="searchfor" datatype="html">
+        <source>Searched for:</source>
+        <target xml:lang="pl-PL">Wyszukaj:</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/search/search.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="latestparcels" datatype="html">
+        <source>Latest parcels</source>
+        <target xml:lang="pl-PL">Ostatnie paczki</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/search/search.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="trackingno" datatype="html">
+        <source>Tracking #</source>
+        <target xml:lang="pl-PL">Identyfikator #</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/search/search.component.html</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="lastupdate" datatype="html">
+        <source>Last Update</source>
+        <target xml:lang="pl-PL">Aktualizacja:</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/search/search.component.html</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="page" datatype="html">
+        <source>Page</source>
+        <target xml:lang="pl-PL">Strona</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/search/search.component.html</context>
+          <context context-type="linenumber">47</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="limit" datatype="html">
+        <source>Limit</source>
+        <target xml:lang="pl-PL">Limit</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/search/search.component.html</context>
+          <context context-type="linenumber">62</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="notifications" datatype="html">
+        <source>Notifications</source>
+        <target xml:lang="pl-PL">Powiadomienia</target>
+<note from="description" priority="1">notification section header</note><note from="meaning" priority="1">header</note><context-group purpose="location">
+          <context context-type="sourcefile">app/pages/notifications/notifications.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+        
+        
+      </trans-unit>
+      <trans-unit id="template" datatype="html">
+        <source>Template</source>
+        <target xml:lang="pl-PL">Szablon</target>
+<note from="description" priority="1"> from header</note><note from="meaning" priority="1">header</note><context-group purpose="location">
+          <context context-type="sourcefile">app/pages/notifications/notifications.component.html</context>
+          <context context-type="linenumber">29</context>
+        </context-group>
+        
+        
+      </trans-unit>
+      <trans-unit id="90393b53a9622d7c2f545d6aab3e045a2b8a214b" datatype="html">
+        <source>Provide new status name</source>
+        <target xml:lang="pl-PL">Podaj nową nazwę statusu</target>
+<note from="description" priority="1">input hint</note><note from="meaning" priority="1">input</note><context-group purpose="location">
+          <context context-type="sourcefile">app/pages/notifications/notifications.component.html</context>
+          <context context-type="linenumber">32</context>
+        </context-group>
+        
+        
+      </trans-unit>
+      <trans-unit id="subject" datatype="html">
+        <source>Subject</source>
+        <target xml:lang="pl-PL">Temat</target>
+<note from="description" priority="1">form input label</note><note from="meaning" priority="1">label</note><context-group purpose="location">
+          <context context-type="sourcefile">app/pages/notifications/notifications.component.html</context>
+          <context context-type="linenumber">40</context>
+        </context-group>
+        
+        
+      </trans-unit>
+      <trans-unit id="7d5641da62ee64ad4b4033808f62b873df128f7a" datatype="html">
+        <source>Notify on</source>
+        <target xml:lang="pl-PL">Powiadom o</target>
+<note from="description" priority="1">section description</note><note from="meaning" priority="1">header</note><context-group purpose="location">
+          <context context-type="sourcefile">app/pages/notifications/notifications.component.html</context>
+          <context context-type="linenumber">58</context>
+        </context-group>
+        
+        
+      </trans-unit>
+      <trans-unit id="b502b6c66c29fbdc8db3f515e17cd58897faa192" datatype="html">
+        <source>Available template tags</source>
+        <target xml:lang="pl-PL">Dostępne tagi szablonu:</target>
+<note from="description" priority="1">section description</note><note from="meaning" priority="1">title</note><context-group purpose="location">
+          <context context-type="sourcefile">app/pages/notifications/notifications.component.html</context>
+          <context context-type="linenumber">79</context>
+        </context-group>
+        
+        
+      </trans-unit>
+      <trans-unit id="b3391c0c4ad358a39d26fc06842703d30723381d" datatype="html">
+        <source>Tracking reference code</source>
+        <target xml:lang="pl-PL">Numer identyfikatora</target>
+<note from="description" priority="1">instructions</note><note from="meaning" priority="1">description</note><context-group purpose="location">
+          <context context-type="sourcefile">app/pages/notifications/notifications.component.html</context>
+          <context context-type="linenumber">83</context>
+        </context-group>
+        
+        
+      </trans-unit>
+      <trans-unit id="a1e0199f3a8b879642565e4695c6f904526a3e76" datatype="html">
+        <source>Parcel designated recipient</source>
+        <target xml:lang="pl-PL">Wyznaczony odbiorca paczki</target>
+<note from="description" priority="1">instructions</note><note from="meaning" priority="1">description</note><context-group purpose="location">
+          <context context-type="sourcefile">app/pages/notifications/notifications.component.html</context>
+          <context context-type="linenumber">86</context>
+        </context-group>
+        
+        
+      </trans-unit>
+      <trans-unit id="66d1290577dc0b34f398948000241a44536e3240" datatype="html">
+        <source>Time and Date of last update</source>
+        <target xml:lang="pl-PL">Data i godzina ostatniej aktualizacji</target>
+<note from="description" priority="1">instructions</note><note from="meaning" priority="1">description</note><context-group purpose="location">
+          <context context-type="sourcefile">app/pages/notifications/notifications.component.html</context>
+          <context context-type="linenumber">89</context>
+        </context-group>
+        
+        
+      </trans-unit>
+      <trans-unit id="76a634d40ab12400ad108f278504d5aa3d86a191" datatype="html">
+        <source>Current parcel status</source>
+        <target xml:lang="pl-PL">Aktualny status paczki</target>
+<note from="description" priority="1">instructions</note><note from="meaning" priority="1">description</note><context-group purpose="location">
+          <context context-type="sourcefile">app/pages/notifications/notifications.component.html</context>
+          <context context-type="linenumber">92</context>
+        </context-group>
+        
+        
+      </trans-unit>
+      <trans-unit id="editrole" datatype="html">
+        <source>Edit Role</source>
+        <target xml:lang="pl-PL">Edycja roli</target>
+<context-group purpose="location">
+          <context context-type="sourcefile">app/pages/roles/edit/edit.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

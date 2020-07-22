@@ -1,0 +1,31 @@
+<nb-card>
+  <nb-card-header>
+    <div class="row">
+      <div class="col text-right">
+        <button (click)="cancel()" nbButton status="basic">
+          <nb-icon icon="close-outline"></nb-icon> <span i18n="button|modal cancel@@cancel">Cancel</span></button>
+        <button
+          [printStyle]="{
+          body: {'text-align': 'center','font-family': 'Verdana'},
+          h3 : {'font-size': '1rem'},
+          h4 : {'font-size': '0.8rem', 'background': 'black', 'color':'white'}}"
+          [useExistingCss]="false" nbButton outline printSectionId="print-section" ngxPrint>
+          <nb-icon icon="printer-outline"></nb-icon> <span i18n="print|print label@@print">Print</span></button>
+      </div>
+    </div>
+
+  </nb-card-header>
+  <nb-card-body id="print-section">
+
+        <div class="form-group text-center">
+          <h4 class="frame-box">
+            {{recipient.firstName + ' ' + recipient.lastName}}
+          </h4>
+            <h3 class="text-danger text-center">{{parcel.subtype !== 'single' ? 'FELLES' : 'SEPARAT'}}</h3>
+          <span>{{parcel.created| date: 'short'}}</span>
+          <ngx-barcode [bc-value]="parcel.external ? parcel.external : parcel.id" [bc-display-value]="true"></ngx-barcode>
+            <h4 class="frame-box"> KATEGORI 1 MATERIALE KUN TIL FORBRENNING</h4>
+        </div>
+
+  </nb-card-body>
+</nb-card>

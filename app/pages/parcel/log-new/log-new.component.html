@@ -1,0 +1,41 @@
+<nb-card>
+  <nb-card-header>
+    <span i18n="title|section description">Adding Log Trace</span>
+  </nb-card-header>
+  <nb-card-body>
+
+    <div class="row">
+      <div class="col">
+        <div class="form-group">
+          <label class="label" for="note" i18n="label|input description@@note">Note</label>
+          <textarea [(ngModel)]="status.note" nbInput fullWidth id="note"></textarea>
+        </div>
+      </div>
+      <div class="col">
+        <div class="form-group">
+          <label i18n="label|input description@@status" class="label" for="status">Status</label>
+          <nb-select id="status" fullWidth [(selected)]="status.type">
+            <nb-option *ngFor="let s of parcelStatuses" [value]="s">{{s}}</nb-option>
+          </nb-select>
+        </div>
+      </div>
+    </div>
+
+  </nb-card-body>
+  <nb-card-footer>
+    <div class="row">
+      <div class="col">
+        <button (click)="cancel()" fullWidth nbButton outline status="warning">
+          <nb-icon icon="close-outline"></nb-icon>
+          <span i18n="button|form cancellation@@cancel">Cancel</span>
+        </button>
+      </div>
+      <div class="col">
+        <button (click)="save()" fullWidth nbButton outline status="primary">
+          <nb-icon icon="save-outline"></nb-icon>
+          <span i18n="button|form submission@@add">Add</span>
+        </button>
+      </div>
+    </div>
+  </nb-card-footer>
+</nb-card>
